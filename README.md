@@ -29,6 +29,7 @@ HTMLとCSSだけで作る静的サイトです。データベース、ビルド�
 | [docs/02_site-structure.md](docs/02_site-structure.md) | ページ構成・アンカーIDの規則・記事の追加方法 |
 | [docs/03_content-guidelines.md](docs/03_content-guidelines.md) | 執筆・事実確認・著作権・人物関係の掲載基準 |
 | [docs/04_initial-content.md](docs/04_initial-content.md) | 掲載中のコンテンツ・要確認リスト・追加候補 |
+| [docs/05_photos.md](docs/05_photos.md) | 作家の写真の候補（著作権切れ）と取り込み手順 |
 
 ## 公開情報と内部情報の分離（最重要ルール）
 
