@@ -198,3 +198,15 @@ a:hover .node, a:focus .node { stroke: var(--accent); stroke-width: 2.5; }
 details { margin-top: 0.8rem; border-top: 1px dotted var(--line); padding-top: 0.6rem; }
 summary { cursor: pointer; color: var(--accent); font-weight: 700; }
 .answer { font-weight: 700; font-family: var(--serif); font-size: 1.1rem; }
+
+/* 単語帳へのリンク（点線の下線） */
+a.word { color: inherit; text-decoration: underline dotted var(--accent); text-decoration-thickness: 2px; text-underline-offset: 0.25em; }
+a.word:hover { color: var(--accent); }
+.hint { font-size: 0.9rem; color: var(--muted); background: var(--surface); border-left: 4px solid var(--accent); padding: 0.4rem 0.8rem; border-radius: 0 6px 6px 0; }
+.elink { fill: var(--accent); text-decoration: underline dotted; }
+
+/* 単語帳 */
+.term .label { display: inline-block; font-size: 0.78rem; font-weight: 700; color: var(--accent-ink); background: var(--accent); border-radius: 4px; padding: 0 0.45rem; margin-right: 0.5rem; line-height: 1.7; vertical-align: 0.1em; }
+.term .diff .label { background: var(--muted); }
+.term .short { font-size: 1.05rem; font-weight: 700; }
+.chart a.word, .chart .elink { text-decoration: none; }

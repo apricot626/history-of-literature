@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>作品一覧｜文学の系譜</title>
-  <meta name="description" content="作品名から作者・発表年・ジャンル・あらすじを確認できる作品一覧。">
+  <meta name="description" content="作品名から作者・発表年・作品の種類・あらすじを確認できる作品一覧。">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,13 +14,13 @@
       <a class="brand" href="index.html">文学の系譜<span class="brand-note">仮称</span></a>
       <nav aria-label="メインメニュー">
         <ul class="nav">
-        <li><a href="index.html">トップ</a></li>
-        <li><a href="authors.html">作家</a></li>
-        <li><a href="works.html" aria-current="page">作品</a></li>
-        <li><a href="timeline.html">年表</a></li>
-        <li><a href="relations.html">相関図</a></li>
-        <li><a href="glossary.html">用語集</a></li>
-        <li><a href="quiz.html">演習問題</a></li>
+          <li><a href="index.html">トップ</a></li>
+          <li><a href="authors.html">作家</a></li>
+          <li><a href="works.html" aria-current="page">作品</a></li>
+          <li><a href="timeline.html">年表</a></li>
+          <li><a href="relations.html">相関図</a></li>
+          <li><a href="glossary.html">単語帳</a></li>
+          <li><a href="quiz.html">演習問題</a></li>
         </ul>
       </nav>
     </div>
@@ -29,8 +29,9 @@
   <main id="main" class="wrap">
     <div class="page-head">
       <h1>作品一覧</h1>
-      <p class="lead">作品名から、作者・発表された年・ジャンル・あらすじを確認できます。時代ごとに、発表の古い順に並べています。</p>
+      <p class="lead">作品名から、作者・発表された年・作品の種類・あらすじを確認できます。時代ごとに、発表の古い順に並べています。</p>
     </div>
+    <p class="hint"><a class="word" href="glossary.html">点線の下線</a>がついた言葉は、押すと<a href="glossary.html">単語帳</a>でやさしい説明が読めます。</p>
 
     <nav class="toc" aria-label="時代別の目次">
       <div class="toc-row"><span class="chips"><a href="#w-edo">江戸時代</a> <a href="#w-meiji">明治時代</a> <a href="#w-taisho">大正時代</a> <a href="#w-showa">昭和時代</a> <a href="#w-heisei">平成時代</a> <a href="#w-foreign">海外の作品</a></span></div>
@@ -40,87 +41,40 @@
       <h2 id="w-edo">江戸時代</h2>
       <article class="card work" id="oku-no-hosomichi">
         <h3>『おくのほそ道』<span class="kana">おくのほそみち</span></h3>
-        <p class="meta">作者：<a href="authors.html#matsuo-basho">松尾芭蕉</a>　／　発表：1702年（旅は1689年。刊行は芭蕉の死後の1702年）　／　紀行文</p>
-        <p>芭蕉が弟子の曾良とともに江戸を出発し、東北・北陸を旅したときの紀行文。旅の道中で詠んだ句が文章の中に織り込まれている。</p>
-        <p class="related">関連用語：<a href="glossary.html#term-haiku">俳句</a></p>
+        <p class="meta">作者：<a href="authors.html#matsuo-basho">松尾芭蕉</a>　／　発表：1702年（旅をしたのは1689年。本になったのは芭蕉が亡くなったあとの1702年）　／　<a class="word" href="glossary.html#term-kikobun">紀行文</a></p>
+        <p>芭蕉が弟子の曾良といっしょに江戸を出発し、東北・北陸を歩いて旅したときの<a class="word" href="glossary.html#term-kikobun">紀行文</a>。旅の途中でよんだ<a class="word" href="glossary.html#term-haiku">俳句</a>が、文章の中に入っている。</p>
+        <p class="related">関係する言葉：<a class="word" href="glossary.html#term-haiku">俳句</a></p>
       </article>
     </section>
 
     <section class="group">
       <h2 id="w-meiji">明治時代</h2>
-      <article class="card work" id="shosetsu-shinzui">
-        <h3>『小説神髄』<span class="kana">しょうせつしんずい</span></h3>
-        <p class="meta">作者：<a href="authors.html#tsubouchi-shoyo">坪内逍遥</a>　／　発表：1885年（1885〜1886年刊行）　／　評論</p>
-        <p>小説は善い行いをほめ悪い行いをこらしめる教訓のためではなく、人の心や世の中をありのままに描くべきだと説いた評論。</p>
-        <p class="related">関連用語：<a href="glossary.html#term-realism">リアリズム（写実主義）</a></p>
-        <p class="related">関連作品：<a href="works.html#ukigumo">『浮雲』</a></p>
-      </article>
-      <article class="card work" id="ukigumo">
-        <h3>『浮雲』<span class="kana">うきぐも</span></h3>
-        <p class="meta">作者：<a href="authors.html#futabatei-shimei">二葉亭四迷</a>　／　発表：1887年（1887〜1889年発表）　／　長編小説</p>
-        <p>役所をやめさせられた青年が、思いを寄せる女性との関係や周りの人々の態度の変化に悩む姿を描く。話し言葉に近い言文一致体で書かれた。</p>
-        <p class="related">関連用語：<a href="glossary.html#term-realism">リアリズム（写実主義）</a></p>
-        <p class="related">関連作品：<a href="works.html#shosetsu-shinzui">『小説神髄』</a></p>
-      </article>
       <article class="card work" id="maihime">
         <h3>『舞姫』<span class="kana">まいひめ</span></h3>
-        <p class="meta">作者：<a href="authors.html#mori-ogai">森鷗外</a>　／　発表：1890年　／　短編小説</p>
-        <p>ドイツに留学した日本人の青年が、現地の少女と恋に落ちるが、出世の道と恋との間で苦しむ物語。</p>
-        <p class="related">関連用語：<a href="glossary.html#term-romanticism">浪漫主義</a></p>
-      </article>
-      <article class="card work" id="wakanashu">
-        <h3>『若菜集』<span class="kana">わかなしゅう</span></h3>
-        <p class="meta">作者：<a href="authors.html#shimazaki-toson">島崎藤村</a>　／　発表：1897年　／　詩集</p>
-        <p>青春の恋や感情を七五調の美しい言葉でうたった詩集。近代の詩の出発点の一つとされる。</p>
-        <p class="related">関連用語：<a href="glossary.html#term-romanticism">浪漫主義</a></p>
-      </article>
-      <article class="card work" id="midaregami">
-        <h3>『みだれ髪』<span class="kana">みだれがみ</span></h3>
-        <p class="meta">作者：<a href="authors.html#yosano-akiko">与謝野晶子</a>　／　発表：1901年　／　歌集</p>
-        <p>恋する気持ちや若さの輝きを、大胆で情熱的な言葉でうたった歌集。</p>
-        <p class="related">関連用語：<a href="glossary.html#term-romanticism">浪漫主義</a>、<a href="glossary.html#term-tanka">短歌</a></p>
-      </article>
-      <article class="card work" id="byosho-rokushaku">
-        <h3>『病牀六尺』<span class="kana">びょうしょうろくしゃく</span></h3>
-        <p class="meta">作者：<a href="authors.html#masaoka-shiki">正岡子規</a>　／　発表：1902年（新聞連載。子規の死の直前まで続いた）　／　随筆</p>
-        <p>重い病で寝たきりになった子規が、六尺（約1.8メートル）の病床から見た世界や考えを書きつづった随筆。</p>
+        <p class="meta">作者：<a href="authors.html#mori-ogai">森鷗外</a>　／　発表：1890年　／　<a class="word" href="glossary.html#term-length">短編小説</a></p>
+        <p>ドイツに留学した日本人の青年が、現地の少女と恋に落ちる。しかし、出世の道と恋のどちらを選ぶかで苦しむことになる。</p>
+        <p class="related">関係する言葉：<a class="word" href="glossary.html#term-romanticism">浪漫主義</a></p>
       </article>
       <article class="card work" id="wagahai-wa-neko-dearu">
         <h3>『吾輩は猫である』<span class="kana">わがはいはねこである</span></h3>
-        <p class="meta">作者：<a href="authors.html#natsume-soseki">夏目漱石</a>　／　発表：1905年（1905〜1906年、雑誌『ホトトギス』に連載）　／　長編小説</p>
-        <p>名前のない一匹の猫の目から、飼い主の英語教師の家に集まる人間たちのおかしな言動をユーモラスに描く。漱石の最初の小説。</p>
-        <p class="related">関連用語：<a href="glossary.html#term-yoyuha">余裕派</a></p>
+        <p class="meta">作者：<a href="authors.html#natsume-soseki">夏目漱石</a>　／　発表：1905年（1905〜1906年、雑誌『ホトトギス』に<a class="word" href="glossary.html#term-rensai">連載</a>）　／　<a class="word" href="glossary.html#term-length">長編小説</a></p>
+        <p>名前のない一ぴきの猫の目から、飼い主の英語の先生の家に集まる人間たちのおかしな言動をユーモラスに描く。漱石が初めて書いた小説。</p>
       </article>
       <article class="card work" id="botchan">
         <h3>『坊っちゃん』<span class="kana">ぼっちゃん</span></h3>
-        <p class="meta">作者：<a href="authors.html#natsume-soseki">夏目漱石</a>　／　発表：1906年　／　中編小説</p>
-        <p>まっすぐで向こう見ずな性格の青年が、四国の中学校に数学教師として赴任し、ずるい大人たちとぶつかる物語。</p>
-        <p class="related">関連用語：<a href="glossary.html#term-yoyuha">余裕派</a></p>
-      </article>
-      <article class="card work" id="hakai">
-        <h3>『破戒』<span class="kana">はかい</span></h3>
-        <p class="meta">作者：<a href="authors.html#shimazaki-toson">島崎藤村</a>　／　発表：1906年　／　長編小説</p>
-        <p>いわれのない差別を受けてきた出自を「隠せ」と父に戒められた青年教師が、苦しみの末に自らそれを告白するまでを描く。</p>
-        <p class="related">関連用語：<a href="glossary.html#term-naturalism">自然主義文学</a></p>
-        <p class="related">関連作品：<a href="works.html#futon">『蒲団』</a></p>
-      </article>
-      <article class="card work" id="futon">
-        <h3>『蒲団』<span class="kana">ふとん</span></h3>
-        <p class="meta">作者：<a href="authors.html#tayama-katai">田山花袋</a>　／　発表：1907年　／　中編小説</p>
-        <p>中年の作家が、弟子入りしてきた若い女性に寄せる思いと、その別れを、作者自身の体験をもとに包み隠さず描いた。</p>
-        <p class="related">関連用語：<a href="glossary.html#term-naturalism">自然主義文学</a>、<a href="glossary.html#term-shishosetsu">私小説</a></p>
-        <p class="related">関連作品：<a href="works.html#hakai">『破戒』</a></p>
+        <p class="meta">作者：<a href="authors.html#natsume-soseki">夏目漱石</a>　／　発表：1906年　／　<a class="word" href="glossary.html#term-length">中編小説</a></p>
+        <p>まっすぐで向こう見ずな性格の青年が、四国の中学校に数学の先生としてやってきて、ずるい大人たちとぶつかる物語。</p>
       </article>
       <article class="card work" id="sanshiro">
         <h3>『三四郎』<span class="kana">さんしろう</span></h3>
-        <p class="meta">作者：<a href="authors.html#natsume-soseki">夏目漱石</a>　／　発表：1908年（新聞連載）　／　長編小説</p>
-        <p>九州から東京の大学に入学した青年が、都会の新しい世界にとまどいながら、ある女性にひかれていく姿を描く。</p>
+        <p class="meta">作者：<a href="authors.html#natsume-soseki">夏目漱石</a>　／　発表：1908年（新聞<a class="word" href="glossary.html#term-rensai">連載</a>）　／　<a class="word" href="glossary.html#term-length">長編小説</a></p>
+        <p>九州から東京の大学に入った青年が、都会の新しい世界にとまどいながら、ある女性にひかれていく姿を描く。</p>
       </article>
       <article class="card work" id="aru-asa">
         <!-- 要確認: 執筆年・初出年・初出誌を確認する。 -->
         <h3>『或る朝』<span class="kana">あるあさ</span></h3>
-        <p class="meta">作者：<a href="authors.html#shiga-naoya">志賀直哉</a>　／　発表：1908年に書かれたとされる。発表年は要確認　／　短編小説</p>
-        <p>法事の朝、なかなか起きない孫と、それを起こそうとする祖母とのやりとりを描いた短い作品。志賀直哉が自分の出発点と考えた作品とされる。</p>
+        <p class="meta">作者：<a href="authors.html#shiga-naoya">志賀直哉</a>　／　発表：1908年に書かれたとされる　／　<a class="word" href="glossary.html#term-length">短編小説</a></p>
+        <p>亡くなった祖父をしのぶ法事がある朝、なかなか起きない孫と、起こそうとする祖母とのやりとりを描いた短い作品。</p>
       </article>
     </section>
 
@@ -128,55 +82,28 @@
       <h2 id="w-taisho">大正時代</h2>
       <article class="card work" id="kokoro">
         <h3>『こころ』<span class="kana">こころ</span></h3>
-        <p class="meta">作者：<a href="authors.html#natsume-soseki">夏目漱石</a>　／　発表：1914年（新聞連載）　／　長編小説</p>
-        <p>語り手の「私」が「先生」と呼んで慕う人物には、人に言えない過去があった。友情と恋、罪の意識を通して人間の心の奥を描く。</p>
+        <p class="meta">作者：<a href="authors.html#natsume-soseki">夏目漱石</a>　／　発表：1914年（新聞<a class="word" href="glossary.html#term-rensai">連載</a>）　／　<a class="word" href="glossary.html#term-length">長編小説</a></p>
+        <p>語り手の「私」が「先生」とよんで慕う人には、だれにも言えない過去があった。友情と恋、そして罪の意識を通して、人間の心の奥を描く。</p>
       </article>
       <article class="card work" id="rashomon">
         <h3>『羅生門』<span class="kana">らしょうもん</span></h3>
-        <p class="meta">作者：<a href="authors.html#akutagawa-ryunosuke">芥川龍之介</a>　／　発表：1915年　／　短編小説</p>
-        <p>荒れはてた都の門の下で、仕事を失った下人が、生きるために悪をなすかどうか迷う。『今昔物語集』の話をもとにしている。</p>
-        <p class="related">関連用語：<a href="glossary.html#term-shinshichoha">新思潮派（新現実主義）</a></p>
-        <p class="related">関連作品：<a href="works.html#hana">『鼻』</a></p>
+        <p class="meta">作者：<a href="authors.html#akutagawa-ryunosuke">芥川龍之介</a>　／　発表：1915年　／　<a class="word" href="glossary.html#term-length">短編小説</a></p>
+        <p>荒れはてた都の門の下で、仕事を失った男（下人）が、生きるために悪いことをするかどうか迷う。古い物語集『今昔物語集』の話をもとにしている。</p>
       </article>
       <article class="card work" id="takasebune">
         <h3>『高瀬舟』<span class="kana">たかせぶね</span></h3>
-        <p class="meta">作者：<a href="authors.html#mori-ogai">森鷗外</a>　／　発表：1916年　／　短編小説</p>
-        <p>罪人を島へ送る舟の上で、護送役の役人が、罪人の男の落ち着いた様子を不思議に思い、その事情を聞く物語。</p>
+        <p class="meta">作者：<a href="authors.html#mori-ogai">森鷗外</a>　／　発表：1916年　／　<a class="word" href="glossary.html#term-length">短編小説</a></p>
+        <p>罪をおかした人を島へ送る舟の上で、見張り役の役人が、罪人の男がなぜか落ち着いて満ち足りた様子なのを不思議に思い、そのわけをたずねる物語。</p>
       </article>
       <article class="card work" id="hana">
         <h3>『鼻』<span class="kana">はな</span></h3>
-        <p class="meta">作者：<a href="authors.html#akutagawa-ryunosuke">芥川龍之介</a>　／　発表：1916年（同人誌『新思潮』に発表）　／　短編小説</p>
-        <p>長い鼻を気にする僧が、苦労して鼻を短くするが、かえって周りに笑われてしまう。夏目漱石に絶賛された作品。</p>
-        <p class="related">関連用語：<a href="glossary.html#term-shinshichoha">新思潮派（新現実主義）</a></p>
-        <p class="related">関連作品：<a href="works.html#rashomon">『羅生門』</a></p>
-      </article>
-      <article class="card work" id="kinosaki-nite">
-        <h3>『城の崎にて』<span class="kana">きのさきにて</span></h3>
-        <p class="meta">作者：<a href="authors.html#shiga-naoya">志賀直哉</a>　／　発表：1917年（雑誌『白樺』に発表）　／　短編小説</p>
-        <p>電車にはねられたけがの療養で温泉地を訪れた「自分」が、小さな生き物の死を見つめながら、生と死について考える。</p>
-        <p class="related">関連用語：<a href="glossary.html#term-shirakaba">白樺派</a>、<a href="glossary.html#term-shishosetsu">私小説</a></p>
-      </article>
-      <article class="card work" id="chichi-kaeru">
-        <h3>『父帰る』<span class="kana">ちちかえる</span></h3>
-        <p class="meta">作者：<a href="authors.html#kikuchi-kan">菊池寛</a>　／　発表：1917年　／　戯曲</p>
-        <p>家族を捨てて出て行った父が、二十年ぶりに年老いて家に帰ってくる。父を許せない長男と家族の葛藤を描いた劇。</p>
-        <p class="related">関連用語：<a href="glossary.html#term-shinshichoha">新思潮派（新現実主義）</a></p>
+        <p class="meta">作者：<a href="authors.html#akutagawa-ryunosuke">芥川龍之介</a>　／　発表：1916年（<a class="word" href="glossary.html#term-dojinshi">同人誌</a>『新思潮』に発表）　／　<a class="word" href="glossary.html#term-length">短編小説</a></p>
+        <p>長い鼻を気にしているお坊さんが、苦労して鼻を短くするが、かえってまわりの人に笑われてしまう。夏目漱石が大絶賛した作品。</p>
       </article>
       <article class="card work" id="kumo-no-ito">
         <h3>『蜘蛛の糸』<span class="kana">くものいと</span></h3>
-        <p class="meta">作者：<a href="authors.html#akutagawa-ryunosuke">芥川龍之介</a>　／　発表：1918年（児童雑誌『赤い鳥』に発表）　／　短編小説</p>
-        <p>地獄に落ちた男の前に、お釈迦様が一本の蜘蛛の糸を垂らす。男は糸をのぼって地獄から抜け出そうとするが……。</p>
-      </article>
-      <article class="card work" id="yujo">
-        <h3>『友情』<span class="kana">ゆうじょう</span></h3>
-        <p class="meta">作者：<a href="authors.html#musha-no-koji-saneatsu">武者小路実篤</a>　／　発表：1919年（新聞連載。単行本は1920年）　／　長編小説</p>
-        <p>脚本家の青年が一人の女性に恋をするが、女性が心を寄せたのは親友だった。恋と友情の間で揺れる若者たちを描く。</p>
-        <p class="related">関連用語：<a href="glossary.html#term-shirakaba">白樺派</a></p>
-      </article>
-      <article class="card work" id="anya-koro">
-        <h3>『暗夜行路』<span class="kana">あんやこうろ</span></h3>
-        <p class="meta">作者：<a href="authors.html#shiga-naoya">志賀直哉</a>　／　発表：1921年（1921〜1937年に断続的に発表）　／　長編小説</p>
-        <p>自分の出生にまつわる秘密に苦しむ青年が、さまざまな出来事を経て心の安らぎにたどり着くまでを描く。志賀直哉唯一の長編。</p>
+        <p class="meta">作者：<a href="authors.html#akutagawa-ryunosuke">芥川龍之介</a>　／　発表：1918年（児童雑誌『赤い鳥』に発表）　／　<a class="word" href="glossary.html#term-length">短編小説</a></p>
+        <p>地獄に落ちた男の前に、お釈迦様が一本の蜘蛛の糸をたらす。男は糸をのぼって地獄からぬけ出そうとするが……。</p>
       </article>
     </section>
 
@@ -184,57 +111,35 @@
       <h2 id="w-showa">昭和時代</h2>
       <article class="card work" id="izu-no-odoriko">
         <h3>『伊豆の踊子』<span class="kana">いずのおどりこ</span></h3>
-        <p class="meta">作者：<a href="authors.html#kawabata-yasunari">川端康成</a>　／　発表：1926年（雑誌『文芸時代』に発表）　／　短編小説</p>
-        <p>一人で伊豆を旅する学生が、旅芸人の一行と道連れになり、踊子の少女との交流を通して心が晴れていく。</p>
-        <p class="related">関連用語：<a href="glossary.html#term-shinkankakuha">新感覚派</a></p>
-      </article>
-      <article class="card work" id="kikai">
-        <h3>『機械』<span class="kana">きかい</span></h3>
-        <p class="meta">作者：<a href="authors.html#yokomitsu-riichi">横光利一</a>　／　発表：1930年　／　短編小説</p>
-        <p>町工場で働く「私」が、仲間との疑い合いの中で、自分の心さえ分からなくなっていく様子を、切れ目のない独特の文体で描く。</p>
+        <p class="meta">作者：<a href="authors.html#kawabata-yasunari">川端康成</a>　／　発表：1926年（雑誌『文芸時代』に発表）　／　<a class="word" href="glossary.html#term-length">短編小説</a></p>
+        <p>一人で伊豆を旅する学生が、旅をしながら芸を見せる一座といっしょになり、踊り子の少女とのふれあいを通して心が晴れていく。</p>
       </article>
       <article class="card work" id="yukiguni">
         <h3>『雪国』<span class="kana">ゆきぐに</span></h3>
-        <p class="meta">作者：<a href="authors.html#kawabata-yasunari">川端康成</a>　／　発表：1935年（1935年から各誌に分けて発表。1937年に単行本、1948年に完結版）　／　長編小説</p>
-        <p>雪深い温泉町を訪れる男と、そこで暮らす芸者との関係を、美しく張りつめた文章で描く。</p>
-      </article>
-      <article class="card work" id="gyakko">
-        <h3>『逆行』<span class="kana">ぎゃっこう</span></h3>
-        <p class="meta">作者：<a href="authors.html#dazai-osamu">太宰治</a>　／　発表：1935年　／　短編小説</p>
-        <p>一人の男の人生を、老年から幼年へと時間をさかのぼるように描いた連作の短編。第1回芥川賞の候補作になった。</p>
+        <p class="meta">作者：<a href="authors.html#kawabata-yasunari">川端康成</a>　／　発表：1935年（1935年から各誌に分けて発表。1937年に単行本、1948年に完結版）　／　<a class="word" href="glossary.html#term-length">長編小説</a></p>
+        <p>雪深い温泉町をおとずれる男と、その町で暮らす女性との関係を、美しく張りつめた文章で描く。</p>
       </article>
       <article class="card work" id="hashire-merosu">
         <h3>『走れメロス』<span class="kana">はしれめろす</span></h3>
-        <p class="meta">作者：<a href="authors.html#dazai-osamu">太宰治</a>　／　発表：1940年　／　短編小説</p>
-        <p>人を信じられない王に処刑を言い渡された青年メロスが、身代わりになった親友との約束を守るため、期限までに戻ろうと走り続ける。</p>
-      </article>
-      <article class="card work" id="darakuron">
-        <h3>『堕落論』<span class="kana">だらくろん</span></h3>
-        <p class="meta">作者：<a href="authors.html#sakaguchi-ango">坂口安吾</a>　／　発表：1946年　／　評論</p>
-        <p>戦争に負けた日本で、古い道徳や見せかけの美しさを捨て、人間がありのままの姿に立ち返ることから始めようと訴えた評論。</p>
-        <p class="related">関連用語：<a href="glossary.html#term-buraiha">無頼派</a></p>
+        <p class="meta">作者：<a href="authors.html#dazai-osamu">太宰治</a>　／　発表：1940年　／　<a class="word" href="glossary.html#term-length">短編小説</a></p>
+        <p>人を信じられない王に死刑を言いわたされた青年メロスが、身代わりになった親友との約束を守るため、期限までにもどろうと走り続ける。</p>
       </article>
       <article class="card work" id="shayo">
         <h3>『斜陽』<span class="kana">しゃよう</span></h3>
-        <p class="meta">作者：<a href="authors.html#dazai-osamu">太宰治</a>　／　発表：1947年　／　長編小説</p>
-        <p>戦後、財産を失って没落していく貴族の一家を、娘のかず子の目から描く。「斜陽族」という言葉が生まれるほど話題になった。</p>
-        <p class="related">関連用語：<a href="glossary.html#term-buraiha">無頼派</a></p>
+        <p class="meta">作者：<a href="authors.html#dazai-osamu">太宰治</a>　／　発表：1947年　／　<a class="word" href="glossary.html#term-length">長編小説</a></p>
+        <p>戦争のあと、財産をなくして暮らしが苦しくなっていく、もとは身分の高い一家の姿を、娘の「かず子」の目から描く。「斜陽族」という言葉が生まれるほど話題になった。</p>
+        <p class="related">関係する言葉：<a class="word" href="glossary.html#term-buraiha">無頼派</a></p>
       </article>
       <article class="card work" id="ningen-shikkaku">
         <h3>『人間失格』<span class="kana">にんげんしっかく</span></h3>
-        <p class="meta">作者：<a href="authors.html#dazai-osamu">太宰治</a>　／　発表：1948年　／　長編小説</p>
-        <p>人と本当の気持ちで向き合えず、道化を演じて生きてきた男が、自分を見失っていく姿を手記の形で描く。太宰の最後の完成作。</p>
-        <p class="related">関連用語：<a href="glossary.html#term-buraiha">無頼派</a></p>
-      </article>
-      <article class="card work" id="kinkakuji">
-        <h3>『金閣寺』<span class="kana">きんかくじ</span></h3>
-        <p class="meta">作者：<a href="authors.html#mishima-yukio">三島由紀夫</a>　／　発表：1956年　／　長編小説</p>
-        <p>金閣寺の美しさにとりつかれた若い僧が、やがて金閣に火を放つまでの心の動きを描く。実際に起きた事件をもとにしている。</p>
+        <p class="meta">作者：<a href="authors.html#dazai-osamu">太宰治</a>　／　発表：1948年　／　<a class="word" href="glossary.html#term-length">長編小説</a></p>
+        <p>人とうまく心を通わせられず、わざとおどけて人を笑わせることでごまかしてきた男が、だんだん自分を見失っていく。男が書いた手記（自分の体験をつづった文章）の形で描かれる。太宰が最後に完成させた作品。</p>
+        <p class="related">関係する言葉：<a class="word" href="glossary.html#term-buraiha">無頼派</a></p>
       </article>
       <article class="card work" id="hojo-no-umi">
         <h3>『豊饒の海』<span class="kana">ほうじょうのうみ</span></h3>
-        <p class="meta">作者：<a href="authors.html#mishima-yukio">三島由紀夫</a>　／　発表：1965年（1965〜1970年に連載。『春の雪』『奔馬』『暁の寺』『天人五衰』の四部作）　／　長編小説</p>
-        <p>生まれ変わりをくり返す若者たちと、それを見届ける一人の男の生涯を、四つの物語で描く三島の最後の大作。</p>
+        <p class="meta">作者：<a href="authors.html#mishima-yukio">三島由紀夫</a>　／　発表：1965年（1965〜1970年に<a class="word" href="glossary.html#term-rensai">連載</a>。『春の雪』『奔馬』『暁の寺』『天人五衰』の四部作）　／　<a class="word" href="glossary.html#term-length">長編小説</a></p>
+        <p>生まれ変わりをくり返す若者たちと、それを見届ける一人の男の一生を、四つの物語で描く。三島由紀夫の最後の大作。</p>
       </article>
     </section>
 
@@ -242,13 +147,13 @@
       <h2 id="w-heisei">平成時代</h2>
       <article class="card work" id="hibana">
         <h3>『火花』<span class="kana">ひばな</span></h3>
-        <p class="meta">作者：<a href="authors.html#matayoshi-naoki">又吉直樹</a>　／　発表：2015年（第153回芥川賞受賞）　／　中編小説</p>
-        <p>売れない若手漫才師の「僕」が、天才肌の先輩芸人と出会い、笑いとは何かを追い求めながら過ごした日々を描く。</p>
+        <p class="meta">作者：<a href="authors.html#matayoshi-naoki">又吉直樹</a>　／　発表：2015年（<a class="word" href="glossary.html#term-prize">芥川賞</a>を受賞）　／　<a class="word" href="glossary.html#term-length">中編小説</a></p>
+        <p>売れない若手お笑い芸人（漫才師）の「僕」が、天才的な先輩芸人と出会い、「笑いとは何か」を追い求めながら過ごした日々を描く。</p>
       </article>
       <article class="card work" id="tori-no-namida">
         <!-- 要確認: 初出年・収録書・あらすじを確認してから執筆する。 -->
         <h3>『鳥の涙』<span class="kana">とりのなみだ</span></h3>
-        <p class="meta">作者：<a href="authors.html#tsushima-yuko">津島佑子</a>　／　発表：調査中　／　短編小説</p>
+        <p class="meta">作者：<a href="authors.html#tsushima-yuko">津島佑子</a>　／　発表：要確認　／　<a class="word" href="glossary.html#term-length">短編小説</a></p>
         <p><span class="muted">あらすじは準備中です。</span></p>
       </article>
     </section>
@@ -257,16 +162,8 @@
       <h2 id="w-foreign">海外の作品</h2>
       <article class="card work" id="tom-sawyer">
         <h3>『トム・ソーヤーの冒険』<span class="kana">とむ・そーやーのぼうけん</span></h3>
-        <p class="meta">作者：<a href="authors.html#mark-twain">マーク・トウェイン</a>　／　発表：1876年　／　長編小説</p>
-        <p>ミシシッピ川沿いの町に住むいたずら好きの少年トムが、友だちとともにさまざまな冒険をくり広げる。</p>
-        <p class="related">関連作品：<a href="works.html#huckleberry-finn">『ハックルベリー・フィンの冒険』</a></p>
-      </article>
-      <article class="card work" id="huckleberry-finn">
-        <h3>『ハックルベリー・フィンの冒険』<span class="kana">はっくるべりー・ふぃんのぼうけん</span></h3>
-        <p class="meta">作者：<a href="authors.html#mark-twain">マーク・トウェイン</a>　／　発表：1885年（イギリス版は1884年、アメリカ版は1885年）　／　長編小説</p>
-        <p>トムの友だちのハックが、自由を求めて逃げる黒人のジムといかだでミシシッピ川を下る旅を、ハック自身の語りで描く。</p>
-        <p class="related">関連用語：<a href="glossary.html#term-realism">リアリズム（写実主義）</a></p>
-        <p class="related">関連作品：<a href="works.html#tom-sawyer">『トム・ソーヤーの冒険』</a></p>
+        <p class="meta">作者：<a href="authors.html#mark-twain">マーク・トウェイン</a>　／　発表：1876年　／　<a class="word" href="glossary.html#term-length">長編小説</a></p>
+        <p>ミシシッピ川沿いの町に住むいたずら好きの少年トムが、友だちといっしょにさまざまな冒険をくり広げる。</p>
       </article>
     </section>
   </main>

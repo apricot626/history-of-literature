@@ -16,7 +16,7 @@
 | `works.html` | 時代別の目次 → 時代ごとの `<section>` → 作品ごとの `<article class="card work">`（発表の古い順） |
 | `timeline.html` | 時代区分ごとの `<section class="era">` → `<ol class="timeline">`（出来事・作品・誕生） |
 | `relations.html` | 凡例 → 相関図（SVG 2枚） → 関係の種類ごとの説明リスト |
-| `glossary.html` | 分類別の目次 → 用語ごとの `<article class="card term">` |
+| `glossary.html`（単語帳） | 分類別の目次 → 言葉ごとの `<article class="card term">`（ひとことで言うと／くわしい説明／にている言葉とのちがい） |
 | `quiz.html` | 問題ごとの `<article class="card quiz">` |
 
 ## 3. アンカーIDの規則（ページ間リンク用）
@@ -27,7 +27,7 @@
 |---|---|---|
 | 作家 | ローマ字（姓-名、ヘボン式、長音記号なし） | `authors.html#dazai-osamu` |
 | 作品 | 作品名のローマ字 | `works.html#ningen-shikkaku` |
-| 用語 | `term-` ＋ ローマ字 | `glossary.html#term-buraiha` |
+| 単語帳の言葉 | `term-` ＋ ローマ字 | `glossary.html#term-buraiha` |
 | 年表の出来事 | `ev-年-内容` | `timeline.html#ev-1935-first-akutagawa-prize` |
 | 問題 | `q-4桁連番` | `quiz.html#q-0003` |
 
@@ -113,7 +113,26 @@
 学習カテゴリ：作家と作品 / 時代・年代 / プロフィール / 人物関係・エピソード / 文学用語 / 俳句・短歌
 問題形式：作家・作品 / 作品の識別 / 正誤 / 年代 / 人物関係 / エピソード / 用語 / 応用
 
-## 5. 事実確認の印
+## 5. 単語帳と、むずかしい言葉へのリンク
+
+読者は中学受験をする小学生。本文に出てくるむずかしい言葉は、単語帳の説明にリンクする。
+
+- リンクの書き方：`<a class="word" href="glossary.html#term-anti-naturalism">反自然主義</a>`（点線の下線で表示される）
+- 同じ段落の中では、同じ言葉は最初の1回だけリンクする
+- 単語帳にない言葉がむずかしいときは、単語帳に追加するか、本文をやさしい言い方に書き直す（例：「門下」→「弟子」）
+- 単語帳の記事は次の形で書く
+
+```html
+<article class="card term" id="term-…">
+  <h3>言葉<span class="kana">よみがな</span></h3>
+  <p class="short"><span class="label">ひとことで言うと</span>短い説明</p>
+  <p>くわしい説明</p>
+  <p class="diff"><span class="label">にている言葉とのちがい</span>…</p>
+  <p class="related">作家：<a href="authors.html#…">…</a>　／　あわせて読む：<a class="word" href="glossary.html#term-…">…</a></p>
+</article>
+```
+
+## 6. 事実確認の印
 
 未確認の内容には、該当する `<article>` の中に HTML コメントで印を付ける（画面には表示されない）。
 
@@ -123,7 +142,7 @@
 
 `grep -rn "要確認" *.html` で一覧できる。公開前にすべて解消する。
 
-## 6. コミット前のチェック
+## 7. コミット前のチェック
 
 学校名や過去問の情報が混入していないかを確認する。
 

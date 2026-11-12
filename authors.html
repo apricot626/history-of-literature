@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>作家一覧｜文学の系譜</title>
-  <meta name="description" content="作家のプロフィール・代表作品・人物関係・エピソードを時代別にまとめた一覧。">
+  <meta name="description" content="作家のプロフィール・代表作品・つながり・エピソードを時代別にまとめた一覧。">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,13 +14,13 @@
       <a class="brand" href="index.html">文学の系譜<span class="brand-note">仮称</span></a>
       <nav aria-label="メインメニュー">
         <ul class="nav">
-        <li><a href="index.html">トップ</a></li>
-        <li><a href="authors.html" aria-current="page">作家</a></li>
-        <li><a href="works.html">作品</a></li>
-        <li><a href="timeline.html">年表</a></li>
-        <li><a href="relations.html">相関図</a></li>
-        <li><a href="glossary.html">用語集</a></li>
-        <li><a href="quiz.html">演習問題</a></li>
+          <li><a href="index.html">トップ</a></li>
+          <li><a href="authors.html" aria-current="page">作家</a></li>
+          <li><a href="works.html">作品</a></li>
+          <li><a href="timeline.html">年表</a></li>
+          <li><a href="relations.html">相関図</a></li>
+          <li><a href="glossary.html">単語帳</a></li>
+          <li><a href="quiz.html">演習問題</a></li>
         </ul>
       </nav>
     </div>
@@ -29,16 +29,17 @@
   <main id="main" class="wrap">
     <div class="page-head">
       <h1>作家一覧</h1>
-      <p class="lead">作家ごとに、生きた時代・出身地・代表作品・人物関係・エピソードをまとめています。名前や作品名をクリックすると、関連するページへ移動できます。</p>
+      <p class="lead">作家ごとに、生きた時代・出身地・代表作品・ほかの作家とのつながり・エピソードをまとめています。名前や作品名を押すと、関係するページへ移動できます。</p>
     </div>
+    <p class="hint"><a class="word" href="glossary.html">点線の下線</a>がついた言葉は、押すと<a href="glossary.html">単語帳</a>でやさしい説明が読めます。</p>
 
     <nav class="toc" aria-label="時代別の目次">
       <div class="toc-row"><a class="toc-head" href="#g-edo">江戸時代</a><span class="chips"><a href="#matsuo-basho">松尾芭蕉</a> <a href="#ryokan">良寛</a></span></div>
-      <div class="toc-row"><a class="toc-head" href="#g-meiji">明治時代に登場した作家</a><span class="chips"><a href="#tsubouchi-shoyo">坪内逍遥</a> <a href="#futabatei-shimei">二葉亭四迷</a> <a href="#mori-ogai">森鷗外</a> <a href="#natsume-soseki">夏目漱石</a> <a href="#masaoka-shiki">正岡子規</a> <a href="#shimazaki-toson">島崎藤村</a> <a href="#tayama-katai">田山花袋</a> <a href="#yosano-akiko">与謝野晶子</a></span></div>
-      <div class="toc-row"><a class="toc-head" href="#g-taisho">大正時代に活躍した作家</a><span class="chips"><a href="#ogiwara-seisensui">荻原井泉水</a> <a href="#taneda-santoka">種田山頭火</a> <a href="#ozaki-hosai">尾崎放哉</a> <a href="#shiga-naoya">志賀直哉</a> <a href="#musha-no-koji-saneatsu">武者小路実篤</a> <a href="#kikuchi-kan">菊池寛</a> <a href="#akutagawa-ryunosuke">芥川龍之介</a></span></div>
-      <div class="toc-row"><a class="toc-head" href="#g-showa">昭和時代に活躍した作家</a><span class="chips"><a href="#yokomitsu-riichi">横光利一</a> <a href="#kawabata-yasunari">川端康成</a> <a href="#sakaguchi-ango">坂口安吾</a> <a href="#dazai-osamu">太宰治</a> <a href="#mishima-yukio">三島由紀夫</a></span></div>
-      <div class="toc-row"><a class="toc-head" href="#g-modern">昭和後期〜現代の作家</a><span class="chips"><a href="#tsushima-yuko">津島佑子</a> <a href="#matayoshi-naoki">又吉直樹</a></span></div>
-      <div class="toc-row"><a class="toc-head" href="#g-foreign">海外の作家・文学者</a><span class="chips"><a href="#mark-twain">マーク・トウェイン</a> <a href="#shklovsky-viktor">ヴィクトル・シクロフスキー</a></span></div>
+      <div class="toc-row"><a class="toc-head" href="#g-meiji">明治時代</a><span class="chips"><a href="#mori-ogai">森鷗外</a> <a href="#natsume-soseki">夏目漱石</a></span></div>
+      <div class="toc-row"><a class="toc-head" href="#g-taisho">大正時代</a><span class="chips"><a href="#shiga-naoya">志賀直哉</a> <a href="#akutagawa-ryunosuke">芥川龍之介</a></span></div>
+      <div class="toc-row"><a class="toc-head" href="#g-showa">昭和時代</a><span class="chips"><a href="#kawabata-yasunari">川端康成</a> <a href="#dazai-osamu">太宰治</a> <a href="#mishima-yukio">三島由紀夫</a></span></div>
+      <div class="toc-row"><a class="toc-head" href="#g-modern">昭和の終わり〜現代</a><span class="chips"><a href="#tsushima-yuko">津島佑子</a> <a href="#matayoshi-naoki">又吉直樹</a></span></div>
+      <div class="toc-row"><a class="toc-head" href="#g-foreign">海外の作家・文学研究者</a><span class="chips"><a href="#mark-twain">マーク・トウェイン</a> <a href="#shklovsky-viktor">ヴィクトル・シクロフスキー</a></span></div>
     </nav>
 
     <section class="group" aria-labelledby="g-edo">
@@ -50,16 +51,16 @@
           <div><dt>生没年</dt><dd>1644〜1694年</dd></div>
           <div><dt>出身地</dt><dd>伊賀国（現在の三重県伊賀市）</dd></div>
           <div><dt>国籍</dt><dd>日本</dd></div>
-          <div><dt>分野</dt><dd>俳人</dd></div>
+          <div><dt>どんな人</dt><dd><a class="word" href="glossary.html#term-haijin">俳人</a></dd></div>
           <div><dt>活動した時代</dt><dd>江戸時代</dd></div>
-          <div><dt>文学的立場・形式</dt><dd><a href="glossary.html#term-haiku">俳句</a></dd></div>
+          <div><dt>グループ・作風</dt><dd><a class="word" href="glossary.html#term-haiku">俳句</a></dd></div>
         </dl>
-        <p>江戸時代前期の俳人。言葉遊びの要素が強かった俳諧を、自然や人生を深く見つめる芸術へと高めた。弟子とともに東北・北陸を旅して『おくのほそ道』を書いた。</p>
+        <p>江戸時代の<a class="word" href="glossary.html#term-haijin">俳人</a>。もともとは言葉遊びの面が強かった<a class="word" href="glossary.html#term-haiku">俳諧</a>を、自然や人の心を深く見つめる芸術に高めた。弟子と東北・北陸を歩いて旅し、<a class="word" href="glossary.html#term-kikobun">紀行文</a>『おくのほそ道』を書いた。</p>
         <h4>主な作品</h4>
         <ul class="list">
           <li><a href="works.html#oku-no-hosomichi">『おくのほそ道』</a><span class="muted">（1702年・紀行文）</span></li>
         </ul>
-        <h4>文学史上の出来事</h4>
+        <h4>文学史の出来事</h4>
         <ul class="list">
           <li><a href="timeline.html#ev-1689-oku-no-hosomichi-journey">1689年　松尾芭蕉が『おくのほそ道』の旅に出る</a></li>
         </ul>
@@ -72,60 +73,16 @@
           <div><dt>生没年</dt><dd>1758〜1831年</dd></div>
           <div><dt>出身地</dt><dd>越後国出雲崎（現在の新潟県出雲崎町）</dd></div>
           <div><dt>国籍</dt><dd>日本</dd></div>
-          <div><dt>分野</dt><dd>僧・歌人・漢詩人</dd></div>
+          <div><dt>どんな人</dt><dd>僧・<a class="word" href="glossary.html#term-haijin">歌人</a>・<a class="word" href="glossary.html#term-kanshi">漢詩</a>をつくる人</dd></div>
           <div><dt>活動した時代</dt><dd>江戸時代</dd></div>
-          <div><dt>文学的立場・形式</dt><dd><a href="glossary.html#term-tanka">短歌</a></dd></div>
+          <div><dt>グループ・作風</dt><dd><a class="word" href="glossary.html#term-tanka">短歌</a></dd></div>
         </dl>
-        <p>江戸時代後期の禅僧。寺を持たず質素に暮らし、和歌・漢詩・俳句を残した。村の子どもたちと手まりをついて遊んだという逸話で知られる。</p>
+        <p>江戸時代の終わりごろのお坊さん。お寺を持たずに質素に暮らしながら、<a class="word" href="glossary.html#term-tanka">短歌</a>や<a class="word" href="glossary.html#term-kanshi">漢詩</a>、<a class="word" href="glossary.html#term-haiku">俳句</a>をつくった。村の子どもたちと手まりをついて遊んだ話が有名。</p>
       </article>
     </section>
 
     <section class="group" aria-labelledby="g-meiji">
-      <h2 id="g-meiji">明治時代に登場した作家</h2>
-
-      <article class="card person" id="tsubouchi-shoyo">
-        <h3>坪内逍遥<span class="kana">つぼうちしょうよう</span></h3>
-        <dl class="facts">
-          <div><dt>生没年</dt><dd>1859〜1935年</dd></div>
-          <div><dt>出身地</dt><dd>美濃国（現在の岐阜県美濃加茂市）</dd></div>
-          <div><dt>国籍</dt><dd>日本</dd></div>
-          <div><dt>本名</dt><dd>坪内雄蔵</dd></div>
-          <div><dt>分野</dt><dd>小説家・評論家・劇作家・翻訳家</dd></div>
-          <div><dt>活動した時代</dt><dd>明治時代・大正時代</dd></div>
-          <div><dt>文学的立場・形式</dt><dd><a href="glossary.html#term-realism">リアリズム（写実主義）</a></dd></div>
-        </dl>
-        <p>評論『小説神髄』で、小説は人の心や世の中のありさまをありのままに写すべきだと説き、日本の近代小説の出発点をつくった。シェークスピアの全作品の翻訳でも知られる。</p>
-        <h4>主な作品</h4>
-        <ul class="list">
-          <li><a href="works.html#shosetsu-shinzui">『小説神髄』</a><span class="muted">（1885年・評論）</span></li>
-        </ul>
-        <h4>関係する人物</h4>
-        <ul class="list rel-list">
-          <li><strong><a href="authors.html#futabatei-shimei">二葉亭四迷</a></strong><span class="tag">助言・後押し</span>二葉亭四迷は逍遥の『小説神髄』に刺激を受け、逍遥の助言を得て『浮雲』を書いた。『浮雲』は最初、逍遥の名前を借りて出版された。</li>
-        </ul>
-      </article>
-
-      <article class="card person" id="futabatei-shimei">
-        <h3>二葉亭四迷<span class="kana">ふたばていしめい</span></h3>
-        <dl class="facts">
-          <div><dt>生没年</dt><dd>1864〜1909年</dd></div>
-          <div><dt>出身地</dt><dd>江戸（現在の東京都）</dd></div>
-          <div><dt>国籍</dt><dd>日本</dd></div>
-          <div><dt>本名</dt><dd>長谷川辰之助</dd></div>
-          <div><dt>分野</dt><dd>小説家・翻訳家</dd></div>
-          <div><dt>活動した時代</dt><dd>明治時代</dd></div>
-          <div><dt>文学的立場・形式</dt><dd><a href="glossary.html#term-realism">リアリズム（写実主義）</a></dd></div>
-        </dl>
-        <p>話し言葉に近い文体（言文一致体）で書いた小説『浮雲』で、写実主義を実践した。ロシア文学の翻訳でも活躍した。</p>
-        <h4>主な作品</h4>
-        <ul class="list">
-          <li><a href="works.html#ukigumo">『浮雲』</a><span class="muted">（1887年・長編小説）</span></li>
-        </ul>
-        <h4>関係する人物</h4>
-        <ul class="list rel-list">
-          <li><strong><a href="authors.html#tsubouchi-shoyo">坪内逍遥</a></strong><span class="tag">助言・後押し</span>二葉亭四迷は逍遥の『小説神髄』に刺激を受け、逍遥の助言を得て『浮雲』を書いた。『浮雲』は最初、逍遥の名前を借りて出版された。</li>
-        </ul>
-      </article>
+      <h2 id="g-meiji">明治時代</h2>
 
       <article class="card person" id="mori-ogai">
         <h3>森鷗外<span class="kana">もりおうがい</span></h3>
@@ -133,20 +90,20 @@
           <div><dt>生没年</dt><dd>1862〜1922年</dd></div>
           <div><dt>出身地</dt><dd>石見国津和野（現在の島根県津和野町）</dd></div>
           <div><dt>国籍</dt><dd>日本</dd></div>
-          <div><dt>本名</dt><dd>森林太郎</dd></div>
-          <div><dt>分野</dt><dd>小説家・翻訳家・軍医</dd></div>
+          <div><dt><a class="word" href="glossary.html#term-penname">本名</a></dt><dd>森林太郎</dd></div>
+          <div><dt>どんな人</dt><dd>小説家・翻訳家・軍医（陸軍のお医者さん）</dd></div>
           <div><dt>活動した時代</dt><dd>明治時代・大正時代</dd></div>
-          <div><dt>文学的立場・形式</dt><dd><a href="glossary.html#term-romanticism">浪漫主義</a></dd></div>
+          <div><dt>グループ・作風</dt><dd><a class="word" href="glossary.html#term-romanticism">浪漫主義</a>、<a class="word" href="glossary.html#term-anti-naturalism">反自然主義</a></dd></div>
         </dl>
-        <p>陸軍の軍医としてドイツに留学し、その経験をもとに『舞姫』を書いた。医者と作家の二つの道を歩み、晩年は『阿部一族』『高瀬舟』などの歴史小説を書いた。</p>
+        <p>陸軍のお医者さん（軍医）としてドイツに留学し、そのときの体験をもとに『舞姫』を書いた。医者と作家の二つの仕事を続け、年をとってからは『高瀬舟』などの<a class="word" href="glossary.html#term-rekishi">歴史小説</a>を書いた。夏目漱石と並ぶ明治の<a class="word" href="glossary.html#term-bungo">文豪</a>。</p>
         <h4>主な作品</h4>
         <ul class="list">
           <li><a href="works.html#maihime">『舞姫』</a><span class="muted">（1890年・短編小説）</span></li>
           <li><a href="works.html#takasebune">『高瀬舟』</a><span class="muted">（1916年・短編小説）</span></li>
         </ul>
-        <h4>関係する人物</h4>
+        <h4>つながりのある作家</h4>
         <ul class="list rel-list">
-          <li><strong><a href="authors.html#natsume-soseki">夏目漱石</a></strong><span class="tag">ともに反自然主義</span>明治の終わりに自然主義文学が盛んになったとき、漱石と鷗外はその流れとは異なる立場で作品を書き、ともに「反自然主義」の文豪として並び称される。</li>
+          <li><strong><a href="authors.html#natsume-soseki">夏目漱石</a></strong><span class="tag">ともに反自然主義</span>二人に師弟などの直接の関係はない。明治の終わりに<a class="word" href="glossary.html#term-naturalism">自然主義</a>が大流行したとき、どちらもその流れに加わらず自分の道を進んだため、ともに「<a class="word" href="glossary.html#term-anti-naturalism">反自然主義</a>」の<a class="word" href="glossary.html#term-bungo">文豪</a>とよばれる。</li>
         </ul>
       </article>
 
@@ -156,12 +113,12 @@
           <div><dt>生没年</dt><dd>1867〜1916年</dd></div>
           <div><dt>出身地</dt><dd>江戸の牛込（現在の東京都新宿区）</dd></div>
           <div><dt>国籍</dt><dd>日本</dd></div>
-          <div><dt>本名</dt><dd>夏目金之助</dd></div>
-          <div><dt>分野</dt><dd>小説家・英文学者</dd></div>
+          <div><dt><a class="word" href="glossary.html#term-penname">本名</a></dt><dd>夏目金之助</dd></div>
+          <div><dt>どんな人</dt><dd>小説家・英文学者</dd></div>
           <div><dt>活動した時代</dt><dd>明治時代・大正時代</dd></div>
-          <div><dt>文学的立場・形式</dt><dd><a href="glossary.html#term-yoyuha">余裕派</a></dd></div>
+          <div><dt>グループ・作風</dt><dd><a class="word" href="glossary.html#term-anti-naturalism">反自然主義</a></dd></div>
         </dl>
-        <p>英語教師やイギリス留学を経て、『吾輩は猫である』で作家として注目された。その後は新聞社の専属作家となり、『三四郎』『こころ』など人間の心を深く描く作品を書いた。門下からは芥川龍之介らが育った。</p>
+        <p>英語の先生をしたあとイギリスに留学し、『吾輩は猫である』で作家として注目された。その後は新聞に小説を<a class="word" href="glossary.html#term-rensai">連載</a>する作家になり、『三四郎』『こころ』などで人の心を深く描いた。森鷗外と並ぶ<a class="word" href="glossary.html#term-bungo">文豪</a>で、芥川龍之介は漱石の<a class="word" href="glossary.html#term-monkasei">門下生</a>。</p>
         <h4>主な作品</h4>
         <ul class="list">
           <li><a href="works.html#wagahai-wa-neko-dearu">『吾輩は猫である』</a><span class="muted">（1905年・長編小説）</span></li>
@@ -169,152 +126,20 @@
           <li><a href="works.html#sanshiro">『三四郎』</a><span class="muted">（1908年・長編小説）</span></li>
           <li><a href="works.html#kokoro">『こころ』</a><span class="muted">（1914年・長編小説）</span></li>
         </ul>
-        <h4>関係する人物</h4>
+        <h4>つながりのある作家</h4>
         <ul class="list rel-list">
-          <li><strong><a href="authors.html#akutagawa-ryunosuke">芥川龍之介</a></strong><span class="tag">師弟</span>芥川は漱石の家に弟子たちが集まる会（木曜会）に通った。芥川の『鼻』を漱石が手紙で絶賛したことが、芥川が作家として認められるきっかけになった。</li>
-          <li><strong><a href="authors.html#masaoka-shiki">正岡子規</a></strong><span class="tag">親友</span>二人は学生時代からの親友。漱石は子規から俳句を学び、のちに子規の仲間がつくった雑誌『ホトトギス』に『吾輩は猫である』を発表した。</li>
-          <li><strong><a href="authors.html#mori-ogai">森鷗外</a></strong><span class="tag">ともに反自然主義</span>明治の終わりに自然主義文学が盛んになったとき、漱石と鷗外はその流れとは異なる立場で作品を書き、ともに「反自然主義」の文豪として並び称される。</li>
+          <li><strong><a href="authors.html#akutagawa-ryunosuke">芥川龍之介</a></strong><span class="tag">師弟</span>芥川は、漱石の家で開かれていた弟子たちの集まり（木曜会）に通っていた。芥川の『鼻』を漱石が手紙で大絶賛し、芥川が作家として認められるきっかけになった。</li>
+          <li><strong><a href="authors.html#mori-ogai">森鷗外</a></strong><span class="tag">ともに反自然主義</span>二人に師弟などの直接の関係はない。明治の終わりに<a class="word" href="glossary.html#term-naturalism">自然主義</a>が大流行したとき、どちらもその流れに加わらず自分の道を進んだため、ともに「<a class="word" href="glossary.html#term-anti-naturalism">反自然主義</a>」の<a class="word" href="glossary.html#term-bungo">文豪</a>とよばれる。</li>
         </ul>
-        <h4>文学史上の出来事</h4>
+        <h4>文学史の出来事</h4>
         <ul class="list">
           <li><a href="timeline.html#ev-1916-soseki-praises-hana">1916年　夏目漱石が芥川龍之介の『鼻』を絶賛</a></li>
-        </ul>
-      </article>
-
-      <article class="card person" id="masaoka-shiki">
-        <h3>正岡子規<span class="kana">まさおかしき</span></h3>
-        <dl class="facts">
-          <div><dt>生没年</dt><dd>1867〜1902年</dd></div>
-          <div><dt>出身地</dt><dd>伊予国（現在の愛媛県松山市）</dd></div>
-          <div><dt>国籍</dt><dd>日本</dd></div>
-          <div><dt>本名</dt><dd>正岡常規</dd></div>
-          <div><dt>分野</dt><dd>俳人・歌人</dd></div>
-          <div><dt>活動した時代</dt><dd>明治時代</dd></div>
-          <div><dt>文学的立場・形式</dt><dd><a href="glossary.html#term-haiku">俳句</a>、<a href="glossary.html#term-tanka">短歌</a></dd></div>
-        </dl>
-        <p>見たものをありのままに描く「写生」を唱え、俳句と短歌を新しく生まれ変わらせた。重い病気で寝たきりになってからも、随筆『病牀六尺』などを書き続けた。</p>
-        <h4>主な作品</h4>
-        <ul class="list">
-          <li><a href="works.html#byosho-rokushaku">『病牀六尺』</a><span class="muted">（1902年・随筆）</span></li>
-        </ul>
-        <h4>関係する人物</h4>
-        <ul class="list rel-list">
-          <li><strong><a href="authors.html#natsume-soseki">夏目漱石</a></strong><span class="tag">親友</span>二人は学生時代からの親友。漱石は子規から俳句を学び、のちに子規の仲間がつくった雑誌『ホトトギス』に『吾輩は猫である』を発表した。</li>
-        </ul>
-      </article>
-
-      <article class="card person" id="shimazaki-toson">
-        <h3>島崎藤村<span class="kana">しまざきとうそん</span></h3>
-        <dl class="facts">
-          <div><dt>生没年</dt><dd>1872〜1943年</dd></div>
-          <div><dt>出身地</dt><dd>筑摩県馬籠（現在の岐阜県中津川市）</dd></div>
-          <div><dt>国籍</dt><dd>日本</dd></div>
-          <div><dt>本名</dt><dd>島崎春樹</dd></div>
-          <div><dt>分野</dt><dd>詩人・小説家</dd></div>
-          <div><dt>活動した時代</dt><dd>明治時代・大正時代・昭和時代</dd></div>
-          <div><dt>文学的立場・形式</dt><dd><a href="glossary.html#term-romanticism">浪漫主義</a>、<a href="glossary.html#term-naturalism">自然主義文学</a></dd></div>
-        </dl>
-        <p>はじめは詩集『若菜集』で浪漫主義の詩人として活躍し、のちに小説『破戒』で自然主義文学の代表的な作家となった。</p>
-        <h4>主な作品</h4>
-        <ul class="list">
-          <li><a href="works.html#wakanashu">『若菜集』</a><span class="muted">（1897年・詩集）</span></li>
-          <li><a href="works.html#hakai">『破戒』</a><span class="muted">（1906年・長編小説）</span></li>
-        </ul>
-      </article>
-
-      <article class="card person" id="tayama-katai">
-        <h3>田山花袋<span class="kana">たやまかたい</span></h3>
-        <dl class="facts">
-          <div><dt>生没年</dt><dd>1872〜1930年</dd></div>
-          <div><dt>出身地</dt><dd>栃木県館林（現在の群馬県館林市）</dd></div>
-          <div><dt>国籍</dt><dd>日本</dd></div>
-          <div><dt>本名</dt><dd>田山録弥</dd></div>
-          <div><dt>分野</dt><dd>小説家</dd></div>
-          <div><dt>活動した時代</dt><dd>明治時代・大正時代</dd></div>
-          <div><dt>文学的立場・形式</dt><dd><a href="glossary.html#term-naturalism">自然主義文学</a>、<a href="glossary.html#term-shishosetsu">私小説</a></dd></div>
-        </dl>
-        <p>自分自身の体験をもとに書いた『蒲団』が大きな話題となり、自然主義文学の流れを決定づけた。この作品は私小説の始まりともいわれる。</p>
-        <h4>主な作品</h4>
-        <ul class="list">
-          <li><a href="works.html#futon">『蒲団』</a><span class="muted">（1907年・中編小説）</span></li>
-        </ul>
-      </article>
-
-      <article class="card person" id="yosano-akiko">
-        <h3>与謝野晶子<span class="kana">よさのあきこ</span></h3>
-        <dl class="facts">
-          <div><dt>生没年</dt><dd>1878〜1942年</dd></div>
-          <div><dt>出身地</dt><dd>大阪府堺（現在の大阪府堺市）</dd></div>
-          <div><dt>国籍</dt><dd>日本</dd></div>
-          <div><dt>分野</dt><dd>歌人・詩人</dd></div>
-          <div><dt>活動した時代</dt><dd>明治時代・大正時代・昭和時代</dd></div>
-          <div><dt>文学的立場・形式</dt><dd><a href="glossary.html#term-romanticism">浪漫主義</a>、<a href="glossary.html#term-tanka">短歌</a></dd></div>
-        </dl>
-        <p>歌集『みだれ髪』で、恋愛や自分の気持ちを情熱的にうたい、浪漫主義の短歌を代表する歌人となった。</p>
-        <h4>主な作品</h4>
-        <ul class="list">
-          <li><a href="works.html#midaregami">『みだれ髪』</a><span class="muted">（1901年・歌集）</span></li>
         </ul>
       </article>
     </section>
 
     <section class="group" aria-labelledby="g-taisho">
-      <h2 id="g-taisho">大正時代に活躍した作家</h2>
-
-      <article class="card person" id="ogiwara-seisensui">
-        <h3>荻原井泉水<span class="kana">おぎわらせいせんすい</span></h3>
-        <dl class="facts">
-          <div><dt>生没年</dt><dd>1884〜1976年</dd></div>
-          <div><dt>出身地</dt><dd>東京府（現在の東京都港区）</dd></div>
-          <div><dt>国籍</dt><dd>日本</dd></div>
-          <div><dt>本名</dt><dd>荻原藤吉</dd></div>
-          <div><dt>分野</dt><dd>俳人</dd></div>
-          <div><dt>活動した時代</dt><dd>明治時代・大正時代・昭和時代</dd></div>
-          <div><dt>文学的立場・形式</dt><dd><a href="glossary.html#term-jiyuritsu-haiku">自由律俳句</a></dd></div>
-        </dl>
-        <p>俳句雑誌『層雲』を創刊し、季語や五七五の定型にとらわれない自由律俳句を提唱した。種田山頭火や尾崎放哉を導いた。</p>
-        <h4>関係する人物</h4>
-        <ul class="list rel-list">
-          <li><strong><a href="authors.html#taneda-santoka">種田山頭火</a></strong><span class="tag">師弟</span>山頭火は井泉水の俳句雑誌『層雲』に参加し、井泉水を師として自由律俳句を詠んだ。</li>
-          <li><strong><a href="authors.html#ozaki-hosai">尾崎放哉</a></strong><span class="tag">師弟</span>放哉は井泉水の『層雲』に句を寄せ、晩年の暮らしの場所も井泉水の助けで得た。</li>
-        </ul>
-      </article>
-
-      <article class="card person" id="taneda-santoka">
-        <h3>種田山頭火<span class="kana">たねださんとうか</span></h3>
-        <dl class="facts">
-          <div><dt>生没年</dt><dd>1882〜1940年</dd></div>
-          <div><dt>出身地</dt><dd>山口県（現在の山口県防府市）</dd></div>
-          <div><dt>国籍</dt><dd>日本</dd></div>
-          <div><dt>本名</dt><dd>種田正一</dd></div>
-          <div><dt>分野</dt><dd>俳人</dd></div>
-          <div><dt>活動した時代</dt><dd>大正時代・昭和時代</dd></div>
-          <div><dt>文学的立場・形式</dt><dd><a href="glossary.html#term-jiyuritsu-haiku">自由律俳句</a></dd></div>
-        </dl>
-        <p>僧の姿で各地を歩いて旅しながら、五七五の決まりにとらわれない自由律俳句を数多く詠んだ。</p>
-        <h4>関係する人物</h4>
-        <ul class="list rel-list">
-          <li><strong><a href="authors.html#ogiwara-seisensui">荻原井泉水</a></strong><span class="tag">師弟</span>山頭火は井泉水の俳句雑誌『層雲』に参加し、井泉水を師として自由律俳句を詠んだ。</li>
-        </ul>
-      </article>
-
-      <article class="card person" id="ozaki-hosai">
-        <h3>尾崎放哉<span class="kana">おざきほうさい</span></h3>
-        <dl class="facts">
-          <div><dt>生没年</dt><dd>1885〜1926年</dd></div>
-          <div><dt>出身地</dt><dd>鳥取県（現在の鳥取市）</dd></div>
-          <div><dt>国籍</dt><dd>日本</dd></div>
-          <div><dt>本名</dt><dd>尾崎秀雄</dd></div>
-          <div><dt>分野</dt><dd>俳人</dd></div>
-          <div><dt>活動した時代</dt><dd>大正時代</dd></div>
-          <div><dt>文学的立場・形式</dt><dd><a href="glossary.html#term-jiyuritsu-haiku">自由律俳句</a></dd></div>
-        </dl>
-        <p>会社勤めをやめたのち、各地の寺で暮らしながら孤独を見つめる自由律俳句を詠んだ。晩年は小豆島で過ごした。</p>
-        <h4>関係する人物</h4>
-        <ul class="list rel-list">
-          <li><strong><a href="authors.html#ogiwara-seisensui">荻原井泉水</a></strong><span class="tag">師弟</span>放哉は井泉水の『層雲』に句を寄せ、晩年の暮らしの場所も井泉水の助けで得た。</li>
-        </ul>
-      </article>
+      <h2 id="g-taisho">大正時代</h2>
 
       <article class="card person" id="shiga-naoya">
         <h3>志賀直哉<span class="kana">しがなおや</span></h3>
@@ -322,76 +147,18 @@
           <div><dt>生没年</dt><dd>1883〜1971年</dd></div>
           <div><dt>出身地</dt><dd>宮城県石巻（現在の宮城県石巻市）。東京で育つ</dd></div>
           <div><dt>国籍</dt><dd>日本</dd></div>
-          <div><dt>分野</dt><dd>小説家</dd></div>
+          <div><dt>どんな人</dt><dd>小説家</dd></div>
           <div><dt>活動した時代</dt><dd>明治時代・大正時代・昭和時代</dd></div>
-          <div><dt>文学的立場・形式</dt><dd><a href="glossary.html#term-shirakaba">白樺派</a>、<a href="glossary.html#term-shishosetsu">私小説</a></dd></div>
+          <div><dt>グループ・作風</dt><dd><a class="word" href="glossary.html#term-shirakaba">白樺派</a>、<a class="word" href="glossary.html#term-shishosetsu">私小説</a></dd></div>
         </dl>
-        <p>雑誌『白樺』の中心的な作家の一人。むだのない正確な文章で知られ、「小説の神様」と呼ばれた。自分の心の動きを見つめた『城の崎にて』などがある。</p>
+        <p>仲間と雑誌『白樺』をつくった、<a class="word" href="glossary.html#term-shirakaba">白樺派</a>の中心となった作家。むだのない正確な文章で知られ、「小説の神様」とよばれた。『或る朝』は、志賀直哉が自分の作家としての出発点と考えた作品とされる。</p>
         <h4>主な作品</h4>
         <ul class="list">
           <li><a href="works.html#aru-asa">『或る朝』</a><span class="muted">（発表年調査中・短編小説）</span></li>
-          <li><a href="works.html#kinosaki-nite">『城の崎にて』</a><span class="muted">（1917年・短編小説）</span></li>
-          <li><a href="works.html#anya-koro">『暗夜行路』</a><span class="muted">（1921年・長編小説）</span></li>
         </ul>
-        <h4>関係する人物</h4>
-        <ul class="list rel-list">
-          <li><strong><a href="authors.html#musha-no-koji-saneatsu">武者小路実篤</a></strong><span class="tag">白樺派の仲間</span>二人は学習院時代からの友人で、ともに雑誌『白樺』を創刊した。</li>
-        </ul>
-        <h4>文学史上の出来事</h4>
+        <h4>文学史の出来事</h4>
         <ul class="list">
           <li><a href="timeline.html#ev-1910-shirakaba">1910年　雑誌『白樺』創刊</a></li>
-        </ul>
-      </article>
-
-      <article class="card person" id="musha-no-koji-saneatsu">
-        <h3>武者小路実篤<span class="kana">むしゃのこうじさねあつ</span></h3>
-        <dl class="facts">
-          <div><dt>生没年</dt><dd>1885〜1976年</dd></div>
-          <div><dt>出身地</dt><dd>東京府（現在の東京都）</dd></div>
-          <div><dt>国籍</dt><dd>日本</dd></div>
-          <div><dt>分野</dt><dd>小説家・劇作家</dd></div>
-          <div><dt>活動した時代</dt><dd>明治時代・大正時代・昭和時代</dd></div>
-          <div><dt>文学的立場・形式</dt><dd><a href="glossary.html#term-shirakaba">白樺派</a></dd></div>
-        </dl>
-        <p>志賀直哉らと雑誌『白樺』を創刊した、白樺派の中心人物。人間の善さを信じる理想主義の立場から、小説『友情』などを書いた。</p>
-        <h4>主な作品</h4>
-        <ul class="list">
-          <li><a href="works.html#yujo">『友情』</a><span class="muted">（1919年・長編小説）</span></li>
-        </ul>
-        <h4>関係する人物</h4>
-        <ul class="list rel-list">
-          <li><strong><a href="authors.html#shiga-naoya">志賀直哉</a></strong><span class="tag">白樺派の仲間</span>二人は学習院時代からの友人で、ともに雑誌『白樺』を創刊した。</li>
-        </ul>
-        <h4>文学史上の出来事</h4>
-        <ul class="list">
-          <li><a href="timeline.html#ev-1910-shirakaba">1910年　雑誌『白樺』創刊</a></li>
-        </ul>
-      </article>
-
-      <article class="card person" id="kikuchi-kan">
-        <h3>菊池寛<span class="kana">きくちかん</span></h3>
-        <dl class="facts">
-          <div><dt>生没年</dt><dd>1888〜1948年</dd></div>
-          <div><dt>出身地</dt><dd>香川県高松（現在の香川県高松市）</dd></div>
-          <div><dt>国籍</dt><dd>日本</dd></div>
-          <div><dt>本名</dt><dd>菊池寛（きくちひろし）</dd></div>
-          <div><dt>分野</dt><dd>小説家・劇作家・出版人</dd></div>
-          <div><dt>活動した時代</dt><dd>大正時代・昭和時代</dd></div>
-          <div><dt>文学的立場・形式</dt><dd><a href="glossary.html#term-shinshichoha">新思潮派（新現実主義）</a></dd></div>
-        </dl>
-        <p>芥川龍之介とともに同人誌『新思潮』で活動した。のちに雑誌『文藝春秋』を創刊し、亡くなった友人の名を残すため芥川賞を、また直木賞をつくった。</p>
-        <h4>主な作品</h4>
-        <ul class="list">
-          <li><a href="works.html#chichi-kaeru">『父帰る』</a><span class="muted">（1917年・戯曲）</span></li>
-        </ul>
-        <h4>関係する人物</h4>
-        <ul class="list rel-list">
-          <li><strong><a href="authors.html#akutagawa-ryunosuke">芥川龍之介</a></strong><span class="tag">友人・同人</span>二人は学生時代からの友人で、同人誌『新思潮』の仲間だった。芥川の死後、菊池は友人の名を残すため芥川賞をつくった。</li>
-        </ul>
-        <h4>文学史上の出来事</h4>
-        <ul class="list">
-          <li><a href="timeline.html#ev-1923-bungeishunju">1923年　菊池寛が雑誌『文藝春秋』を創刊</a></li>
-          <li><a href="timeline.html#ev-1935-akutagawa-naoki-prize-founded">1935年　芥川賞・直木賞の創設</a></li>
         </ul>
       </article>
 
@@ -401,24 +168,22 @@
           <div><dt>生没年</dt><dd>1892〜1927年</dd></div>
           <div><dt>出身地</dt><dd>東京府（現在の東京都中央区）</dd></div>
           <div><dt>国籍</dt><dd>日本</dd></div>
-          <div><dt>分野</dt><dd>小説家</dd></div>
+          <div><dt>どんな人</dt><dd>小説家</dd></div>
           <div><dt>活動した時代</dt><dd>大正時代・昭和時代</dd></div>
-          <div><dt>文学的立場・形式</dt><dd><a href="glossary.html#term-shinshichoha">新思潮派（新現実主義）</a></dd></div>
         </dl>
-        <p>大学生のときに書いた『鼻』が夏目漱石に絶賛され、作家として認められた。『今昔物語集』などの古典を題材にした、構成のたくみな短編を数多く書いた。35歳で亡くなり、のちに彼の名をつけた芥川賞がつくられた。</p>
+        <p>大学生のときに書いた『鼻』を夏目漱石にほめられ、作家として認められた。古い物語集『今昔物語集』などをもとにした、工夫に満ちた<a class="word" href="glossary.html#term-length">短編小説</a>をたくさん書いた。35歳で亡くなり、のちに友人の菊池寛が、芥川の名前をつけた<a class="word" href="glossary.html#term-prize">芥川賞</a>をつくった。</p>
         <h4>主な作品</h4>
         <ul class="list">
           <li><a href="works.html#rashomon">『羅生門』</a><span class="muted">（1915年・短編小説）</span></li>
           <li><a href="works.html#hana">『鼻』</a><span class="muted">（1916年・短編小説）</span></li>
           <li><a href="works.html#kumo-no-ito">『蜘蛛の糸』</a><span class="muted">（1918年・短編小説）</span></li>
         </ul>
-        <h4>関係する人物</h4>
+        <h4>つながりのある作家</h4>
         <ul class="list rel-list">
-          <li><strong><a href="authors.html#natsume-soseki">夏目漱石</a></strong><span class="tag">師弟</span>芥川は漱石の家に弟子たちが集まる会（木曜会）に通った。芥川の『鼻』を漱石が手紙で絶賛したことが、芥川が作家として認められるきっかけになった。</li>
-          <li><strong><a href="authors.html#kikuchi-kan">菊池寛</a></strong><span class="tag">友人・同人</span>二人は学生時代からの友人で、同人誌『新思潮』の仲間だった。芥川の死後、菊池は友人の名を残すため芥川賞をつくった。</li>
-          <li><strong><a href="authors.html#dazai-osamu">太宰治</a></strong><span class="tag">敬愛</span>太宰は中学・高校時代から芥川を深く敬愛していた。ノートに芥川の名を何度も書いたという逸話が残り、芥川の死には大きな衝撃を受けたとされる。</li>
+          <li><strong><a href="authors.html#natsume-soseki">夏目漱石</a></strong><span class="tag">師弟</span>芥川は、漱石の家で開かれていた弟子たちの集まり（木曜会）に通っていた。芥川の『鼻』を漱石が手紙で大絶賛し、芥川が作家として認められるきっかけになった。</li>
+          <li><strong><a href="authors.html#dazai-osamu">太宰治</a></strong><span class="tag">敬愛</span>太宰は中学・高校時代から芥川にあこがれていた。ノートに芥川の名前を何度も書いたという話が残り、芥川が亡くなったときには大きなショックを受けたといわれる。</li>
         </ul>
-        <h4>文学史上の出来事</h4>
+        <h4>文学史の出来事</h4>
         <ul class="list">
           <li><a href="timeline.html#ev-1916-soseki-praises-hana">1916年　夏目漱石が芥川龍之介の『鼻』を絶賛</a></li>
           <li><a href="timeline.html#ev-1935-akutagawa-naoki-prize-founded">1935年　芥川賞・直木賞の創設</a></li>
@@ -427,32 +192,7 @@
     </section>
 
     <section class="group" aria-labelledby="g-showa">
-      <h2 id="g-showa">昭和時代に活躍した作家</h2>
-
-      <article class="card person" id="yokomitsu-riichi">
-        <h3>横光利一<span class="kana">よこみつりいち</span></h3>
-        <dl class="facts">
-          <div><dt>生没年</dt><dd>1898〜1947年</dd></div>
-          <div><dt>出身地</dt><dd>福島県（現在の福島県会津若松市）</dd></div>
-          <div><dt>国籍</dt><dd>日本</dd></div>
-          <div><dt>分野</dt><dd>小説家</dd></div>
-          <div><dt>活動した時代</dt><dd>大正時代・昭和時代</dd></div>
-          <div><dt>文学的立場・形式</dt><dd><a href="glossary.html#term-shinkankakuha">新感覚派</a></dd></div>
-        </dl>
-        <p>川端康成らと雑誌『文芸時代』を創刊し、新しい感覚的な表現を追い求める新感覚派の中心となった。</p>
-        <h4>主な作品</h4>
-        <ul class="list">
-          <li><a href="works.html#kikai">『機械』</a><span class="muted">（1930年・短編小説）</span></li>
-        </ul>
-        <h4>関係する人物</h4>
-        <ul class="list rel-list">
-          <li><strong><a href="authors.html#kawabata-yasunari">川端康成</a></strong><span class="tag">新感覚派の仲間</span>二人はともに雑誌『文芸時代』を創刊し、新感覚派の中心として活動した親しい友人だった。</li>
-        </ul>
-        <h4>文学史上の出来事</h4>
-        <ul class="list">
-          <li><a href="timeline.html#ev-1924-bungei-jidai">1924年　雑誌『文芸時代』創刊</a></li>
-        </ul>
-      </article>
+      <h2 id="g-showa">昭和時代</h2>
 
       <article class="card person" id="kawabata-yasunari">
         <h3>川端康成<span class="kana">かわばたやすなり</span></h3>
@@ -460,46 +200,25 @@
           <div><dt>生没年</dt><dd>1899〜1972年</dd></div>
           <div><dt>出身地</dt><dd>大阪府（現在の大阪市）</dd></div>
           <div><dt>国籍</dt><dd>日本</dd></div>
-          <div><dt>分野</dt><dd>小説家</dd></div>
+          <div><dt>どんな人</dt><dd>小説家</dd></div>
           <div><dt>活動した時代</dt><dd>大正時代・昭和時代</dd></div>
-          <div><dt>文学的立場・形式</dt><dd><a href="glossary.html#term-shinkankakuha">新感覚派</a></dd></div>
+          <div><dt>グループ・作風</dt><dd><a class="word" href="glossary.html#term-shinkankakuha">新感覚派</a></dd></div>
         </dl>
-        <p>横光利一らとともに新感覚派として出発し、『伊豆の踊子』『雪国』などで日本の美しさや人の心の繊細さを描いた。1968年、日本人で初めてノーベル文学賞を受賞した。芥川賞の選考委員も務めた。</p>
+        <p>『伊豆の踊子』『雪国』などで、日本の美しさや人の心のこまやかな動きを描いた。若いころは<a class="word" href="glossary.html#term-shinkankakuha">新感覚派</a>の作家として活躍した。1968年、日本人で初めて<a class="word" href="glossary.html#term-nobel">ノーベル文学賞</a>を受けた。<a class="word" href="glossary.html#term-prize">芥川賞</a>の<a class="word" href="glossary.html#term-senko">選考委員</a>もつとめた。</p>
         <h4>主な作品</h4>
         <ul class="list">
           <li><a href="works.html#izu-no-odoriko">『伊豆の踊子』</a><span class="muted">（1926年・短編小説）</span></li>
           <li><a href="works.html#yukiguni">『雪国』</a><span class="muted">（1935年・長編小説）</span></li>
         </ul>
-        <h4>関係する人物</h4>
+        <h4>つながりのある作家</h4>
         <ul class="list rel-list">
-          <li><strong><a href="authors.html#dazai-osamu">太宰治</a></strong><span class="tag">芥川賞をめぐる確執</span>第1回芥川賞で太宰の作品は候補になったが受賞を逃した。選考委員の川端が選評で太宰の私生活に触れたことに太宰は反発し、「川端康成へ」という文章を発表して抗議した。</li>
-          <li><strong><a href="authors.html#yokomitsu-riichi">横光利一</a></strong><span class="tag">新感覚派の仲間</span>二人はともに雑誌『文芸時代』を創刊し、新感覚派の中心として活動した親しい友人だった。</li>
-          <li><strong><a href="authors.html#mishima-yukio">三島由紀夫</a></strong><span class="tag">才能を見出す</span>川端は若い三島の才能を認め、戦後まもなく三島の作品が文芸誌に載るよう後押しした。二人の交流はその後も長く続いた。</li>
+          <li><strong><a href="authors.html#dazai-osamu">太宰治</a></strong><span class="tag">芥川賞をめぐる確執</span>第1回<a class="word" href="glossary.html#term-prize">芥川賞</a>で、太宰の作品は候補になったが受賞できなかった。<a class="word" href="glossary.html#term-senko">選考委員</a>だった川端が選評の中で太宰の暮らしぶりにふれたため、太宰は怒り、「川端康成へ」という文章を発表して抗議した。</li>
+          <li><strong><a href="authors.html#mishima-yukio">三島由紀夫</a></strong><span class="tag">才能を見出す</span>川端は若い三島の才能を認め、戦争のあと三島の作品が雑誌にのるよう後押しした。二人の付き合いはその後も長く続いた。</li>
         </ul>
-        <h4>文学史上の出来事</h4>
+        <h4>文学史の出来事</h4>
         <ul class="list">
-          <li><a href="timeline.html#ev-1924-bungei-jidai">1924年　雑誌『文芸時代』創刊</a></li>
           <li><a href="timeline.html#ev-1935-first-akutagawa-prize">1935年　第1回芥川賞と太宰治</a></li>
           <li><a href="timeline.html#ev-1968-kawabata-nobel">1968年　川端康成がノーベル文学賞を受賞</a></li>
-        </ul>
-        <p class="related">関連用語：<a href="glossary.html#term-sekai-bungaku">世界文学</a></p>
-      </article>
-
-      <article class="card person" id="sakaguchi-ango">
-        <h3>坂口安吾<span class="kana">さかぐちあんご</span></h3>
-        <dl class="facts">
-          <div><dt>生没年</dt><dd>1906〜1955年</dd></div>
-          <div><dt>出身地</dt><dd>新潟県（現在の新潟市）</dd></div>
-          <div><dt>国籍</dt><dd>日本</dd></div>
-          <div><dt>本名</dt><dd>坂口炳五</dd></div>
-          <div><dt>分野</dt><dd>小説家・評論家</dd></div>
-          <div><dt>活動した時代</dt><dd>昭和時代</dd></div>
-          <div><dt>文学的立場・形式</dt><dd><a href="glossary.html#term-buraiha">無頼派</a></dd></div>
-        </dl>
-        <p>戦争が終わった直後に評論『堕落論』を発表し、古い道徳にしばられない生き方を説いた。太宰治らとともに無頼派と呼ばれる。</p>
-        <h4>主な作品</h4>
-        <ul class="list">
-          <li><a href="works.html#darakuron">『堕落論』</a><span class="muted">（1946年・評論）</span></li>
         </ul>
       </article>
 
@@ -509,27 +228,26 @@
           <div><dt>生没年</dt><dd>1909〜1948年</dd></div>
           <div><dt>出身地</dt><dd>青森県北津軽郡金木村（現在の青森県五所川原市）</dd></div>
           <div><dt>国籍</dt><dd>日本</dd></div>
-          <div><dt>本名</dt><dd>津島修治</dd></div>
-          <div><dt>分野</dt><dd>小説家</dd></div>
+          <div><dt><a class="word" href="glossary.html#term-penname">本名</a></dt><dd>津島修治</dd></div>
+          <div><dt>どんな人</dt><dd>小説家</dd></div>
           <div><dt>活動した時代</dt><dd>昭和時代</dd></div>
-          <div><dt>文学的立場・形式</dt><dd><a href="glossary.html#term-buraiha">無頼派</a></dd></div>
+          <div><dt>グループ・作風</dt><dd><a class="word" href="glossary.html#term-buraiha">無頼派</a></dd></div>
         </dl>
-        <p>若いころから芥川龍之介を深く敬愛していた。第1回芥川賞の候補になったが受賞できず、選考委員の川端康成の評に反発する文章を発表した。『走れメロス』のような明るい作品から、戦後の『斜陽』『人間失格』まで幅広い作品を書き、無頼派の代表とされる。娘の津島佑子も小説家になった。</p>
+        <p>若いころから芥川龍之介を<a class="word" href="glossary.html#term-keiai">敬愛</a>していた。第1回<a class="word" href="glossary.html#term-prize">芥川賞</a>の候補になったが受賞できず、<a class="word" href="glossary.html#term-senko">選考委員</a>だった川端康成の選評に反発して、抗議の文章を発表した。『走れメロス』のような明るい作品から、戦後の『斜陽』『人間失格』まで多くの作品を書き、<a class="word" href="glossary.html#term-buraiha">無頼派</a>の代表とされる。娘の津島佑子も小説家になった。</p>
         <h4>主な作品</h4>
         <ul class="list">
-          <li><a href="works.html#gyakko">『逆行』</a><span class="muted">（1935年・短編小説）</span></li>
           <li><a href="works.html#hashire-merosu">『走れメロス』</a><span class="muted">（1940年・短編小説）</span></li>
           <li><a href="works.html#shayo">『斜陽』</a><span class="muted">（1947年・長編小説）</span></li>
           <li><a href="works.html#ningen-shikkaku">『人間失格』</a><span class="muted">（1948年・長編小説）</span></li>
         </ul>
-        <h4>関係する人物</h4>
+        <h4>つながりのある作家</h4>
         <ul class="list rel-list">
-          <li><strong><a href="authors.html#akutagawa-ryunosuke">芥川龍之介</a></strong><span class="tag">敬愛</span>太宰は中学・高校時代から芥川を深く敬愛していた。ノートに芥川の名を何度も書いたという逸話が残り、芥川の死には大きな衝撃を受けたとされる。</li>
-          <li><strong><a href="authors.html#kawabata-yasunari">川端康成</a></strong><span class="tag">芥川賞をめぐる確執</span>第1回芥川賞で太宰の作品は候補になったが受賞を逃した。選考委員の川端が選評で太宰の私生活に触れたことに太宰は反発し、「川端康成へ」という文章を発表して抗議した。</li>
-          <li><strong><a href="authors.html#tsushima-yuko">津島佑子</a></strong><span class="tag">父と娘</span>津島佑子は太宰治（本名・津島修治）の次女。父と同じく小説家になった。</li>
-          <li><strong><a href="authors.html#matayoshi-naoki">又吉直樹</a></strong><span class="tag">愛読</span>又吉直樹は太宰治の作品を愛読しており、そのことを自身の著書やインタビューでたびたび語っている。</li>
+          <li><strong><a href="authors.html#akutagawa-ryunosuke">芥川龍之介</a></strong><span class="tag">敬愛</span>太宰は中学・高校時代から芥川にあこがれていた。ノートに芥川の名前を何度も書いたという話が残り、芥川が亡くなったときには大きなショックを受けたといわれる。</li>
+          <li><strong><a href="authors.html#kawabata-yasunari">川端康成</a></strong><span class="tag">芥川賞をめぐる確執</span>第1回<a class="word" href="glossary.html#term-prize">芥川賞</a>で、太宰の作品は候補になったが受賞できなかった。<a class="word" href="glossary.html#term-senko">選考委員</a>だった川端が選評の中で太宰の暮らしぶりにふれたため、太宰は怒り、「川端康成へ」という文章を発表して抗議した。</li>
+          <li><strong><a href="authors.html#tsushima-yuko">津島佑子</a></strong><span class="tag">父と娘</span>津島佑子は太宰治の次女。太宰治の本名は津島修治なので、娘の名字も「津島」。父と同じく小説家になった。</li>
+          <li><strong><a href="authors.html#matayoshi-naoki">又吉直樹</a></strong><span class="tag">愛読</span>又吉直樹は太宰治の作品が大好きで、本やインタビューでたびたびそのことを語っている。</li>
         </ul>
-        <h4>文学史上の出来事</h4>
+        <h4>文学史の出来事</h4>
         <ul class="list">
           <li><a href="timeline.html#ev-1935-first-akutagawa-prize">1935年　第1回芥川賞と太宰治</a></li>
         </ul>
@@ -541,25 +259,24 @@
           <div><dt>生没年</dt><dd>1925〜1970年</dd></div>
           <div><dt>出身地</dt><dd>東京府（現在の東京都新宿区）</dd></div>
           <div><dt>国籍</dt><dd>日本</dd></div>
-          <div><dt>本名</dt><dd>平岡公威</dd></div>
-          <div><dt>分野</dt><dd>小説家・劇作家</dd></div>
+          <div><dt><a class="word" href="glossary.html#term-penname">本名</a></dt><dd>平岡公威</dd></div>
+          <div><dt>どんな人</dt><dd>小説家・劇作家</dd></div>
           <div><dt>活動した時代</dt><dd>昭和時代</dd></div>
         </dl>
-        <p>若いころに川端康成に才能を認められ、戦後に本格的に作家として活躍した。華やかで論理的な文章で『金閣寺』などを書き、最後の大作は四部作『豊饒の海』である。</p>
+        <p>若いころに川端康成に才能を認められ、戦争のあと作家として大活躍した。きらびやかで美しい文章が特徴。最後の大作は、四つの物語からなる『豊饒の海』。</p>
         <h4>主な作品</h4>
         <ul class="list">
-          <li><a href="works.html#kinkakuji">『金閣寺』</a><span class="muted">（1956年・長編小説）</span></li>
           <li><a href="works.html#hojo-no-umi">『豊饒の海』</a><span class="muted">（1965年・長編小説）</span></li>
         </ul>
-        <h4>関係する人物</h4>
+        <h4>つながりのある作家</h4>
         <ul class="list rel-list">
-          <li><strong><a href="authors.html#kawabata-yasunari">川端康成</a></strong><span class="tag">才能を見出す</span>川端は若い三島の才能を認め、戦後まもなく三島の作品が文芸誌に載るよう後押しした。二人の交流はその後も長く続いた。</li>
+          <li><strong><a href="authors.html#kawabata-yasunari">川端康成</a></strong><span class="tag">才能を見出す</span>川端は若い三島の才能を認め、戦争のあと三島の作品が雑誌にのるよう後押しした。二人の付き合いはその後も長く続いた。</li>
         </ul>
       </article>
     </section>
 
     <section class="group" aria-labelledby="g-modern">
-      <h2 id="g-modern">昭和後期〜現代の作家</h2>
+      <h2 id="g-modern">昭和の終わり〜現代</h2>
 
       <article class="card person" id="tsushima-yuko">
         <h3>津島佑子<span class="kana">つしまゆうこ</span></h3>
@@ -567,18 +284,18 @@
           <div><dt>生没年</dt><dd>1947〜2016年</dd></div>
           <div><dt>出身地</dt><dd>東京都</dd></div>
           <div><dt>国籍</dt><dd>日本</dd></div>
-          <div><dt>本名</dt><dd>津島里子</dd></div>
-          <div><dt>分野</dt><dd>小説家</dd></div>
+          <div><dt><a class="word" href="glossary.html#term-penname">本名</a></dt><dd>津島里子</dd></div>
+          <div><dt>どんな人</dt><dd>小説家</dd></div>
           <div><dt>活動した時代</dt><dd>昭和時代・平成時代</dd></div>
         </dl>
-        <p>太宰治の次女。父の太宰治は、津島佑子が1歳のときに亡くなっている。家族や女性の生き方を見つめた小説を書き、国内外で高く評価された。</p>
+        <p>太宰治の娘（次女）。父の太宰は、津島佑子が1歳のときに亡くなった。家族や女性の生き方をテーマにした小説を書き、外国でも高く評価された。</p>
         <h4>主な作品</h4>
         <ul class="list">
           <li><a href="works.html#tori-no-namida">『鳥の涙』</a><span class="muted">（発表年調査中・短編小説）</span></li>
         </ul>
-        <h4>関係する人物</h4>
+        <h4>つながりのある作家</h4>
         <ul class="list rel-list">
-          <li><strong><a href="authors.html#dazai-osamu">太宰治</a></strong><span class="tag">父と娘</span>津島佑子は太宰治（本名・津島修治）の次女。父と同じく小説家になった。</li>
+          <li><strong><a href="authors.html#dazai-osamu">太宰治</a></strong><span class="tag">父と娘</span>津島佑子は太宰治の次女。太宰治の本名は津島修治なので、娘の名字も「津島」。父と同じく小説家になった。</li>
         </ul>
       </article>
 
@@ -588,19 +305,19 @@
           <div><dt>生没年</dt><dd>1980年〜</dd></div>
           <div><dt>出身地</dt><dd>大阪府寝屋川市</dd></div>
           <div><dt>国籍</dt><dd>日本</dd></div>
-          <div><dt>分野</dt><dd>小説家・お笑い芸人</dd></div>
+          <div><dt>どんな人</dt><dd>小説家・お笑い芸人</dd></div>
           <div><dt>活動した時代</dt><dd>平成時代・令和時代</dd></div>
         </dl>
-        <p>お笑い芸人として活動しながら小説『火花』を書き、芥川賞を受賞した。太宰治の愛読者として知られる。</p>
+        <p>お笑い芸人として活動しながら小説『火花』を書き、2015年に<a class="word" href="glossary.html#term-prize">芥川賞</a>を受けた。太宰治の作品が大好きなことでも知られる。</p>
         <h4>主な作品</h4>
         <ul class="list">
           <li><a href="works.html#hibana">『火花』</a><span class="muted">（2015年・中編小説）</span></li>
         </ul>
-        <h4>関係する人物</h4>
+        <h4>つながりのある作家</h4>
         <ul class="list rel-list">
-          <li><strong><a href="authors.html#dazai-osamu">太宰治</a></strong><span class="tag">愛読</span>又吉直樹は太宰治の作品を愛読しており、そのことを自身の著書やインタビューでたびたび語っている。</li>
+          <li><strong><a href="authors.html#dazai-osamu">太宰治</a></strong><span class="tag">愛読</span>又吉直樹は太宰治の作品が大好きで、本やインタビューでたびたびそのことを語っている。</li>
         </ul>
-        <h4>文学史上の出来事</h4>
+        <h4>文学史の出来事</h4>
         <ul class="list">
           <li><a href="timeline.html#ev-2015-hibana-akutagawa-prize">2015年　又吉直樹『火花』が芥川賞を受賞</a></li>
         </ul>
@@ -608,7 +325,7 @@
     </section>
 
     <section class="group" aria-labelledby="g-foreign">
-      <h2 id="g-foreign">海外の作家・文学者</h2>
+      <h2 id="g-foreign">海外の作家・文学研究者</h2>
 
       <article class="card person" id="mark-twain">
         <h3>マーク・トウェイン</h3>
@@ -616,15 +333,14 @@
           <div><dt>生没年</dt><dd>1835〜1910年</dd></div>
           <div><dt>出身地</dt><dd>アメリカ合衆国ミズーリ州</dd></div>
           <div><dt>国籍</dt><dd>アメリカ</dd></div>
-          <div><dt>本名</dt><dd>サミュエル・ラングホーン・クレメンズ</dd></div>
-          <div><dt>分野</dt><dd>小説家</dd></div>
-          <div><dt>文学的立場・形式</dt><dd><a href="glossary.html#term-realism">リアリズム（写実主義）</a></dd></div>
+          <div><dt><a class="word" href="glossary.html#term-penname">本名</a></dt><dd>サミュエル・ラングホーン・クレメンズ</dd></div>
+          <div><dt>どんな人</dt><dd>小説家</dd></div>
+          <div><dt>グループ・作風</dt><dd><a class="word" href="glossary.html#term-realism">リアリズム（写実主義）</a></dd></div>
         </dl>
-        <p>アメリカの小説家。ミシシッピ川のほとりで育った経験をもとに、『トム・ソーヤーの冒険』『ハックルベリー・フィンの冒険』を書いた。</p>
+        <p>アメリカの小説家。ミシシッピ川のほとりの町で育った体験をもとに、『トム・ソーヤーの冒険』などを書いた。</p>
         <h4>主な作品</h4>
         <ul class="list">
           <li><a href="works.html#tom-sawyer">『トム・ソーヤーの冒険』</a><span class="muted">（1876年・長編小説）</span></li>
-          <li><a href="works.html#huckleberry-finn">『ハックルベリー・フィンの冒険』</a><span class="muted">（1885年・長編小説）</span></li>
         </ul>
       </article>
 
@@ -635,9 +351,10 @@
           <div><dt>生没年</dt><dd>1893〜1984年</dd></div>
           <div><dt>出身地</dt><dd>ロシア帝国サンクトペテルブルク</dd></div>
           <div><dt>国籍</dt><dd>ロシア（ソビエト連邦）</dd></div>
-          <div><dt>分野</dt><dd>文学理論家・作家</dd></div>
+          <div><dt>どんな人</dt><dd>文学研究者</dd></div>
+          <div><dt>グループ・作風</dt><dd><a class="word" href="glossary.html#term-ika">異化</a></dd></div>
         </dl>
-        <p>ロシアの文学理論家。見慣れたものを見慣れないものとして描き直す「異化」という考え方を唱えた。</p>
+        <p>ロシア（ソビエト連邦）の文学研究者。いつも見なれているものを、初めて見るもののように新しく感じさせる「<a class="word" href="glossary.html#term-ika">異化</a>」という考え方を唱えた。</p>
       </article>
     </section>
   </main>
