@@ -275,3 +275,16 @@ details.qa[open] > summary::after { content: "とじる"; color: var(--muted); b
 .step-title { font-weight: var(--fw-bold); margin: 0.1rem 0 0.2rem; }
 .steps ul { margin: 0; padding-left: 1.1rem; }
 .steps p { margin: 0.2rem 0; }
+.compare .nowrap { white-space: nowrap; }
+
+/* スマートフォンでは表を1行ずつのカードにする */
+@media (max-width: 640px) {
+  .compare.stack { min-width: 0; }
+  .compare.stack thead { display: none; }
+  .compare.stack, .compare.stack tbody, .compare.stack tr, .compare.stack th, .compare.stack td { display: block; width: auto; }
+  .compare.stack tr { padding: 0.6rem 0.9rem; border-bottom: 1px solid var(--line); }
+  .compare.stack tr:last-child { border-bottom: none; }
+  .compare.stack th, .compare.stack td { border: none; padding: 0.1rem 0; white-space: normal; }
+  .compare.stack tbody th { font-family: var(--serif); font-size: var(--fs-3); }
+  .compare.stack td[data-label]::before { content: attr(data-label) "："; color: var(--muted); }
+}
