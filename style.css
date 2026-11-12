@@ -295,3 +295,8 @@ details.qa[open] > summary::after { content: "とじる"; color: var(--muted); b
 .qno { flex: 0 0 auto; font-weight: 700; color: var(--accent); }
 .qa-body { border-top: 1px dotted var(--line); padding: 0.5rem 1rem 0.8rem; }
 .qa-body .answer { margin: 0.2rem 0 0.4rem; }
+
+/* 単語帳：見出しの言葉を大きく */
+.term h3 { font-size: 1.65rem; font-weight: 700; color: var(--accent); margin-bottom: 0.6rem; }
+.term h3 .kana { color: var(--muted); }
+.term .short { font-weight: 400; }

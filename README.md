@@ -18,7 +18,7 @@ HTMLとCSSだけで作る静的サイトです。データベース、ビルド�
 | `glossary.html` | 単語帳（むずかしい言葉を小学生向けにやさしく説明） |
 | `ichimon.html` | 一問一答（単純な知識の確認。問題を押すと答えと知識が出る） |
 | `quiz.html` | 演習問題（知識を組み合わせて考える問題。解説は「必要な知識→考え方→答え」） |
-| `images/authors/` | 作家の写真（著作権の保護期間が終わったものだけ。出典は作家一覧の「写真について」） |
+| `images/authors/` | 作家の写真（国立国会図書館「近代日本人の肖像」。出典は作家一覧の「写真について」） |
 | `style.css` | 共通スタイル（ライト／ダークモード対応） |
 | `docs/` | 企画・ページ構成・制作ルール・コンテンツ一覧 |
 
@@ -30,7 +30,7 @@ HTMLとCSSだけで作る静的サイトです。データベース、ビルド�
 | [docs/02_site-structure.md](docs/02_site-structure.md) | ページ構成・アンカーIDの規則・記事の追加方法 |
 | [docs/03_content-guidelines.md](docs/03_content-guidelines.md) | 執筆・事実確認・著作権・人物関係の掲載基準 |
 | [docs/04_initial-content.md](docs/04_initial-content.md) | 掲載中のコンテンツ・要確認リスト・追加候補 |
-| [docs/05_photos.md](docs/05_photos.md) | 作家の写真の候補（著作権切れ）と取り込み手順 |
+| [docs/05_photos.md](docs/05_photos.md) | 作家の写真（国立国会図書館「近代日本人の肖像」）と出典 |
 
 ## 公開情報と内部情報の分離（最重要ルール）
 
