@@ -251,3 +251,27 @@ ul.skills li { padding: 0.35rem 0; border-bottom: 1px dotted var(--line); }
 .country p { margin: 0; }
 .compare tr:target { background: var(--tag-bg); }
 .compare tr { scroll-margin-top: 1rem; }
+
+/* 作家の写真・アイコン */
+.person-head { display: flex; align-items: center; gap: 1rem; margin-bottom: 0.3rem; }
+.person-head h3 { margin: 0; }
+.portrait { flex: 0 0 auto; margin: 0; width: 84px; text-align: center; }
+.portrait img { display: block; width: 84px; height: 104px; object-fit: cover; object-position: center top; border-radius: 8px; border: 1px solid var(--line); background: var(--tag-bg); filter: grayscale(0.15); }
+.portrait figcaption { font-size: 0.68rem; line-height: 1.3; margin-top: 0.2rem; }
+.portrait figcaption a { color: var(--muted); text-decoration: none; }
+.mono { height: 84px; border-radius: 50%; display: flex; align-items: center; justify-content: center; border: 3px double var(--mono-c); background: var(--surface); }
+.mono span { font-family: var(--serif); font-size: 2.4rem; font-weight: 700; color: var(--mono-c); line-height: 1; }
+.mono-edo { --mono-c: #8a5a2b; }
+.mono-meiji { --mono-c: #2f5d8c; }
+.mono-taisho { --mono-c: #3f7f5f; }
+.mono-showa { --mono-c: #a23b2a; }
+.mono-heisei { --mono-c: #6b4f9e; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .mono-edo { --mono-c: #d9a56b; }
+  :root:not([data-theme="light"]) .mono-meiji { --mono-c: #79a7dc; }
+  :root:not([data-theme="light"]) .mono-taisho { --mono-c: #7cc39c; }
+  :root:not([data-theme="light"]) .mono-showa { --mono-c: #e0745f; }
+  :root:not([data-theme="light"]) .mono-heisei { --mono-c: #b79be0; }
+}
+.credits { font-size: 0.85rem; }
+@media (max-width: 420px) { .portrait, .portrait img { width: 68px; } .portrait img { height: 84px; } .mono { height: 68px; } .mono span { font-size: 2rem; } }
