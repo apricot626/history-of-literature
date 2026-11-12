@@ -288,3 +288,10 @@ details.qa[open] > summary::after { content: "とじる"; color: var(--muted); b
   .compare.stack tbody th { font-family: var(--serif); font-size: var(--fs-3); }
   .compare.stack td[data-label]::before { content: attr(data-label) "："; color: var(--muted); }
 }
+
+/* 演習問題：覚えておくこと・パターンの説明 */
+.point { background: var(--tag-bg); border-radius: 8px; padding: 0.5rem 0.8rem; margin: 0.6rem 0; }
+.point .label, .pattern-need .tag { font-weight: var(--fw-bold); }
+.point .label { display: inline-block; font-size: var(--fs-1); color: var(--accent-ink); background: var(--accent); border-radius: 4px; padding: 0 0.45rem; margin-right: 0.5rem; line-height: 1.7; vertical-align: 0.1em; }
+.pattern-need { font-size: var(--fs-2); color: var(--muted); }
+.pattern-need .tag:first-child { margin-left: 0; }
