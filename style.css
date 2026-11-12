@@ -243,3 +243,11 @@ a.word:hover { color: var(--accent); }
 /* トップの「身につく力」 */
 ul.skills { list-style: none; padding: 0; }
 ul.skills li { padding: 0.35rem 0; border-bottom: 1px dotted var(--line); }
+
+/* 海外の作家：国ごとのカード */
+.country-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.7rem; }
+.country { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 0.6rem 0.9rem; }
+.country-name { margin: 0 0 0.2rem; font-family: var(--serif); font-weight: 700; color: var(--accent); }
+.country p { margin: 0; }
+.compare tr:target { background: var(--tag-bg); }
+.compare tr { scroll-margin-top: 1rem; }
