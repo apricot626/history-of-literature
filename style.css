@@ -320,3 +320,7 @@ details.qa[open] > summary::after { content: "とじる"; color: var(--muted); b
 .tile-body { display: block; min-width: 0; }
 .tile-title { display: block; font-family: var(--serif); font-size: var(--fs-4); font-weight: var(--fw-bold); line-height: 1.4; }
 .tile-desc { display: block; color: var(--muted); font-size: var(--fs-2); line-height: 1.6; }
+
+/* 一問一答などの小見出し（カードの外の h3） */
+.group > h3 { margin: 2.2rem 0 0.8rem; }
+.group > h2 + h3 { margin-top: 0.6rem; }
