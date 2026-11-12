@@ -182,8 +182,8 @@ a.person { color: var(--link); }
 .timeline .year { flex: 0 0 auto; min-width: 3.2em; font-family: var(--serif); font-weight: var(--fw-bold); }
 .timeline .desc { color: var(--muted); font-size: var(--fs-2); }
 .kind { display: inline-block; font-size: var(--fs-1); border-radius: 4px; padding: 0 0.4rem; margin-right: 0.5rem; line-height: 1.7; vertical-align: 0.1em; border: 1px solid; }
-.kind-event { color: var(--accent); border-color: var(--accent); }
-.kind-work { color: var(--link); border-color: var(--link); }
+.kind-event { color: var(--accent-ink); background: var(--accent); border-color: var(--accent); }
+.kind-work { color: var(--accent-ink); background: var(--link); border-color: var(--link); }
 .kind-life { color: var(--muted); border-color: var(--muted); }
 
 /* ---------- 相関図 ---------- */
