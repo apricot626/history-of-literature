@@ -38,6 +38,7 @@
           <marker id="arrow-parent_child" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="m-parent_child" d="M0,0 L10,5 L0,10 z"/></marker>
           <marker id="arrow-mentor_student" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="m-mentor_student" d="M0,0 L10,5 L0,10 z"/></marker>
           <marker id="arrow-admiration" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="m-admiration" d="M0,0 L10,5 L0,10 z"/></marker>
+          <marker id="arrow-friendship" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="m-friendship" d="M0,0 L10,5 L0,10 z"/></marker>
           <marker id="arrow-support" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="m-support" d="M0,0 L10,5 L0,10 z"/></marker>
           <marker id="arrow-conflict" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="m-conflict" d="M0,0 L10,5 L0,10 z"/></marker>
           <marker id="arrow-same_movement" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="m-same_movement" d="M0,0 L10,5 L0,10 z"/></marker>
@@ -47,7 +48,8 @@
         <li><span class="swatch e-parent_child"></span>親子</li>
         <li><span class="swatch e-mentor_student"></span>先生と弟子</li>
         <li><span class="swatch e-admiration"></span>敬愛</li>
-        <li><span class="swatch e-support"></span>才能を見出す</li>
+        <li><span class="swatch e-friendship"></span>友人・仲間</li>
+        <li><span class="swatch e-support"></span>後押し</li>
         <li><span class="swatch e-conflict"></span>対立</li>
         <li><span class="swatch e-same_movement"></span>同じ立場</li>
     </ul>
@@ -55,27 +57,56 @@
     <section>
       <h2>漱石・芥川・太宰・川端をめぐるつながり</h2>
       <div class="chart-wrap">
-        <svg class="chart" viewBox="0 0 780 520" role="img" aria-labelledby="chart-main-title">
+        <svg class="chart" viewBox="0 0 870 520" role="img" aria-labelledby="chart-main-title">
           <title id="chart-main-title">夏目漱石・芥川龍之介・太宰治・川端康成を中心とした人物相関図</title>
-          <line class="edge e-same_movement" x1="325" y1="60" x2="535" y2="60"/>
-          <a class="word" href="glossary.html#term-anti-naturalism"><text class="elabel elink" x="430" y="50">ともに反自然主義</text></a>
-          <line class="edge e-mentor_student" x1="260" y1="86" x2="260" y2="174" marker-end="url(#arrow-mentor_student)"/>
-          <text class="elabel" x="260" y="135">師弟</text>
-          <line class="edge e-admiration" x1="260" y1="314" x2="260" y2="226" marker-end="url(#arrow-admiration)"/>
-          <a class="word" href="glossary.html#term-keiai"><text class="elabel elink" x="260" y="275">敬愛</text></a>
-          <line class="edge e-conflict" x1="325" y1="340" x2="535" y2="340"/>
-          <text class="elabel" x="430" y="330">芥川賞をめぐる確執</text>
-          <line class="edge e-support" x1="600" y1="366" x2="600" y2="444" marker-end="url(#arrow-support)"/>
-          <text class="elabel" x="600" y="410">才能を見出す</text>
-          <line class="edge e-parent_child" x1="260" y1="366" x2="260" y2="444" marker-end="url(#arrow-parent_child)"/>
-          <text class="elabel" x="260" y="410">父と娘</text>
-          <a href="authors.html#natsume-soseki"><rect class="node" x="201" y="40" width="118" height="40" rx="8"/><text class="nlabel" x="260" y="66">夏目漱石</text></a>
-          <a href="authors.html#mori-ogai"><rect class="node" x="541" y="40" width="118" height="40" rx="8"/><text class="nlabel" x="600" y="66">森鷗外</text></a>
-          <a href="authors.html#akutagawa-ryunosuke"><rect class="node" x="201" y="180" width="118" height="40" rx="8"/><text class="nlabel" x="260" y="206">芥川龍之介</text></a>
-          <a href="authors.html#dazai-osamu"><rect class="node" x="201" y="320" width="118" height="40" rx="8"/><text class="nlabel" x="260" y="346">太宰治</text></a>
-          <a href="authors.html#kawabata-yasunari"><rect class="node" x="541" y="320" width="118" height="40" rx="8"/><text class="nlabel" x="600" y="346">川端康成</text></a>
-          <a href="authors.html#tsushima-yuko"><rect class="node" x="201" y="450" width="118" height="40" rx="8"/><text class="nlabel" x="260" y="476">津島佑子</text></a>
-          <a href="authors.html#mishima-yukio"><rect class="node" x="541" y="450" width="118" height="40" rx="8"/><text class="nlabel" x="600" y="476">三島由紀夫</text></a>
+          <line class="edge e-friendship" x1="305" y1="60" x2="175" y2="60"/>
+          <text class="elabel" x="240" y="50">親友</text>
+          <line class="edge e-same_movement" x1="435" y1="60" x2="615" y2="60"/>
+          <a class="word" href="glossary.html#term-anti-naturalism"><text class="elabel elink" x="525" y="50">ともに反自然主義</text></a>
+          <line class="edge e-mentor_student" x1="370" y1="86" x2="370" y2="174" marker-end="url(#arrow-mentor_student)"/>
+          <text class="elabel" x="370" y="135">師弟</text>
+          <line class="edge e-friendship" x1="175" y1="200" x2="305" y2="200"/>
+          <text class="elabel" x="240" y="190">友人</text>
+          <line class="edge e-admiration" x1="370" y1="314" x2="370" y2="226" marker-end="url(#arrow-admiration)"/>
+          <a class="word" href="glossary.html#term-keiai"><text class="elabel elink" x="370" y="275">敬愛</text></a>
+          <line class="edge e-friendship" x1="175" y1="340" x2="305" y2="340"/>
+          <a class="word" href="glossary.html#term-buraiha"><text class="elabel elink" x="240" y="330">無頼派の仲間</text></a>
+          <line class="edge e-conflict" x1="435" y1="340" x2="615" y2="340"/>
+          <text class="elabel" x="525" y="330">芥川賞をめぐる確執</text>
+          <line class="edge e-friendship" x1="699" y1="315" x2="771" y2="225"/>
+          <a class="word" href="glossary.html#term-shinkankakuha"><text class="elabel elink" x="735" y="275">新感覚派の仲間</text></a>
+          <line class="edge e-support" x1="680" y1="366" x2="680" y2="444" marker-end="url(#arrow-support)"/>
+          <text class="elabel" x="680" y="410">才能を見出す</text>
+          <line class="edge e-parent_child" x1="370" y1="366" x2="370" y2="444" marker-end="url(#arrow-parent_child)"/>
+          <text class="elabel" x="370" y="410">父と娘</text>
+          <a href="authors.html#masaoka-shiki"><rect class="node" x="51" y="40" width="118" height="40" rx="8"/><text class="nlabel" x="110" y="66">正岡子規</text></a>
+          <a href="authors.html#natsume-soseki"><rect class="node" x="311" y="40" width="118" height="40" rx="8"/><text class="nlabel" x="370" y="66">夏目漱石</text></a>
+          <a href="authors.html#mori-ogai"><rect class="node" x="621" y="40" width="118" height="40" rx="8"/><text class="nlabel" x="680" y="66">森鷗外</text></a>
+          <a href="authors.html#kikuchi-kan"><rect class="node" x="51" y="180" width="118" height="40" rx="8"/><text class="nlabel" x="110" y="206">菊池寛</text></a>
+          <a href="authors.html#akutagawa-ryunosuke"><rect class="node" x="311" y="180" width="118" height="40" rx="8"/><text class="nlabel" x="370" y="206">芥川龍之介</text></a>
+          <a href="authors.html#yokomitsu-riichi"><rect class="node" x="731" y="180" width="118" height="40" rx="8"/><text class="nlabel" x="790" y="206">横光利一</text></a>
+          <a href="authors.html#sakaguchi-ango"><rect class="node" x="51" y="320" width="118" height="40" rx="8"/><text class="nlabel" x="110" y="346">坂口安吾</text></a>
+          <a href="authors.html#dazai-osamu"><rect class="node" x="311" y="320" width="118" height="40" rx="8"/><text class="nlabel" x="370" y="346">太宰治</text></a>
+          <a href="authors.html#kawabata-yasunari"><rect class="node" x="621" y="320" width="118" height="40" rx="8"/><text class="nlabel" x="680" y="346">川端康成</text></a>
+          <a href="authors.html#tsushima-yuko"><rect class="node" x="311" y="450" width="118" height="40" rx="8"/><text class="nlabel" x="370" y="476">津島佑子</text></a>
+          <a href="authors.html#mishima-yukio"><rect class="node" x="621" y="450" width="118" height="40" rx="8"/><text class="nlabel" x="680" y="476">三島由紀夫</text></a>
+        </svg>
+      </div>
+    </section>
+
+    <section>
+      <h2>文学の考え方・グループのつながり</h2>
+      <div class="chart-wrap">
+        <svg class="chart" viewBox="0 0 870 230" role="img" aria-labelledby="chart-group-title">
+          <title id="chart-group-title">坪内逍遥と二葉亭四迷、志賀直哉と武者小路実篤の人物相関図</title>
+          <line class="edge e-support" x1="200" y1="76" x2="200" y2="154" marker-end="url(#arrow-support)"/>
+          <text class="elabel" x="200" y="120">助言・後押し</text>
+          <line class="edge e-friendship" x1="560" y1="76" x2="560" y2="154"/>
+          <a class="word" href="glossary.html#term-shirakaba"><text class="elabel elink" x="560" y="120">白樺派の仲間</text></a>
+          <a href="authors.html#tsubouchi-shoyo"><rect class="node" x="141" y="30" width="118" height="40" rx="8"/><text class="nlabel" x="200" y="56">坪内逍遥</text></a>
+          <a href="authors.html#futabatei-shimei"><rect class="node" x="141" y="160" width="118" height="40" rx="8"/><text class="nlabel" x="200" y="186">二葉亭四迷</text></a>
+          <a href="authors.html#shiga-naoya"><rect class="node" x="501" y="30" width="118" height="40" rx="8"/><text class="nlabel" x="560" y="56">志賀直哉</text></a>
+          <a href="authors.html#musha-no-koji-saneatsu"><rect class="node" x="501" y="160" width="118" height="40" rx="8"/><text class="nlabel" x="560" y="186">武者小路実篤</text></a>
         </svg>
       </div>
     </section>
@@ -83,12 +114,19 @@
     <section>
       <h2>俳人・歌人のつながり</h2>
       <div class="chart-wrap">
-        <svg class="chart" viewBox="0 0 780 110" role="img" aria-labelledby="chart-poet-title">
-          <title id="chart-poet-title">良寛と松尾芭蕉の人物相関図</title>
-          <line class="edge e-admiration" x1="535" y1="55" x2="325" y2="55" marker-end="url(#arrow-admiration)"/>
-          <a class="word" href="glossary.html#term-keiai"><text class="elabel elink" x="430" y="45">敬愛</text></a>
-          <a href="authors.html#ryokan"><rect class="node" x="541" y="35" width="118" height="40" rx="8"/><text class="nlabel" x="600" y="61">良寛</text></a>
-          <a href="authors.html#matsuo-basho"><rect class="node" x="201" y="35" width="118" height="40" rx="8"/><text class="nlabel" x="260" y="61">松尾芭蕉</text></a>
+        <svg class="chart" viewBox="0 0 870 230" role="img" aria-labelledby="chart-poet-title">
+          <title id="chart-poet-title">良寛と松尾芭蕉、荻原井泉水と種田山頭火・尾崎放哉の人物相関図</title>
+          <line class="edge e-admiration" x1="355" y1="50" x2="195" y2="50" marker-end="url(#arrow-admiration)"/>
+          <a class="word" href="glossary.html#term-keiai"><text class="elabel elink" x="275" y="40">敬愛</text></a>
+          <line class="edge e-mentor_student" x1="671" y1="75" x2="609" y2="155" marker-end="url(#arrow-mentor_student)"/>
+          <text class="elabel" x="640" y="120">師弟</text>
+          <line class="edge e-mentor_student" x1="709" y1="75" x2="771" y2="155" marker-end="url(#arrow-mentor_student)"/>
+          <text class="elabel" x="740" y="120">師弟</text>
+          <a href="authors.html#matsuo-basho"><rect class="node" x="71" y="30" width="118" height="40" rx="8"/><text class="nlabel" x="130" y="56">松尾芭蕉</text></a>
+          <a href="authors.html#ryokan"><rect class="node" x="361" y="30" width="118" height="40" rx="8"/><text class="nlabel" x="420" y="56">良寛</text></a>
+          <a href="authors.html#ogiwara-seisensui"><rect class="node" x="631" y="30" width="118" height="40" rx="8"/><text class="nlabel" x="690" y="56">荻原井泉水</text></a>
+          <a href="authors.html#taneda-santoka"><rect class="node" x="531" y="160" width="118" height="40" rx="8"/><text class="nlabel" x="590" y="186">種田山頭火</text></a>
+          <a href="authors.html#ozaki-hosai"><rect class="node" x="731" y="160" width="118" height="40" rx="8"/><text class="nlabel" x="790" y="186">尾崎放哉</text></a>
         </svg>
       </div>
     </section>
@@ -102,15 +140,26 @@
       <h3>先生と弟子</h3>
       <ul class="list rel-list">
           <li><strong><a href="authors.html#natsume-soseki">夏目漱石</a> → <a href="authors.html#akutagawa-ryunosuke">芥川龍之介</a></strong><span class="tag">師弟</span>芥川は、漱石の家で開かれていた弟子たちの集まり（木曜会）に通っていた。芥川の『鼻』を漱石が手紙で大絶賛し、芥川が作家として認められるきっかけになった。</li>
+          <li><strong><a href="authors.html#ogiwara-seisensui">荻原井泉水</a> → <a href="authors.html#taneda-santoka">種田山頭火</a></strong><span class="tag">師弟</span>山頭火は井泉水の<a class="word" href="glossary.html#term-haiku">俳句</a>雑誌『層雲』に参加し、井泉水を先生として<a class="word" href="glossary.html#term-jiyuritsu">自由律俳句</a>をよんだ。</li>
+          <li><strong><a href="authors.html#ogiwara-seisensui">荻原井泉水</a> → <a href="authors.html#ozaki-hosai">尾崎放哉</a></strong><span class="tag">師弟</span>放哉は井泉水の『層雲』に句をよせた。晩年に小豆島で暮らす場所も、井泉水の助けで見つかった。</li>
       </ul>
       <h3>敬愛</h3>
       <ul class="list rel-list">
           <li><strong><a href="authors.html#dazai-osamu">太宰治</a> → <a href="authors.html#akutagawa-ryunosuke">芥川龍之介</a></strong><span class="tag">敬愛</span>太宰は中学・高校時代から芥川にあこがれていた。ノートに芥川の名前を何度も書いたという話が残り、芥川が亡くなったときには大きなショックを受けたといわれる。</li>
           <li><strong><a href="authors.html#ryokan">良寛</a> → <a href="authors.html#matsuo-basho">松尾芭蕉</a></strong><span class="tag">敬愛</span>良寛は、自分より前の時代の<a class="word" href="glossary.html#term-haijin">俳人</a>である芭蕉を深く尊敬していたとされる。芭蕉の姿をたたえる詩（<a class="word" href="glossary.html#term-kanshi">漢詩</a>）を残したともいわれる。</li>
       </ul>
-      <h3>才能を見出す</h3>
+      <h3>友人・仲間</h3>
+      <ul class="list rel-list">
+          <li><strong><a href="authors.html#natsume-soseki">夏目漱石</a> ・ <a href="authors.html#masaoka-shiki">正岡子規</a></strong><span class="tag">親友</span>二人は学生時代からの親友。漱石は子規から<a class="word" href="glossary.html#term-haiku">俳句</a>を教わった。漱石の『吾輩は猫である』は、子規の仲間がつくった俳句雑誌『ホトトギス』にのった。</li>
+          <li><strong><a href="authors.html#kikuchi-kan">菊池寛</a> ・ <a href="authors.html#akutagawa-ryunosuke">芥川龍之介</a></strong><span class="tag">友人</span>二人は学生時代からの友人で、<a class="word" href="glossary.html#term-dojinshi">同人誌</a>『新思潮』の仲間だった。芥川が亡くなったあと、菊池は友人の名前を残すため<a class="word" href="glossary.html#term-prize">芥川賞</a>をつくった。</li>
+          <li><strong><a href="authors.html#kawabata-yasunari">川端康成</a> ・ <a href="authors.html#yokomitsu-riichi">横光利一</a></strong><span class="tag">新感覚派の仲間</span>二人はいっしょに雑誌『文芸時代』をつくり、<a class="word" href="glossary.html#term-shinkankakuha">新感覚派</a>の中心として活躍した親しい友人。</li>
+          <li><strong><a href="authors.html#shiga-naoya">志賀直哉</a> ・ <a href="authors.html#musha-no-koji-saneatsu">武者小路実篤</a></strong><span class="tag">白樺派の仲間</span>二人は学習院時代からの友人で、いっしょに雑誌『白樺』をつくった。</li>
+          <li><strong><a href="authors.html#sakaguchi-ango">坂口安吾</a> ・ <a href="authors.html#dazai-osamu">太宰治</a></strong><span class="tag">無頼派の仲間</span>ともに<a class="word" href="glossary.html#term-buraiha">無頼派</a>とよばれた仲間で、戦争のあと、織田作之助をまじえた三人で話し合ったこともある。太宰が亡くなったあと、坂口は太宰について書いた文章「不良少年とキリスト」を発表した。</li>
+      </ul>
+      <h3>後押し</h3>
       <ul class="list rel-list">
           <li><strong><a href="authors.html#kawabata-yasunari">川端康成</a> → <a href="authors.html#mishima-yukio">三島由紀夫</a></strong><span class="tag">才能を見出す</span>川端は若い三島の才能を認め、戦争のあと三島の作品が雑誌にのるよう後押しした。二人の付き合いはその後も長く続いた。</li>
+          <li><strong><a href="authors.html#tsubouchi-shoyo">坪内逍遥</a> → <a href="authors.html#futabatei-shimei">二葉亭四迷</a></strong><span class="tag">助言・後押し</span>二葉亭は逍遥の『小説神髄』に刺激を受け、逍遥の助言を受けながら『浮雲』を書いた。</li>
       </ul>
       <h3>対立</h3>
       <ul class="list rel-list">
