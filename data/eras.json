@@ -1,8 +1,0 @@
-[
-  { "id": "edo", "name": "江戸時代", "start_year": 1603, "end_year": 1868, "summary": "町人の文化が育ち、俳諧（松尾芭蕉）、浮世草子、読本などが生まれた時代。" },
-  { "id": "meiji", "name": "明治時代", "start_year": 1868, "end_year": 1912, "summary": "西洋の文学が紹介され、写実主義・浪漫主義・自然主義など近代文学の流れが次々に生まれた時代。" },
-  { "id": "taisho", "name": "大正時代", "start_year": 1912, "end_year": 1926, "summary": "白樺派や新思潮派が活躍し、個性や理知を重んじる文学が広がった時代。" },
-  { "id": "showa", "name": "昭和時代", "start_year": 1926, "end_year": 1989, "summary": "新感覚派、戦後の無頼派などが登場し、芥川賞・直木賞が創設された時代。" },
-  { "id": "heisei", "name": "平成時代", "start_year": 1989, "end_year": 2019, "summary": "多様な作家が活躍し、日本文学が世界でも広く読まれるようになった時代。" },
-  { "id": "reiwa", "name": "令和時代", "start_year": 2019, "end_year": null, "summary": "現在の時代。" }
-]

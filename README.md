@@ -1,37 +1,31 @@
 # 文学の系譜（仮称）
 
-作家・作品・時代・人物関係から、日本の文学史を**線と面で**学ぶ中学受験生向け学習サイトのリポジトリです。
+作家・作品・時代・人物関係から、日本の文学史を**線と面で**学ぶ中学受験生向け学習サイトです。
 
-> 文学者を「点」で覚えるのではなく、作品・時代・人物同士のつながり・文学的エピソード・文学用語を結び付けて理解し、応用できるようにすることを目指します。
+HTMLとCSSだけで作る静的サイトです。データベース、ビルド、JavaScriptは使いません。`index.html` をブラウザで開けばそのまま表示できます。
+
+## ファイル構成
+
+| ファイル | 内容 |
+|---|---|
+| `index.html` | トップページ（学習コンテンツ・今日の問題・つながりの例） |
+| `authors.html` | 作家一覧（時代別。プロフィール・代表作品・人物関係・出来事） |
+| `works.html` | 作品一覧（時代別。作者・発表年・ジャンル・あらすじ） |
+| `timeline.html` | 文学史年表（江戸〜現代） |
+| `relations.html` | 人物相関図（インラインSVG＋関係の説明） |
+| `glossary.html` | 文学用語集 |
+| `quiz.html` | 演習問題（`<details>` で答えと解説を表示） |
+| `style.css` | 共通スタイル（ライト／ダークモード対応） |
+| `docs/` | 企画・ページ構成・制作ルール・コンテンツ一覧 |
 
 ## ドキュメント
 
 | ファイル | 内容 |
 |---|---|
-| [docs/01_project-plan.md](docs/01_project-plan.md) | 企画方針・対象・学習カテゴリ・サイト構成・MVP・ロードマップ・課題一覧 |
-| [docs/02_data-model.md](docs/02_data-model.md) | データ設計（エンティティ・項目・ID規則・相互リンク・公開/内部の分離） |
+| [docs/01_project-plan.md](docs/01_project-plan.md) | 企画方針・学習カテゴリ・サイト構成・MVP・課題 |
+| [docs/02_site-structure.md](docs/02_site-structure.md) | ページ構成・アンカーIDの規則・記事の追加方法 |
 | [docs/03_content-guidelines.md](docs/03_content-guidelines.md) | 執筆・事実確認・著作権・人物関係の掲載基準 |
-| [docs/04_initial-content.md](docs/04_initial-content.md) | 初期掲載候補（作家・作品・用語）と作成状況 |
-
-## データ
-
-`data/` 以下に公開教材用のマスターデータ（JSON）を置きます。
-
-| ファイル | 内容 |
-|---|---|
-| `data/people.json` | 人物（作家・俳人・歌人・評論家など） |
-| `data/works.json` | 作品 |
-| `data/relationships.json` | 人物関係 |
-| `data/events.json` | 文学史上の出来事 |
-| `data/terms.json` | 文学用語 |
-| `data/eras.json` | 時代区分 |
-| `data/questions.json` | オリジナル問題 |
-
-整合性チェック：
-
-```sh
-node scripts/validate.mjs
-```
+| [docs/04_initial-content.md](docs/04_initial-content.md) | 掲載中のコンテンツ・要確認リスト・追加候補 |
 
 ## 公開情報と内部情報の分離（最重要ルール）
 
