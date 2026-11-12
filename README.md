@@ -31,6 +31,7 @@ HTMLとCSSだけで作る静的サイトです。データベース、ビルド�
 | [docs/03_content-guidelines.md](docs/03_content-guidelines.md) | 執筆・事実確認・著作権・人物関係の掲載基準 |
 | [docs/04_initial-content.md](docs/04_initial-content.md) | 掲載中のコンテンツ・要確認リスト・追加候補 |
 | [docs/05_photos.md](docs/05_photos.md) | 作家の写真（国立国会図書館「近代日本人の肖像」）と出典 |
+| [docs/06_design-rules.md](docs/06_design-rules.md) | 文字の大きさ・色・フォントの決まり |
 
 ## 公開情報と内部情報の分離（最重要ルール）
 
