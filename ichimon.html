@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@700&display=swap">
-  <link rel="stylesheet" href="style.css?v=20261112b">
+  <link rel="stylesheet" href="style.css?v=20261112e">
 </head>
 <body>
   <a class="skip" href="#main">本文へ移動</a>
@@ -37,19 +37,22 @@
       <h1>一問一答</h1>
     </div>
 
-    <nav class="toc" aria-label="問題の分類">
-      <div class="toc-row"><a class="toc-head" href="#c-work">作家と作品（56問）</a><span class="chips"><a href="#c-work-1">作品から作者を答える</a> <a href="#c-work-2">作家から作品を答える</a> <a href="#c-work-3">作品の種類を答える</a></span></div>
-      <div class="toc-row"><a class="toc-head" href="#c-profile">作家のプロフィール（81問）</a><span class="chips"><a href="#c-profile-1">本名</a> <a href="#c-profile-2">出身地</a> <a href="#c-profile-3">活躍した時代</a> <a href="#c-profile-4">人物の特徴</a></span></div>
-      <div class="toc-row"><a class="toc-head" href="#c-relation">作家どうしの関係（21問）</a><span class="chips"><a href="#c-relation-1">つながり</a></span></div>
-      <div class="toc-row"><a class="toc-head" href="#c-group">文学のグループ・考え方（25問）</a><span class="chips"><a href="#c-group-1">作家からグループを答える</a> <a href="#c-group-2">グループから作家を答える</a></span></div>
-      <div class="toc-row"><a class="toc-head" href="#c-event">文学史の出来事（11問）</a><span class="chips"><a href="#c-event-1">出来事</a></span></div>
-      <div class="toc-row"><a class="toc-head" href="#c-term">単語帳の言葉（46問）</a><span class="chips"><a href="#c-term-1">文学のグループ・考え方</a> <a href="#c-term-2">文学の種類</a> <a href="#c-term-3">詩のかたち</a> <a href="#c-term-4">文学の世界のことば</a></span></div>
-      <div class="toc-row"><a class="toc-head" href="#c-poem">詩歌（15問）</a><span class="chips"><a href="#c-poem-1">句・歌の作者</a> <a href="#c-poem-2">季語と季節</a> <a href="#c-poem-3">詩のかたちの流れ</a></span></div>
-      <div class="toc-row"><a class="toc-head" href="#c-foreign">海外の作家（43問）</a><span class="chips"><a href="#c-foreign-1">人物から国を答える</a> <a href="#c-foreign-2">作品から作者を答える</a> <a href="#c-foreign-3">文学者・思想家</a></span></div>
+    <p class="tabs-label" id="tabs-label">分類を選ぶ</p>
+    <nav class="tabs" aria-labelledby="tabs-label">
+      <a class="tab tab-c-work" href="#c-work">作家と作品</a>
+      <a class="tab tab-c-profile" href="#c-profile">作家のプロフィール</a>
+      <a class="tab tab-c-relation" href="#c-relation">作家どうしの関係</a>
+      <a class="tab tab-c-group" href="#c-group">文学のグループ・考え方</a>
+      <a class="tab tab-c-event" href="#c-event">文学史の出来事</a>
+      <a class="tab tab-c-term" href="#c-term">単語帳の言葉</a>
+      <a class="tab tab-c-poem" href="#c-poem">詩歌</a>
+      <a class="tab tab-c-foreign" href="#c-foreign">海外の作家</a>
     </nav>
+    <div class="panels">
 
-    <section class="group">
-      <h2 id="c-work">作家と作品</h2>
+    <section class="panel group" id="c-work">
+      <h2 class="visually-hidden">作家と作品</h2>
+      <ul class="word-index"><li><a href="#c-work-1">作品から作者を答える</a></li><li><a href="#c-work-2">作家から作品を答える</a></li><li><a href="#c-work-3">作品の種類を答える</a></li><li><span class="muted">56問</span></li></ul>
       <h3 id="c-work-1">作品から作者を答える</h3>
       <div class="qa-list">
       <details class="qa" id="iq-1">
@@ -444,8 +447,9 @@
       </div>
     </section>
 
-    <section class="group">
-      <h2 id="c-profile">作家のプロフィール</h2>
+    <section class="panel group" id="c-profile">
+      <h2 class="visually-hidden">作家のプロフィール</h2>
+      <ul class="word-index"><li><a href="#c-profile-1">本名</a></li><li><a href="#c-profile-2">出身地</a></li><li><a href="#c-profile-3">活躍した時代</a></li><li><a href="#c-profile-4">人物の特徴</a></li><li><span class="muted">81問</span></li></ul>
       <h3 id="c-profile-1">本名</h3>
       <div class="qa-list">
       <details class="qa" id="iq-57">
@@ -994,8 +998,9 @@
       </div>
     </section>
 
-    <section class="group">
-      <h2 id="c-relation">作家どうしの関係</h2>
+    <section class="panel group" id="c-relation">
+      <h2 class="visually-hidden">作家どうしの関係</h2>
+      <ul class="word-index"><li><a href="#c-relation-1">つながり</a></li><li><span class="muted">21問</span></li></ul>
       <h3 id="c-relation-1">つながり</h3>
       <div class="qa-list">
       <details class="qa" id="iq-138">
@@ -1023,7 +1028,7 @@
         <summary><span class="qno">Q141</span><span class="qtext">夏目漱石と並んで、「反自然主義」の文豪とよばれるのは？</span></summary>
         <div class="qa-body">
           <p class="answer">森鷗外</p>
-          <ul class="list"><li>二人に師弟などの直接の関係はない。明治の終わりに<a class="word" href="glossary.html#term-naturalism">自然主義</a>が大流行したとき、どちらもその流れに加わらず自分の道を進んだため、ともに「<a class="word" href="glossary.html#term-anti-naturalism">反自然主義</a>」の<a class="word" href="glossary.html#term-bungo">文豪</a>とよばれる。</li></ul>
+          <ul class="list"><li>二人は先生と弟子や、同じグループの仲間という関係ではない。明治の終わりに<a class="word" href="glossary.html#term-naturalism">自然主義</a>が大流行したとき、どちらもその流れに加わらず自分の道を進んだため、ともに「<a class="word" href="glossary.html#term-anti-naturalism">反自然主義</a>」の<a class="word" href="glossary.html#term-bungo">文豪</a>とよばれる。</li></ul>
         </div>
       </details>
       <details class="qa" id="iq-142">
@@ -1148,8 +1153,9 @@
       </div>
     </section>
 
-    <section class="group">
-      <h2 id="c-group">文学のグループ・考え方</h2>
+    <section class="panel group" id="c-group">
+      <h2 class="visually-hidden">文学のグループ・考え方</h2>
+      <ul class="word-index"><li><a href="#c-group-1">作家からグループを答える</a></li><li><a href="#c-group-2">グループから作家を答える</a></li><li><span class="muted">25問</span></li></ul>
       <h3 id="c-group-1">作家からグループを答える</h3>
       <div class="qa-list">
       <details class="qa" id="iq-159">
@@ -1308,8 +1314,9 @@
       </div>
     </section>
 
-    <section class="group">
-      <h2 id="c-event">文学史の出来事</h2>
+    <section class="panel group" id="c-event">
+      <h2 class="visually-hidden">文学史の出来事</h2>
+      <ul class="word-index"><li><a href="#c-event-1">出来事</a></li><li><span class="muted">11問</span></li></ul>
       <h3 id="c-event-1">出来事</h3>
       <div class="qa-list">
       <details class="qa" id="iq-184">
@@ -1392,8 +1399,9 @@
       </div>
     </section>
 
-    <section class="group">
-      <h2 id="c-term">単語帳の言葉</h2>
+    <section class="panel group" id="c-term">
+      <h2 class="visually-hidden">単語帳の言葉</h2>
+      <ul class="word-index"><li><a href="#c-term-1">文学のグループ・考え方</a></li><li><a href="#c-term-2">文学の種類</a></li><li><a href="#c-term-3">詩のかたち</a></li><li><a href="#c-term-4">文学の世界のことば</a></li><li><span class="muted">46問</span></li></ul>
       <h3 id="c-term-1">文学のグループ・考え方</h3>
       <div class="qa-list">
       <details class="qa" id="iq-195">
@@ -1730,8 +1738,9 @@
       </div>
     </section>
 
-    <section class="group">
-      <h2 id="c-poem">詩歌</h2>
+    <section class="panel group" id="c-poem">
+      <h2 class="visually-hidden">詩歌</h2>
+      <ul class="word-index"><li><a href="#c-poem-1">句・歌の作者</a></li><li><a href="#c-poem-2">季語と季節</a></li><li><a href="#c-poem-3">詩のかたちの流れ</a></li><li><span class="muted">15問</span></li></ul>
       <h3 id="c-poem-1">句・歌の作者</h3>
       <div class="qa-list">
       <details class="qa" id="iq-241">
@@ -1844,8 +1853,9 @@
       </div>
     </section>
 
-    <section class="group">
-      <h2 id="c-foreign">海外の作家</h2>
+    <section class="panel group" id="c-foreign">
+      <h2 class="visually-hidden">海外の作家</h2>
+      <ul class="word-index"><li><a href="#c-foreign-1">人物から国を答える</a></li><li><a href="#c-foreign-2">作品から作者を答える</a></li><li><a href="#c-foreign-3">文学者・思想家</a></li><li><span class="muted">43問</span></li></ul>
       <h3 id="c-foreign-1">人物から国を答える</h3>
       <div class="qa-list">
       <details class="qa" id="iq-256">
@@ -2155,6 +2165,7 @@
       </details>
       </div>
     </section>
+    </div>
   </main>
 
   <footer class="site-footer">

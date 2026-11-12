@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@700&display=swap">
-  <link rel="stylesheet" href="style.css?v=20261112b">
+  <link rel="stylesheet" href="style.css?v=20261112e">
 </head>
 <body>
   <a class="skip" href="#main">本文へ移動</a>
@@ -37,16 +37,19 @@
       <h1>作家一覧</h1>
     </div>
 
-    <nav class="toc" aria-label="時代別の目次">
-      <div class="toc-row"><a class="toc-head" href="#g-edo">江戸時代</a><span class="chips"><a href="#matsuo-basho">松尾芭蕉</a> <a href="#ryokan">良寛</a></span></div>
-      <div class="toc-row"><a class="toc-head" href="#g-meiji">明治時代</a><span class="chips"><a href="#tsubouchi-shoyo">坪内逍遥</a> <a href="#futabatei-shimei">二葉亭四迷</a> <a href="#mori-ogai">森鷗外</a> <a href="#natsume-soseki">夏目漱石</a> <a href="#masaoka-shiki">正岡子規</a> <a href="#shimazaki-toson">島崎藤村</a> <a href="#tayama-katai">田山花袋</a> <a href="#yosano-akiko">与謝野晶子</a></span></div>
-      <div class="toc-row"><a class="toc-head" href="#g-taisho">大正時代</a><span class="chips"><a href="#shiga-naoya">志賀直哉</a> <a href="#musha-no-koji-saneatsu">武者小路実篤</a> <a href="#kikuchi-kan">菊池寛</a> <a href="#akutagawa-ryunosuke">芥川龍之介</a> <a href="#ogiwara-seisensui">荻原井泉水</a> <a href="#taneda-santoka">種田山頭火</a> <a href="#ozaki-hosai">尾崎放哉</a></span></div>
-      <div class="toc-row"><a class="toc-head" href="#g-showa">昭和時代</a><span class="chips"><a href="#yokomitsu-riichi">横光利一</a> <a href="#kawabata-yasunari">川端康成</a> <a href="#sakaguchi-ango">坂口安吾</a> <a href="#dazai-osamu">太宰治</a> <a href="#mishima-yukio">三島由紀夫</a></span></div>
-      <div class="toc-row"><a class="toc-head" href="#g-modern">昭和の終わり〜平成</a><span class="chips"><a href="#tsushima-yuko">津島佑子</a></span></div>
+    <p class="tabs-label" id="tabs-label">時代を選ぶ</p>
+    <nav class="tabs" aria-labelledby="tabs-label">
+      <a class="tab tab-g-edo" href="#g-edo">江戸時代</a>
+      <a class="tab tab-g-meiji" href="#g-meiji">明治時代</a>
+      <a class="tab tab-g-taisho" href="#g-taisho">大正時代</a>
+      <a class="tab tab-g-showa" href="#g-showa">昭和時代</a>
+      <a class="tab tab-g-modern" href="#g-modern">昭和の終わり〜平成</a>
     </nav>
+    <div class="panels">
 
-    <section class="group" aria-labelledby="g-edo">
-      <h2 id="g-edo">江戸時代</h2>
+    <section class="panel" id="g-edo">
+      <h2 class="visually-hidden">江戸時代</h2>
+      <ul class="word-index"><li><a href="#matsuo-basho">松尾芭蕉</a></li><li><a href="#ryokan">良寛</a></li></ul>
 
       <article class="card person" id="matsuo-basho">
         <div class="person-head">
@@ -116,8 +119,9 @@
       </article>
     </section>
 
-    <section class="group" aria-labelledby="g-meiji">
-      <h2 id="g-meiji">明治時代</h2>
+    <section class="panel" id="g-meiji">
+      <h2 class="visually-hidden">明治時代</h2>
+      <ul class="word-index"><li><a href="#tsubouchi-shoyo">坪内逍遥</a></li><li><a href="#futabatei-shimei">二葉亭四迷</a></li><li><a href="#mori-ogai">森鷗外</a></li><li><a href="#natsume-soseki">夏目漱石</a></li><li><a href="#masaoka-shiki">正岡子規</a></li><li><a href="#shimazaki-toson">島崎藤村</a></li><li><a href="#tayama-katai">田山花袋</a></li><li><a href="#yosano-akiko">与謝野晶子</a></li></ul>
 
       <article class="card person" id="tsubouchi-shoyo">
         <div class="person-head">
@@ -215,7 +219,7 @@
         </ul>
         <h4>つながりのある人物</h4>
         <ul class="list rel-list">
-          <li><strong><a href="authors.html#natsume-soseki">夏目漱石</a></strong><span class="tag">ともに反自然主義</span>二人に師弟などの直接の関係はない。明治の終わりに<a class="word" href="glossary.html#term-naturalism">自然主義</a>が大流行したとき、どちらもその流れに加わらず自分の道を進んだため、ともに「<a class="word" href="glossary.html#term-anti-naturalism">反自然主義</a>」の<a class="word" href="glossary.html#term-bungo">文豪</a>とよばれる。</li>
+          <li><strong><a href="authors.html#natsume-soseki">夏目漱石</a></strong><span class="tag">ともに反自然主義</span>二人は先生と弟子や、同じグループの仲間という関係ではない。明治の終わりに<a class="word" href="glossary.html#term-naturalism">自然主義</a>が大流行したとき、どちらもその流れに加わらず自分の道を進んだため、ともに「<a class="word" href="glossary.html#term-anti-naturalism">反自然主義</a>」の<a class="word" href="glossary.html#term-bungo">文豪</a>とよばれる。</li>
         </ul>
       </article>
 
@@ -260,7 +264,7 @@
         <ul class="list rel-list">
           <li><strong><a href="authors.html#akutagawa-ryunosuke">芥川龍之介</a></strong><span class="tag">師弟</span>芥川は、漱石の家で開かれていた弟子たちの集まり（木曜会）に通っていた。芥川の『鼻』を漱石が手紙で大絶賛し、芥川が作家として認められるきっかけになった。</li>
           <li><strong><a href="authors.html#masaoka-shiki">正岡子規</a></strong><span class="tag">親友</span>二人は学生時代からの親友。漱石は<a class="person" href="authors.html#masaoka-shiki">子規</a>から<a class="word" href="glossary.html#term-haiku">俳句</a>を教わった。漱石の『吾輩は猫である』は、子規の仲間がつくった俳句雑誌『ホトトギス』にのった。</li>
-          <li><strong><a href="authors.html#mori-ogai">森鷗外</a></strong><span class="tag">ともに反自然主義</span>二人に師弟などの直接の関係はない。明治の終わりに<a class="word" href="glossary.html#term-naturalism">自然主義</a>が大流行したとき、どちらもその流れに加わらず自分の道を進んだため、ともに「<a class="word" href="glossary.html#term-anti-naturalism">反自然主義</a>」の<a class="word" href="glossary.html#term-bungo">文豪</a>とよばれる。</li>
+          <li><strong><a href="authors.html#mori-ogai">森鷗外</a></strong><span class="tag">ともに反自然主義</span>二人は先生と弟子や、同じグループの仲間という関係ではない。明治の終わりに<a class="word" href="glossary.html#term-naturalism">自然主義</a>が大流行したとき、どちらもその流れに加わらず自分の道を進んだため、ともに「<a class="word" href="glossary.html#term-anti-naturalism">反自然主義</a>」の<a class="word" href="glossary.html#term-bungo">文豪</a>とよばれる。</li>
         </ul>
         <h4>文学史の出来事</h4>
         <ul class="list">
@@ -399,8 +403,9 @@
       </article>
     </section>
 
-    <section class="group" aria-labelledby="g-taisho">
-      <h2 id="g-taisho">大正時代</h2>
+    <section class="panel" id="g-taisho">
+      <h2 class="visually-hidden">大正時代</h2>
+      <ul class="word-index"><li><a href="#shiga-naoya">志賀直哉</a></li><li><a href="#musha-no-koji-saneatsu">武者小路実篤</a></li><li><a href="#kikuchi-kan">菊池寛</a></li><li><a href="#akutagawa-ryunosuke">芥川龍之介</a></li><li><a href="#ogiwara-seisensui">荻原井泉水</a></li><li><a href="#taneda-santoka">種田山頭火</a></li><li><a href="#ozaki-hosai">尾崎放哉</a></li></ul>
 
       <article class="card person" id="shiga-naoya">
         <div class="person-head">
@@ -644,8 +649,9 @@
       </article>
     </section>
 
-    <section class="group" aria-labelledby="g-showa">
-      <h2 id="g-showa">昭和時代</h2>
+    <section class="panel" id="g-showa">
+      <h2 class="visually-hidden">昭和時代</h2>
+      <ul class="word-index"><li><a href="#yokomitsu-riichi">横光利一</a></li><li><a href="#kawabata-yasunari">川端康成</a></li><li><a href="#sakaguchi-ango">坂口安吾</a></li><li><a href="#dazai-osamu">太宰治</a></li><li><a href="#mishima-yukio">三島由紀夫</a></li></ul>
 
       <article class="card person" id="yokomitsu-riichi">
         <div class="person-head">
@@ -835,8 +841,9 @@
       </article>
     </section>
 
-    <section class="group" aria-labelledby="g-modern">
-      <h2 id="g-modern">昭和の終わり〜平成</h2>
+    <section class="panel" id="g-modern">
+      <h2 class="visually-hidden">昭和の終わり〜平成</h2>
+      <ul class="word-index"><li><a href="#tsushima-yuko">津島佑子</a></li></ul>
 
       <article class="card person" id="tsushima-yuko">
         <div class="person-head">
@@ -869,6 +876,7 @@
         </ul>
       </article>
     </section>
+    </div>
 
     <section class="group" id="photo-credits">
       <h2>写真について</h2>

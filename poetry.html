@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@700&display=swap">
-  <link rel="stylesheet" href="style.css?v=20261112b">
+  <link rel="stylesheet" href="style.css?v=20261112e">
 </head>
 <body>
   <a class="skip" href="#main">本文へ移動</a>
@@ -36,9 +36,16 @@
     <div class="page-head">
       <h1>詩歌</h1>
     </div>
-
-    <section>
-      <h2>詩のかたちをくらべよう</h2>
+    <p class="tabs-label" id="tabs-label">内容を選ぶ</p>
+    <nav class="tabs" aria-labelledby="tabs-label">
+      <a class="tab tab-pf-compare" href="#pf-compare">詩のかたちをくらべる</a>
+      <a class="tab tab-pf-flow" href="#pf-flow">詩のかたちの流れ</a>
+      <a class="tab tab-pf-poems" href="#pf-poems">有名な句と歌</a>
+      <a class="tab tab-pf-poets" href="#pf-poets">俳人・歌人のつながり</a>
+    </nav>
+    <div class="panels">
+    <section class="panel" id="pf-compare">
+      <h2 class="visually-hidden">詩のかたちをくらべよう</h2>
       <div class="table-wrap">
         <table class="compare stack">
           <thead><tr><th scope="col">かたち</th><th scope="col">音の数</th><th scope="col">季語</th><th scope="col">とくちょう</th><th scope="col">代表的な人</th></tr></thead>
@@ -54,8 +61,8 @@
       </div>
     </section>
 
-    <section>
-      <h2>詩のかたちの流れ</h2>
+    <section class="panel" id="pf-flow">
+      <h2 class="visually-hidden">詩のかたちの流れ</h2>
       <ol class="timeline">
         <li><span class="year">奈良時代</span><div>『万葉集』に、たくさんの<a class="word" href="glossary.html#term-waka">和歌</a>が集められる</div></li>
         <li><span class="year">鎌倉〜室町時代</span><div>何人かで句をつなげる<a class="word" href="glossary.html#term-renga">連歌</a>がさかんになる</div></li>
@@ -65,8 +72,8 @@
       </ol>
     </section>
 
-    <section>
-      <h2>有名な句と歌</h2>
+    <section class="panel" id="pf-poems">
+      <h2 class="visually-hidden">有名な句と歌</h2>
       <p class="muted">作者が亡くなって長い年月がたった作品だけを、学習のためにのせています。</p>
       <!-- 要確認: 句・歌の表記（旧かなづかい・漢字）を出典で確認する。 -->
       <article class="card poem">
@@ -113,12 +120,13 @@
       </article>
     </section>
 
-    <section>
-      <h2>俳人・歌人のつながり</h2>
+    <section class="panel" id="pf-poets">
+      <h2 class="visually-hidden">俳人・歌人のつながり</h2>
       <div class="card">
         <p><a href="authors.html#ryokan">良寛</a>（江戸時代の後半）は、自分より前の時代の俳人である<a href="authors.html#matsuo-basho">松尾芭蕉</a>（江戸時代の前半）を深く<a class="word" href="glossary.html#term-keiai">敬愛</a>していたとされます。また、自由律俳句の<a href="authors.html#taneda-santoka">種田山頭火</a>と<a href="authors.html#ozaki-hosai">尾崎放哉</a>は、どちらも<a href="authors.html#ogiwara-seisensui">荻原井泉水</a>を先生として学びました。人と人とのつながりは、<a href="relations.html">人物相関図</a>でも確かめられます。</p>
       </div>
     </section>
+    </div>
   </main>
 
   <footer class="site-footer">

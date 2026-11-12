@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@700&display=swap">
-  <link rel="stylesheet" href="style.css?v=20261112b">
+  <link rel="stylesheet" href="style.css?v=20261112e">
 </head>
 <body>
   <a class="skip" href="#main">本文へ移動</a>
@@ -37,12 +37,19 @@
       <h1>作品一覧</h1>
     </div>
 
-    <nav class="toc" aria-label="時代別の目次">
-      <div class="toc-row"><span class="chips"><a href="#w-edo">江戸時代</a> <a href="#w-meiji">明治時代</a> <a href="#w-taisho">大正時代</a> <a href="#w-showa">昭和時代</a> <a href="#w-heisei">平成時代</a></span></div>
+    <p class="tabs-label" id="tabs-label">時代を選ぶ</p>
+    <nav class="tabs" aria-labelledby="tabs-label">
+      <a class="tab tab-w-edo" href="#w-edo">江戸時代</a>
+      <a class="tab tab-w-meiji" href="#w-meiji">明治時代</a>
+      <a class="tab tab-w-taisho" href="#w-taisho">大正時代</a>
+      <a class="tab tab-w-showa" href="#w-showa">昭和時代</a>
+      <a class="tab tab-w-heisei" href="#w-heisei">平成時代</a>
     </nav>
+    <div class="panels">
 
-    <section class="group">
-      <h2 id="w-edo">江戸時代</h2>
+    <section class="panel" id="w-edo">
+      <h2 class="visually-hidden">江戸時代</h2>
+      <ul class="word-index"><li><a href="#oku-no-hosomichi">『おくのほそ道（奥の細道）』</a></li></ul>
       <article class="card work" id="oku-no-hosomichi">
         <h3>『おくのほそ道（奥の細道）』<span class="kana">おくのほそみち</span></h3>
         <p class="meta">作者：<a href="authors.html#matsuo-basho">松尾芭蕉</a>　／　発表：1702年（旅をしたのは1689年。本になったのは<a class="person" href="authors.html#matsuo-basho">芭蕉</a>が亡くなったあとの1702年）　／　<a class="word" href="glossary.html#term-kikobun">紀行文</a></p>
@@ -51,8 +58,9 @@
       </article>
     </section>
 
-    <section class="group">
-      <h2 id="w-meiji">明治時代</h2>
+    <section class="panel" id="w-meiji">
+      <h2 class="visually-hidden">明治時代</h2>
+      <ul class="word-index"><li><a href="#shosetsu-shinzui">『小説神髄』</a></li><li><a href="#ukigumo">『浮雲』</a></li><li><a href="#maihime">『舞姫』</a></li><li><a href="#wakanashu">『若菜集』</a></li><li><a href="#midaregami">『みだれ髪』</a></li><li><a href="#byosho-rokushaku">『病牀六尺』</a></li><li><a href="#wagahai-wa-neko-dearu">『吾輩は猫である』</a></li><li><a href="#botchan">『坊っちゃん』</a></li><li><a href="#hakai">『破戒』</a></li><li><a href="#futon">『蒲団』</a></li><li><a href="#sanshiro">『三四郎』</a></li><li><a href="#yume-juya">『夢十夜』</a></li><li><a href="#sorekara">『それから』</a></li><li><a href="#mon">『門』</a></li></ul>
       <article class="card work" id="shosetsu-shinzui">
         <h3>『小説神髄』<span class="kana">しょうせつしんずい</span></h3>
         <p class="meta">作者：<a href="authors.html#tsubouchi-shoyo">坪内逍遥</a>　／　発表：1885年（1885〜1886年に出版）　／　<a class="word" href="glossary.html#term-hyoron">評論</a></p>
@@ -135,8 +143,9 @@
       </article>
     </section>
 
-    <section class="group">
-      <h2 id="w-taisho">大正時代</h2>
+    <section class="panel" id="w-taisho">
+      <h2 class="visually-hidden">大正時代</h2>
+      <ul class="word-index"><li><a href="#higan-sugi-made">『彼岸過迄』</a></li><li><a href="#kojin">『行人』</a></li><li><a href="#kokoro">『こころ』</a></li><li><a href="#rashomon">『羅生門』</a></li><li><a href="#takasebune">『高瀬舟』</a></li><li><a href="#hana">『鼻』</a></li><li><a href="#meian">『明暗』</a></li><li><a href="#kinosaki-nite">『城の崎にて』</a></li><li><a href="#chichi-kaeru">『父帰る』</a></li><li><a href="#kumo-no-ito">『蜘蛛の糸』</a></li><li><a href="#yujo">『友情』</a></li><li><a href="#anya-koro">『暗夜行路』</a></li></ul>
       <article class="card work" id="higan-sugi-made">
         <h3>『彼岸過迄』<span class="kana">ひがんすぎまで</span></h3>
         <p class="meta">作者：<a href="authors.html#natsume-soseki">夏目漱石</a>　／　発表：1912年（新聞に<a class="word" href="glossary.html#term-rensai">連載</a>）　／　<a class="word" href="glossary.html#term-length">長編小説</a></p>
@@ -205,8 +214,9 @@
       </article>
     </section>
 
-    <section class="group">
-      <h2 id="w-showa">昭和時代</h2>
+    <section class="panel" id="w-showa">
+      <h2 class="visually-hidden">昭和時代</h2>
+      <ul class="word-index"><li><a href="#izu-no-odoriko">『伊豆の踊子』</a></li><li><a href="#kikai">『機械』</a></li><li><a href="#yukiguni">『雪国』</a></li><li><a href="#hashire-merosu">『走れメロス』</a></li><li><a href="#darakuron">『堕落論』</a></li><li><a href="#shayo">『斜陽』</a></li><li><a href="#ningen-shikkaku">『人間失格』</a></li><li><a href="#kinkakuji">『金閣寺』</a></li><li><a href="#koto">『古都』</a></li><li><a href="#hojo-no-umi">『豊饒の海』</a></li></ul>
       <article class="card work" id="izu-no-odoriko">
         <h3>『伊豆の踊子』<span class="kana">いずのおどりこ</span></h3>
         <p class="meta">作者：<a href="authors.html#kawabata-yasunari">川端康成</a>　／　発表：1926年（雑誌『文芸時代』に発表）　／　<a class="word" href="glossary.html#term-length">短編小説</a></p>
@@ -262,8 +272,9 @@
       </article>
     </section>
 
-    <section class="group">
-      <h2 id="w-heisei">平成時代</h2>
+    <section class="panel" id="w-heisei">
+      <h2 class="visually-hidden">平成時代</h2>
+      <ul class="word-index"><li><a href="#tori-no-namida">『鳥の涙』</a></li></ul>
       <article class="card work" id="tori-no-namida">
         <!-- 要確認: 初出年・収録書・あらすじを確認してから執筆する。 -->
         <h3>『鳥の涙』<span class="kana">とりのなみだ</span></h3>
@@ -271,6 +282,7 @@
         <p><span class="muted">あらすじは準備中です。</span></p>
       </article>
     </section>
+    </div>
   </main>
 
   <footer class="site-footer">

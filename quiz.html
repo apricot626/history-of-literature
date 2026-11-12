@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>演習問題｜中学受験の文学史</title>
-  <meta name="description" content="出題パターン別のオリジナル演習問題（22問）。必要な知識・考え方・覚えておくことつき。">
+  <meta name="description" content="出題パターン別のオリジナル演習問題（80問）。必要な知識・考え方・覚えておくことつき。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@700&display=swap">
-  <link rel="stylesheet" href="style.css?v=20261112b">
+  <link rel="stylesheet" href="style.css?v=20261112e">
 </head>
 <body>
   <a class="skip" href="#main">本文へ移動</a>
@@ -37,22 +37,23 @@
       <h1>演習問題</h1>
     </div>
 
-    <nav class="toc" aria-label="出題パターン">
-      <div class="toc-row"><a class="toc-head" href="#p1">① 作者特定型（4問）</a><span class="chips muted">人物の経歴・エピソードから作者を特定する</span></div>
-      <div class="toc-row"><a class="toc-head" href="#p2">② 作品特定型（2問）</a><span class="chips muted">作品名から作者を特定する</span></div>
-      <div class="toc-row"><a class="toc-head" href="#p3">③ 作者・作品の誤り判定型（3問）</a><span class="chips muted">作者と作品の組み合わせから誤りを選ぶ</span></div>
-      <div class="toc-row"><a class="toc-head" href="#p4">④ 文学史の時系列型（3問）</a><span class="chips muted">時代や年代に関する空欄・順番を考える</span></div>
-      <div class="toc-row"><a class="toc-head" href="#p5">⑤ 文学運動・主義型（2問）</a><span class="chips muted">作品や作家から文学のグループ・考え方を判断する</span></div>
-      <div class="toc-row"><a class="toc-head" href="#p6">⑥ 文学ジャンル判定型（3問）</a><span class="chips muted">作品や表現の特徴からジャンルを判断する</span></div>
-      <div class="toc-row"><a class="toc-head" href="#p7">⑦ 国籍・地域判定型（3問）</a><span class="chips muted">作家・文学者の国を比べる</span></div>
-      <div class="toc-row"><a class="toc-head" href="#p8">⑧ 消去法・組み合わせ型（2問）</a><span class="chips muted">複数の選択肢から正しい組み合わせを選ぶ</span></div>
+    <p class="tabs-label" id="tabs-label">パターンを選ぶ</p>
+    <nav class="tabs" aria-labelledby="tabs-label">
+      <a class="tab tab-p1" href="#p1">① 作者特定型</a>
+      <a class="tab tab-p2" href="#p2">② 作品特定型</a>
+      <a class="tab tab-p3" href="#p3">③ 作者・作品の誤り判定型</a>
+      <a class="tab tab-p4" href="#p4">④ 文学史の時系列型</a>
+      <a class="tab tab-p5" href="#p5">⑤ 文学運動・主義型</a>
+      <a class="tab tab-p6" href="#p6">⑥ 文学ジャンル判定型</a>
+      <a class="tab tab-p7" href="#p7">⑦ 国籍・地域判定型</a>
+      <a class="tab tab-p8" href="#p8">⑧ 消去法・組み合わせ型</a>
     </nav>
+    <div class="panels">
 
-    <section class="group">
-      <h2 id="p1">① 作者特定型</h2>
-      <p class="pattern-need"><span class="tag">出題のしかた</span>人物の経歴・エピソードから作者を特定する　<span class="tag">求められる知識</span>作家と経歴・エピソードの対応</p>
+    <section class="panel" id="p1">
+      <h2 class="visually-hidden">① 作者特定型</h2>
+      <dl class="pattern-need"><div><dt>出題のしかた</dt><dd>人物の経歴・エピソードから作者を特定する</dd></div><div><dt>求められる知識</dt><dd>作家と経歴・エピソードの対応</dd></div></dl>
       <article class="card quiz" id="ex-1">
-        <p class="meta"><span class="tag">① 作者特定型</span><span class="tag">問題文から推測</span><span class="stars" aria-label="むずかしさ2">★★☆</span></p>
         <h3>問1</h3>
         <p>次の手掛かりすべてにあてはまる作家はだれですか。<br>・イギリスに留学したことがある。<br>・門下生の芥川龍之介が書いた『鼻』を、手紙で大絶賛した。<br>・四国の中学校に数学の先生としてやってきた青年の物語を書いた。</p>
         <ol class="choices">
@@ -80,7 +81,6 @@
         </details>
       </article>
       <article class="card quiz" id="ex-2">
-        <p class="meta"><span class="tag">① 作者特定型</span><span class="tag">問題文から推測</span><span class="stars" aria-label="むずかしさ3">★★★</span></p>
         <h3>問2</h3>
         <p>次の手掛かりすべてにあてはまる作家はだれですか。<br>・昭和に活躍した。<br>・第1回芥川賞の候補になったが、受賞できなかった。<br>・娘も小説家になった。</p>
         <ol class="choices">
@@ -109,7 +109,6 @@
         </details>
       </article>
       <article class="card quiz" id="ex-3">
-        <p class="meta"><span class="tag">① 作者特定型</span><span class="tag">問題文から推測</span><span class="stars" aria-label="むずかしさ3">★★★</span></p>
         <h3>問3</h3>
         <p>次の手掛かりすべてにあてはまる俳人はだれですか。<br>・江戸時代の前半に活躍した。<br>・弟子の曾良と、東北・北陸を歩いて旅した。<br>・江戸時代の後半の僧・良寛が、深く尊敬したとされる。</p>
         <ol class="choices">
@@ -137,7 +136,6 @@
         </details>
       </article>
       <article class="card quiz" id="ex-4">
-        <p class="meta"><span class="tag">① 作者特定型</span><span class="tag">問題文から推測</span><span class="stars" aria-label="むずかしさ2">★★☆</span></p>
         <h3>問4</h3>
         <p>次の手掛かりすべてにあてはまる人物はだれですか。<br>・夏目漱石の学生時代からの親友。<br>・見たままをえがく「写生」を大切にした。<br>・「俳句」というよび方を広めた。</p>
         <ol class="choices">
@@ -165,14 +163,173 @@
           <p class="related">くわしく：<a href="authors.html#masaoka-shiki">正岡子規</a>、<a href="authors.html#natsume-soseki">夏目漱石</a>、<a href="authors.html#matsuo-basho">松尾芭蕉</a>、<a href="authors.html#taneda-santoka">種田山頭火</a>、<a href="authors.html#kikuchi-kan">菊池寛</a>、<a class="word" href="glossary.html#term-shasei">写生</a></p>
         </details>
       </article>
+      <article class="card quiz" id="ex-5">
+        <h3>問5</h3>
+        <p>次の手掛かりすべてにあてはまる作家はだれですか。<br>・陸軍の軍医（お医者さん）だった。<br>・ドイツに留学した。<br>・年をとってから、歴史小説『高瀬舟』を書いた。</p>
+        <ol class="choices">
+          <li>森鷗外</li>
+          <li>夏目漱石</li>
+          <li>二葉亭四迷</li>
+          <li>坪内逍遥</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li><a class="person" href="authors.html#mori-ogai">森鷗外</a>は陸軍の軍医で、ドイツに留学した</li>
+                <li>『高瀬舟』は<a class="person" href="authors.html#mori-ogai">鷗外</a>の<a class="word" href="glossary.html#term-rekishi">歴史小説</a></li>
+                <li><a class="person" href="authors.html#natsume-soseki">夏目漱石</a>が留学したのはイギリス</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>「軍医」「ドイツ」「『高瀬舟』」のどれからでも<a class="person" href="authors.html#mori-ogai">鷗外</a>にたどり着く。同じ明治の<a class="word" href="glossary.html#term-bungo">文豪</a>の<a class="person" href="authors.html#natsume-soseki">漱石</a>とは、留学先で区別できる。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　森鷗外</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>明治の<a class="word" href="glossary.html#term-bungo">文豪</a>二人（<a class="person" href="authors.html#mori-ogai">鷗外</a>・<a class="person" href="authors.html#natsume-soseki">漱石</a>）は、留学先と仕事のちがいで区別する。</p>
+          <p class="related">くわしく：<a href="authors.html#mori-ogai">森鷗外</a>、<a href="authors.html#natsume-soseki">夏目漱石</a>、<a href="works.html#takasebune">『高瀬舟』</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-6">
+        <h3>問6</h3>
+        <p>次の手掛かりすべてにあてはまる作家はだれですか。<br>・横光利一らと雑誌『文芸時代』をつくった。<br>・日本人で初めてノーベル文学賞を受けた。<br>・『伊豆の踊子』を書いた。</p>
+        <ol class="choices">
+          <li>川端康成</li>
+          <li>横光利一</li>
+          <li>三島由紀夫</li>
+          <li>志賀直哉</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li><a class="person" href="authors.html#kawabata-yasunari">川端康成</a>は<a class="person" href="authors.html#yokomitsu-riichi">横光利一</a>らと『文芸時代』をつくり、<a class="word" href="glossary.html#term-shinkankakuha">新感覚派</a>とよばれた</li>
+                <li>1968年、日本人で初めて<a class="word" href="glossary.html#term-nobel">ノーベル文学賞</a>を受けた</li>
+                <li>『伊豆の踊子』は川端の作品</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>一つめの手掛かりだけだと<a class="person" href="authors.html#yokomitsu-riichi">横光利一</a>も候補になるが、<a class="word" href="glossary.html#term-nobel">ノーベル文学賞</a>と『伊豆の踊子』で川端に決まる。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　川端康成</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>同じグループの仲間がいる作家は、ほかの手掛かりで区別する。</p>
+          <p class="related">くわしく：<a href="authors.html#kawabata-yasunari">川端康成</a>、<a href="authors.html#yokomitsu-riichi">横光利一</a>、<a href="works.html#izu-no-odoriko">『伊豆の踊子』</a>、<a class="word" href="glossary.html#term-nobel">ノーベル文学賞</a>、<a class="word" href="glossary.html#term-shinkankakuha">新感覚派</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-7">
+        <h3>問7</h3>
+        <p>次の手掛かりすべてにあてはまる作家はだれですか。<br>・芥川龍之介の友人だった。<br>・雑誌『文藝春秋』をつくった。<br>・戯曲『父帰る』を書いた。</p>
+        <ol class="choices">
+          <li>菊池寛</li>
+          <li>志賀直哉</li>
+          <li>横光利一</li>
+          <li>坪内逍遥</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li><a class="person" href="authors.html#kikuchi-kan">菊池寛</a>は<a class="person" href="authors.html#akutagawa-ryunosuke">芥川龍之介</a>の友人で、のちに<a class="word" href="glossary.html#term-prize">芥川賞</a>・直木賞をつくった</li>
+                <li>1923年に『文藝春秋』をつくった</li>
+                <li>『父帰る』は<a class="person" href="authors.html#kikuchi-kan">菊池寛</a>の<a class="word" href="glossary.html#term-gikyoku">戯曲</a></li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>芥川の友人で、雑誌をつくった人物は<a class="person" href="authors.html#kikuchi-kan">菊池寛</a>。<a class="word" href="glossary.html#term-prize">芥川賞</a>をつくった人として覚えておくと結び付けやすい。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　菊池寛</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>文学賞や雑誌をつくった人物も、作家とのつながりで覚える。</p>
+          <p class="related">くわしく：<a href="authors.html#kikuchi-kan">菊池寛</a>、<a href="authors.html#akutagawa-ryunosuke">芥川龍之介</a>、<a href="works.html#chichi-kaeru">『父帰る』</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-8">
+        <h3>問8</h3>
+        <p>次の手掛かりすべてにあてはまる人物はだれですか。<br>・明治から昭和にかけて活躍した歌人。<br>・歌集『みだれ髪』で、恋の気持ちを情熱的にうたった。<br>・詩「君死にたまふことなかれ」を書いた。</p>
+        <ol class="choices">
+          <li>与謝野晶子</li>
+          <li>島崎藤村</li>
+          <li>正岡子規</li>
+          <li>津島佑子</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li><a class="person" href="authors.html#yosano-akiko">与謝野晶子</a>は<a class="word" href="glossary.html#term-romanticism">浪漫主義</a>の<a class="word" href="glossary.html#term-tanka">短歌</a>を代表する<a class="word" href="glossary.html#term-haijin">歌人</a></li>
+                <li>歌集『みだれ髪』、詩「君死にたまふことなかれ」</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>『みだれ髪』は歌集。<a class="person" href="authors.html#shimazaki-toson">島崎藤村</a>も<a class="word" href="glossary.html#term-romanticism">浪漫主義</a>の詩人だが、代表作は詩集『若菜集』。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　与謝野晶子</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span><a class="word" href="glossary.html#term-romanticism">浪漫主義</a>の詩歌は「晶子＝歌集『みだれ髪』」「藤村＝詩集『若菜集』」で区別する。</p>
+          <p class="related">くわしく：<a href="authors.html#yosano-akiko">与謝野晶子</a>、<a href="authors.html#shimazaki-toson">島崎藤村</a>、<a href="works.html#midaregami">『みだれ髪』</a>、<a href="works.html#wakanashu">『若菜集』</a>、<a class="word" href="glossary.html#term-romanticism">浪漫主義</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-9">
+        <h3>問9</h3>
+        <p>次の手掛かりすべてにあてはまる俳人はだれですか。<br>・会社づとめをやめたあと、各地のお寺で暮らした。<br>・荻原井泉水に俳句を学んだ。<br>・晩年を小豆島で過ごした。</p>
+        <ol class="choices">
+          <li>尾崎放哉</li>
+          <li>種田山頭火</li>
+          <li>正岡子規</li>
+          <li>良寛</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li><a class="person" href="authors.html#ozaki-hosai">尾崎放哉</a>は<a class="person" href="authors.html#ogiwara-seisensui">荻原井泉水</a>に学んだ<a class="word" href="glossary.html#term-jiyuritsu">自由律俳句</a>の<a class="word" href="glossary.html#term-haijin">俳人</a>で、晩年を小豆島で過ごした</li>
+                <li><a class="person" href="authors.html#taneda-santoka">種田山頭火</a>も井泉水の弟子だが、お坊さんの姿で各地を旅した</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>井泉水の弟子は二人（山頭火・放哉）いるので、二つめの手掛かりだけでは決まらない。「小豆島」で放哉に決まる。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　尾崎放哉</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>同じ先生の弟子が二人いるときは、それぞれのエピソードで区別する。</p>
+          <p class="related">くわしく：<a href="authors.html#ozaki-hosai">尾崎放哉</a>、<a href="authors.html#taneda-santoka">種田山頭火</a>、<a href="authors.html#ogiwara-seisensui">荻原井泉水</a>、<a class="word" href="glossary.html#term-jiyuritsu">自由律俳句</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-10">
+        <h3>問10</h3>
+        <p>次の手掛かりすべてにあてはまる作家はだれですか。<br>・川端康成に才能を認められた。<br>・『金閣寺』を書いた。<br>・本名は平岡公威。</p>
+        <ol class="choices">
+          <li>三島由紀夫</li>
+          <li>太宰治</li>
+          <li>横光利一</li>
+          <li>坂口安吾</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li><a class="person" href="authors.html#mishima-yukio">三島由紀夫</a>は<a class="person" href="authors.html#kawabata-yasunari">川端康成</a>に才能を認められた</li>
+                <li>『金閣寺』『豊饒の海』を書いた</li>
+                <li>本名は平岡公威</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>『金閣寺』がわかれば三島に決まる。川端とつながりのある作家（<a class="person" href="authors.html#yokomitsu-riichi">横光利一</a>・<a class="person" href="authors.html#dazai-osamu">太宰治</a>）とまちがえないようにする。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　三島由紀夫</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>一人の作家に、つながりのある作家が何人もいるときは、関係の種類（友人・対立・才能を見出す）で区別する。</p>
+          <p class="related">くわしく：<a href="authors.html#mishima-yukio">三島由紀夫</a>、<a href="authors.html#kawabata-yasunari">川端康成</a>、<a href="works.html#kinkakuji">『金閣寺』</a>、<a class="word" href="glossary.html#term-penname">本名とペンネーム</a></p>
+        </details>
+      </article>
     </section>
 
-    <section class="group">
-      <h2 id="p2">② 作品特定型</h2>
-      <p class="pattern-need"><span class="tag">出題のしかた</span>作品名から作者を特定する　<span class="tag">求められる知識</span>作者と代表作の対応</p>
-      <article class="card quiz" id="ex-5">
-        <p class="meta"><span class="tag">② 作品特定型</span><span class="tag">選択肢を比較</span><span class="stars" aria-label="むずかしさ2">★★☆</span></p>
-        <h3>問5</h3>
+    <section class="panel" id="p2">
+      <h2 class="visually-hidden">② 作品特定型</h2>
+      <dl class="pattern-need"><div><dt>出題のしかた</dt><dd>作品名から作者を特定する</dd></div><div><dt>求められる知識</dt><dd>作者と代表作の対応</dd></div></dl>
+      <article class="card quiz" id="ex-11">
+        <h3>問11</h3>
         <p>小説『浮雲』を書いた作家はだれですか。</p>
         <ol class="choices">
           <li>坪内逍遥</li>
@@ -197,9 +354,8 @@
           <p class="related">くわしく：<a href="authors.html#futabatei-shimei">二葉亭四迷</a>、<a href="authors.html#tsubouchi-shoyo">坪内逍遥</a>、<a href="works.html#ukigumo">『浮雲』</a>、<a href="works.html#shosetsu-shinzui">『小説神髄』</a>、<a class="word" href="glossary.html#term-realism">リアリズム（写実主義）</a>、<a class="word" href="glossary.html#term-genbun">言文一致</a></p>
         </details>
       </article>
-      <article class="card quiz" id="ex-6">
-        <p class="meta"><span class="tag">② 作品特定型</span><span class="tag">選択肢を比較</span><span class="stars" aria-label="むずかしさ2">★★☆</span></p>
-        <h3>問6</h3>
+      <article class="card quiz" id="ex-12">
+        <h3>問12</h3>
         <p>小説『破戒』を書いた作家はだれですか。</p>
         <ol class="choices">
           <li>田山花袋</li>
@@ -224,14 +380,225 @@
           <p class="related">くわしく：<a href="authors.html#shimazaki-toson">島崎藤村</a>、<a href="authors.html#tayama-katai">田山花袋</a>、<a href="works.html#hakai">『破戒』</a>、<a href="works.html#futon">『蒲団』</a>、<a class="word" href="glossary.html#term-naturalism">自然主義</a></p>
         </details>
       </article>
+      <article class="card quiz" id="ex-13">
+        <h3>問13</h3>
+        <p>『舞姫』を書いた作家はだれですか。</p>
+        <ol class="choices">
+          <li>夏目漱石</li>
+          <li>森鷗外</li>
+          <li>二葉亭四迷</li>
+          <li>坪内逍遥</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>『舞姫』は<a class="person" href="authors.html#mori-ogai">森鷗外</a>の<a class="word" href="glossary.html#term-length">短編小説</a>（1890年）</li>
+                <li>ドイツ留学の体験がもとになっている</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>明治の作家どうしで迷いやすい。ドイツが舞台なので、ドイツに留学した<a class="person" href="authors.html#mori-ogai">鷗外</a>。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">イ　森鷗外</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>作品名を聞いたら、作者と、まちがえやすい作家をセットで思い出す。</p>
+          <p class="related">くわしく：<a href="authors.html#mori-ogai">森鷗外</a>、<a href="works.html#maihime">『舞姫』</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-14">
+        <h3>問14</h3>
+        <p>『こころ』を書いた作家はだれですか。</p>
+        <ol class="choices">
+          <li>森鷗外</li>
+          <li>芥川龍之介</li>
+          <li>夏目漱石</li>
+          <li>志賀直哉</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>『こころ』は<a class="person" href="authors.html#natsume-soseki">夏目漱石</a>の<a class="word" href="glossary.html#term-length">長編小説</a>（1914年）</li>
+                <li><a class="person" href="authors.html#natsume-soseki">漱石</a>の後期<a class="word" href="glossary.html#term-sanbusaku">三部作</a>の三つ目</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>『こころ』は<a class="person" href="authors.html#natsume-soseki">漱石</a>の代表作。弟子の芥川の作品とまちがえないようにする。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ウ　夏目漱石</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>作品名を聞いたら、作者と、まちがえやすい作家をセットで思い出す。</p>
+          <p class="related">くわしく：<a href="authors.html#natsume-soseki">夏目漱石</a>、<a href="works.html#kokoro">『こころ』</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-15">
+        <h3>問15</h3>
+        <p>『羅生門』を書いた作家はだれですか。</p>
+        <ol class="choices">
+          <li>夏目漱石</li>
+          <li>芥川龍之介</li>
+          <li>菊池寛</li>
+          <li>志賀直哉</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>『羅生門』は<a class="person" href="authors.html#akutagawa-ryunosuke">芥川龍之介</a>の<a class="word" href="glossary.html#term-length">短編小説</a>（1915年）</li>
+                <li>古い物語集『今昔物語集』の話がもと</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>古典を題材にした短編は芥川。友人の<a class="person" href="authors.html#kikuchi-kan">菊池寛</a>、先生の<a class="person" href="authors.html#natsume-soseki">漱石</a>とまちがえないようにする。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">イ　芥川龍之介</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>作品名を聞いたら、作者と、まちがえやすい作家をセットで思い出す。</p>
+          <p class="related">くわしく：<a href="authors.html#akutagawa-ryunosuke">芥川龍之介</a>、<a href="works.html#rashomon">『羅生門』</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-16">
+        <h3>問16</h3>
+        <p>『雪国』を書いた作家はだれですか。</p>
+        <ol class="choices">
+          <li>三島由紀夫</li>
+          <li>横光利一</li>
+          <li>川端康成</li>
+          <li>太宰治</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>『雪国』は<a class="person" href="authors.html#kawabata-yasunari">川端康成</a>の<a class="word" href="glossary.html#term-length">長編小説</a>（1935年）</li>
+                <li>川端は日本人で初めて<a class="word" href="glossary.html#term-nobel">ノーベル文学賞</a>を受けた</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>三島・横光・太宰は、どれも川端とつながりのある作家なので取りちがえやすい。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ウ　川端康成</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>作品名を聞いたら、作者と、まちがえやすい作家をセットで思い出す。</p>
+          <p class="related">くわしく：<a href="authors.html#kawabata-yasunari">川端康成</a>、<a href="works.html#yukiguni">『雪国』</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-17">
+        <h3>問17</h3>
+        <p>『斜陽』を書いた作家はだれですか。</p>
+        <ol class="choices">
+          <li>坂口安吾</li>
+          <li>太宰治</li>
+          <li>川端康成</li>
+          <li>三島由紀夫</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>『斜陽』は<a class="person" href="authors.html#dazai-osamu">太宰治</a>の<a class="word" href="glossary.html#term-length">長編小説</a>（1947年）</li>
+                <li>「斜陽族」という言葉が生まれるほど話題になった</li>
+                <li><a class="person" href="authors.html#sakaguchi-ango">坂口安吾</a>も<a class="word" href="glossary.html#term-buraiha">無頼派</a>だが、代表作は『堕落論』</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p><a class="word" href="glossary.html#term-buraiha">無頼派</a>の二人（太宰・坂口）で迷いやすい。『斜陽』は太宰、『堕落論』は坂口。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">イ　太宰治</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>作品名を聞いたら、作者と、まちがえやすい作家をセットで思い出す。</p>
+          <p class="related">くわしく：<a href="authors.html#dazai-osamu">太宰治</a>、<a href="works.html#shayo">『斜陽』</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-18">
+        <h3>問18</h3>
+        <p>『若菜集』を書いた作家はだれですか。</p>
+        <ol class="choices">
+          <li>与謝野晶子</li>
+          <li>正岡子規</li>
+          <li>島崎藤村</li>
+          <li>田山花袋</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>『若菜集』は<a class="person" href="authors.html#shimazaki-toson">島崎藤村</a>の詩集（1897年）</li>
+                <li>藤村はのちに小説『破戒』を書いた</li>
+                <li><a class="person" href="authors.html#yosano-akiko">与謝野晶子</a>の代表作は歌集『みだれ髪』</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p><a class="word" href="glossary.html#term-romanticism">浪漫主義</a>の詩歌で迷いやすい。『若菜集』は詩集で藤村、『みだれ髪』は歌集で晶子。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ウ　島崎藤村</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>作品名を聞いたら、作者と、まちがえやすい作家をセットで思い出す。</p>
+          <p class="related">くわしく：<a href="authors.html#shimazaki-toson">島崎藤村</a>、<a href="works.html#wakanashu">『若菜集』</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-19">
+        <h3>問19</h3>
+        <p>『友情』を書いた作家はだれですか。</p>
+        <ol class="choices">
+          <li>志賀直哉</li>
+          <li>武者小路実篤</li>
+          <li>菊池寛</li>
+          <li>芥川龍之介</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>『友情』は<a class="person" href="authors.html#musha-no-koji-saneatsu">武者小路実篤</a>の<a class="word" href="glossary.html#term-length">長編小説</a>（1919年）</li>
+                <li><a class="person" href="authors.html#musha-no-koji-saneatsu">武者小路実篤</a>は<a class="word" href="glossary.html#term-shirakaba">白樺派</a>の中心人物</li>
+                <li><a class="person" href="authors.html#shiga-naoya">志賀直哉</a>の代表作は『城の崎にて』『暗夜行路』</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p><a class="word" href="glossary.html#term-shirakaba">白樺派</a>の二人（志賀・武者小路）で迷いやすい。『友情』は武者小路。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">イ　武者小路実篤</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>作品名を聞いたら、作者と、まちがえやすい作家をセットで思い出す。</p>
+          <p class="related">くわしく：<a href="authors.html#musha-no-koji-saneatsu">武者小路実篤</a>、<a href="works.html#yujo">『友情』</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-20">
+        <h3>問20</h3>
+        <p>『機械』を書いた作家はだれですか。</p>
+        <ol class="choices">
+          <li>川端康成</li>
+          <li>坂口安吾</li>
+          <li>横光利一</li>
+          <li>三島由紀夫</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>『機械』は<a class="person" href="authors.html#yokomitsu-riichi">横光利一</a>の<a class="word" href="glossary.html#term-length">短編小説</a>（1930年）</li>
+                <li><a class="person" href="authors.html#yokomitsu-riichi">横光利一</a>は<a class="word" href="glossary.html#term-shinkankakuha">新感覚派</a>の中心</li>
+                <li><a class="person" href="authors.html#kawabata-yasunari">川端康成</a>の代表作は『伊豆の踊子』『雪国』『古都』</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p><a class="word" href="glossary.html#term-shinkankakuha">新感覚派</a>の二人（川端・横光）で迷いやすい。『機械』は横光。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ウ　横光利一</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>作品名を聞いたら、作者と、まちがえやすい作家をセットで思い出す。</p>
+          <p class="related">くわしく：<a href="authors.html#yokomitsu-riichi">横光利一</a>、<a href="works.html#kikai">『機械』</a></p>
+        </details>
+      </article>
     </section>
 
-    <section class="group">
-      <h2 id="p3">③ 作者・作品の誤り判定型</h2>
-      <p class="pattern-need"><span class="tag">出題のしかた</span>作者と作品の組み合わせから誤りを選ぶ　<span class="tag">求められる知識</span>作者と作品の対応（代表作以外もふくむ）</p>
-      <article class="card quiz" id="ex-7">
-        <p class="meta"><span class="tag">③ 作者・作品の誤り判定型</span><span class="tag">選択肢を比較</span><span class="stars" aria-label="むずかしさ2">★★☆</span></p>
-        <h3>問7</h3>
+    <section class="panel" id="p3">
+      <h2 class="visually-hidden">③ 作者・作品の誤り判定型</h2>
+      <dl class="pattern-need"><div><dt>出題のしかた</dt><dd>作者と作品の組み合わせから誤りを選ぶ</dd></div><div><dt>求められる知識</dt><dd>作者と作品の対応（代表作以外もふくむ）</dd></div></dl>
+      <article class="card quiz" id="ex-21">
+        <h3>問21</h3>
         <p>作家と作品の組み合わせとして、まちがっているものを一つ選びなさい。</p>
         <ol class="choices">
           <li>森鷗外 ― 『舞姫』</li>
@@ -256,9 +623,8 @@
           <p class="related">くわしく：<a href="authors.html#kawabata-yasunari">川端康成</a>、<a href="authors.html#shiga-naoya">志賀直哉</a>、<a href="authors.html#mori-ogai">森鷗外</a>、<a href="authors.html#akutagawa-ryunosuke">芥川龍之介</a>、<a href="authors.html#dazai-osamu">太宰治</a>、<a href="works.html#izu-no-odoriko">『伊豆の踊子』</a>、<a href="works.html#kinosaki-nite">『城の崎にて』</a></p>
         </details>
       </article>
-      <article class="card quiz" id="ex-8">
-        <p class="meta"><span class="tag">③ 作者・作品の誤り判定型</span><span class="tag">選択肢を比較</span><span class="stars" aria-label="むずかしさ3">★★★</span></p>
-        <h3>問8</h3>
+      <article class="card quiz" id="ex-22">
+        <h3>問22</h3>
         <p>川端康成の作品ではないものを二つ選びなさい。</p>
         <ol class="choices">
           <li>『伊豆の踊子』</li>
@@ -285,9 +651,8 @@
           <p class="related">くわしく：<a href="authors.html#kawabata-yasunari">川端康成</a>、<a href="authors.html#mishima-yukio">三島由紀夫</a>、<a href="authors.html#shiga-naoya">志賀直哉</a>、<a href="works.html#izu-no-odoriko">『伊豆の踊子』</a>、<a href="works.html#yukiguni">『雪国』</a>、<a href="works.html#koto">『古都』</a>、<a href="works.html#kinkakuji">『金閣寺』</a>、<a href="works.html#kinosaki-nite">『城の崎にて』</a></p>
         </details>
       </article>
-      <article class="card quiz" id="ex-9">
-        <p class="meta"><span class="tag">③ 作者・作品の誤り判定型</span><span class="tag">選択肢を比較</span><span class="stars" aria-label="むずかしさ3">★★★</span></p>
-        <h3>問9</h3>
+      <article class="card quiz" id="ex-23">
+        <h3>問23</h3>
         <p>夏目漱石の作品として正しいものを二つ選びなさい。</p>
         <ol class="choices">
           <li>『それから』</li>
@@ -314,14 +679,197 @@
           <p class="related">くわしく：<a href="authors.html#natsume-soseki">夏目漱石</a>、<a href="authors.html#mori-ogai">森鷗外</a>、<a href="authors.html#akutagawa-ryunosuke">芥川龍之介</a>、<a href="authors.html#futabatei-shimei">二葉亭四迷</a>、<a href="works.html#sorekara">『それから』</a>、<a href="works.html#meian">『明暗』</a>、<a href="works.html#maihime">『舞姫』</a>、<a href="works.html#kumo-no-ito">『蜘蛛の糸』</a>、<a href="works.html#ukigumo">『浮雲』</a>、<a class="word" href="glossary.html#term-sanbusaku">三部作</a></p>
         </details>
       </article>
+      <article class="card quiz" id="ex-24">
+        <h3>問24</h3>
+        <p>夏目漱石の作品ではないものを一つ選びなさい。</p>
+        <ol class="choices">
+          <li>『吾輩は猫である』</li>
+          <li>『三四郎』</li>
+          <li>『門』</li>
+          <li>『暗夜行路』</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>『吾輩は猫である』『三四郎』『門』は<a class="person" href="authors.html#natsume-soseki">漱石</a>の作品</li>
+                <li>『暗夜行路』は<a class="person" href="authors.html#shiga-naoya">志賀直哉</a>のただ一つの<a class="word" href="glossary.html#term-length">長編小説</a></li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p><a class="person" href="authors.html#natsume-soseki">漱石</a>の作品を一つずつ消していくと、『暗夜行路』が残る。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">エ　『暗夜行路』</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>作品の多い作家は、代表作と<a class="word" href="glossary.html#term-sanbusaku">三部作</a>で確かめる。</p>
+          <p class="related">くわしく：<a href="authors.html#natsume-soseki">夏目漱石</a>、<a href="authors.html#shiga-naoya">志賀直哉</a>、<a href="works.html#anya-koro">『暗夜行路』</a>、<a href="works.html#mon">『門』</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-25">
+        <h3>問25</h3>
+        <p>太宰治の作品ではないものを一つ選びなさい。</p>
+        <ol class="choices">
+          <li>『走れメロス』</li>
+          <li>『斜陽』</li>
+          <li>『人間失格』</li>
+          <li>『堕落論』</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>『走れメロス』『斜陽』『人間失格』は太宰の作品</li>
+                <li>『堕落論』は<a class="person" href="authors.html#sakaguchi-ango">坂口安吾</a>の<a class="word" href="glossary.html#term-hyoron">評論</a>（同じ<a class="word" href="glossary.html#term-buraiha">無頼派</a>）</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>同じ<a class="word" href="glossary.html#term-buraiha">無頼派</a>の<a class="person" href="authors.html#sakaguchi-ango">坂口安吾</a>の作品が入っている。グループが同じ作家の作品は取りちがえやすい。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">エ　『堕落論』</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>同じグループの作家の代表作は、セットで区別する。</p>
+          <p class="related">くわしく：<a href="authors.html#dazai-osamu">太宰治</a>、<a href="authors.html#sakaguchi-ango">坂口安吾</a>、<a href="works.html#darakuron">『堕落論』</a>、<a class="word" href="glossary.html#term-buraiha">無頼派</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-26">
+        <h3>問26</h3>
+        <p>芥川龍之介の作品ではないものを二つ選びなさい。</p>
+        <ol class="choices">
+          <li>『羅生門』</li>
+          <li>『鼻』</li>
+          <li>『父帰る』</li>
+          <li>『蜘蛛の糸』</li>
+          <li>『高瀬舟』</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>芥川の作品は『羅生門』『鼻』『蜘蛛の糸』</li>
+                <li>『父帰る』は友人の<a class="person" href="authors.html#kikuchi-kan">菊池寛</a>の<a class="word" href="glossary.html#term-gikyoku">戯曲</a></li>
+                <li>『高瀬舟』は<a class="person" href="authors.html#mori-ogai">森鷗外</a>の<a class="word" href="glossary.html#term-rekishi">歴史小説</a></li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>芥川の作品を三つ知っていれば、残りの二つが答え。友人（<a class="person" href="authors.html#kikuchi-kan">菊池寛</a>）の作品が入っているのが落とし穴。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ウ　『父帰る』・オ　『高瀬舟』</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>作家の友人・先生の作品も、まちがえやすい候補として覚えておく。</p>
+          <p class="related">くわしく：<a href="authors.html#akutagawa-ryunosuke">芥川龍之介</a>、<a href="authors.html#kikuchi-kan">菊池寛</a>、<a href="authors.html#mori-ogai">森鷗外</a>、<a href="works.html#chichi-kaeru">『父帰る』</a>、<a href="works.html#takasebune">『高瀬舟』</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-27">
+        <h3>問27</h3>
+        <p>作家と作品の組み合わせとして、まちがっているものを一つ選びなさい。</p>
+        <ol class="choices">
+          <li>島崎藤村 ― 『破戒』</li>
+          <li>田山花袋 ― 『蒲団』</li>
+          <li>与謝野晶子 ― 『若菜集』</li>
+          <li>正岡子規 ― 『病牀六尺』</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>『若菜集』は<a class="person" href="authors.html#shimazaki-toson">島崎藤村</a>の詩集</li>
+                <li><a class="person" href="authors.html#yosano-akiko">与謝野晶子</a>の代表作は歌集『みだれ髪』</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>ウの『若菜集』は藤村。晶子の『みだれ髪』と入れかえられている。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ウ　与謝野晶子 ― 『若菜集』</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>詩集と歌集は、作者と一緒に区別する。</p>
+          <p class="related">くわしく：<a href="authors.html#yosano-akiko">与謝野晶子</a>、<a href="authors.html#shimazaki-toson">島崎藤村</a>、<a href="works.html#wakanashu">『若菜集』</a>、<a href="works.html#midaregami">『みだれ髪』</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-28">
+        <h3>問28</h3>
+        <p>作家と作品の組み合わせとして、まちがっているものを一つ選びなさい。</p>
+        <ol class="choices">
+          <li>坪内逍遥 ― 『小説神髄』</li>
+          <li>二葉亭四迷 ― 『浮雲』</li>
+          <li>菊池寛 ― 『父帰る』</li>
+          <li>横光利一 ― 『伊豆の踊子』</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>『伊豆の踊子』は<a class="person" href="authors.html#kawabata-yasunari">川端康成</a>の作品</li>
+                <li><a class="person" href="authors.html#yokomitsu-riichi">横光利一</a>の代表作は『機械』</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>エは、<a class="word" href="glossary.html#term-shinkankakuha">新感覚派</a>の仲間の<a class="person" href="authors.html#kawabata-yasunari">川端康成</a>の作品になっている。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">エ　横光利一 ― 『伊豆の踊子』</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>仲間どうしの作家の作品は入れかえに注意する。</p>
+          <p class="related">くわしく：<a href="authors.html#yokomitsu-riichi">横光利一</a>、<a href="authors.html#kawabata-yasunari">川端康成</a>、<a href="works.html#izu-no-odoriko">『伊豆の踊子』</a>、<a href="works.html#kikai">『機械』</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-29">
+        <h3>問29</h3>
+        <p>三島由紀夫の作品として正しいものを一つ選びなさい。</p>
+        <ol class="choices">
+          <li>『金閣寺』</li>
+          <li>『古都』</li>
+          <li>『機械』</li>
+          <li>『斜陽』</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li><a class="person" href="authors.html#mishima-yukio">三島由紀夫</a>の作品は『金閣寺』『豊饒の海』</li>
+                <li>『古都』は<a class="person" href="authors.html#kawabata-yasunari">川端康成</a>、『機械』は<a class="person" href="authors.html#yokomitsu-riichi">横光利一</a>、『斜陽』は<a class="person" href="authors.html#dazai-osamu">太宰治</a></li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>三島とつながりのある川端の作品（『古都』）が入っているのが落とし穴。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　『金閣寺』</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>「正しいもの」を選ぶ問題でも、一つずつ作者を確かめる。</p>
+          <p class="related">くわしく：<a href="authors.html#mishima-yukio">三島由紀夫</a>、<a href="authors.html#kawabata-yasunari">川端康成</a>、<a href="works.html#kinkakuji">『金閣寺』</a>、<a href="works.html#koto">『古都』</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-30">
+        <h3>問30</h3>
+        <p>作家と作品の組み合わせとして、正しいものを二つ選びなさい。</p>
+        <ol class="choices">
+          <li>森鷗外 ― 『高瀬舟』</li>
+          <li>夏目漱石 ― 『行人』</li>
+          <li>川端康成 ― 『暗夜行路』</li>
+          <li>志賀直哉 ― 『古都』</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>『高瀬舟』は<a class="person" href="authors.html#mori-ogai">鷗外</a>、『行人』は<a class="person" href="authors.html#natsume-soseki">漱石</a>（後期<a class="word" href="glossary.html#term-sanbusaku">三部作</a>）</li>
+                <li>『暗夜行路』は<a class="person" href="authors.html#shiga-naoya">志賀直哉</a>、『古都』は<a class="person" href="authors.html#kawabata-yasunari">川端康成</a></li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>ウとエは、川端と志賀の作品が入れかわっている。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　森鷗外 ― 『高瀬舟』・イ　夏目漱石 ― 『行人』</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>入れかえ問題では、作品から作者を一つずつ確かめる。</p>
+          <p class="related">くわしく：<a href="authors.html#mori-ogai">森鷗外</a>、<a href="authors.html#natsume-soseki">夏目漱石</a>、<a href="authors.html#kawabata-yasunari">川端康成</a>、<a href="authors.html#shiga-naoya">志賀直哉</a>、<a href="works.html#takasebune">『高瀬舟』</a>、<a href="works.html#kojin">『行人』</a>、<a href="works.html#anya-koro">『暗夜行路』</a>、<a href="works.html#koto">『古都』</a></p>
+        </details>
+      </article>
     </section>
 
-    <section class="group">
-      <h2 id="p4">④ 文学史の時系列型</h2>
-      <p class="pattern-need"><span class="tag">出題のしかた</span>時代や年代に関する空欄・順番を考える　<span class="tag">求められる知識</span>文学史の流れ</p>
-      <article class="card quiz" id="ex-10">
-        <p class="meta"><span class="tag">④ 文学史の時系列型</span><span class="tag">知識で解く</span><span class="stars" aria-label="むずかしさ3">★★★</span></p>
-        <h3>問10</h3>
+    <section class="panel" id="p4">
+      <h2 class="visually-hidden">④ 文学史の時系列型</h2>
+      <dl class="pattern-need"><div><dt>出題のしかた</dt><dd>時代や年代に関する空欄・順番を考える</dd></div><div><dt>求められる知識</dt><dd>文学史の流れ</dd></div></dl>
+      <article class="card quiz" id="ex-31">
+        <h3>問31</h3>
         <p>次の文の（Ａ）（Ｂ）にあてはまる言葉の組み合わせとして、正しいものを選びなさい。<br>「明治時代のはじめ、坪内逍遥は『小説神髄』で（Ａ）を唱えた。明治時代の終わりには、人間のいやな面までかくさずに書こうとする（Ｂ）が流行し、島崎藤村の『破戒』などが書かれた。」</p>
         <ol class="choices">
           <li>Ａ：リアリズム　Ｂ：自然主義</li>
@@ -347,9 +895,8 @@
           <p class="related">くわしく：<a href="authors.html#tsubouchi-shoyo">坪内逍遥</a>、<a href="authors.html#shimazaki-toson">島崎藤村</a>、<a href="works.html#shosetsu-shinzui">『小説神髄』</a>、<a href="works.html#hakai">『破戒』</a>、<a class="word" href="glossary.html#term-realism">リアリズム（写実主義）</a>、<a class="word" href="glossary.html#term-naturalism">自然主義</a></p>
         </details>
       </article>
-      <article class="card quiz" id="ex-11">
-        <p class="meta"><span class="tag">④ 文学史の時系列型</span><span class="tag">知識で解く</span><span class="stars" aria-label="むずかしさ2">★★☆</span></p>
-        <h3>問11</h3>
+      <article class="card quiz" id="ex-32">
+        <h3>問32</h3>
         <p>次の作品を、発表された年の古い順に並べたものとして正しいものを選びなさい。<br>Ａ『羅生門』　Ｂ『舞姫』　Ｃ『人間失格』　Ｄ『吾輩は猫である』</p>
         <ol class="choices">
           <li>Ｂ→Ｄ→Ａ→Ｃ</li>
@@ -376,9 +923,8 @@
           <p class="related">くわしく：<a href="authors.html#mori-ogai">森鷗外</a>、<a href="authors.html#natsume-soseki">夏目漱石</a>、<a href="authors.html#akutagawa-ryunosuke">芥川龍之介</a>、<a href="authors.html#dazai-osamu">太宰治</a>、<a href="works.html#maihime">『舞姫』</a>、<a href="works.html#wagahai-wa-neko-dearu">『吾輩は猫である』</a>、<a href="works.html#rashomon">『羅生門』</a>、<a href="works.html#ningen-shikkaku">『人間失格』</a></p>
         </details>
       </article>
-      <article class="card quiz" id="ex-12">
-        <p class="meta"><span class="tag">④ 文学史の時系列型</span><span class="tag">知識で解く</span><span class="stars" aria-label="むずかしさ2">★★☆</span></p>
-        <h3>問12</h3>
+      <article class="card quiz" id="ex-33">
+        <h3>問33</h3>
         <p>次の人物を、生まれた年の早い順に並べたとき、3番目になるのはだれですか。</p>
         <ol class="choices">
           <li>太宰治</li>
@@ -405,14 +951,205 @@
           <p class="related">くわしく：<a href="authors.html#dazai-osamu">太宰治</a>、<a href="authors.html#matsuo-basho">松尾芭蕉</a>、<a href="authors.html#natsume-soseki">夏目漱石</a>、<a href="authors.html#mishima-yukio">三島由紀夫</a></p>
         </details>
       </article>
+      <article class="card quiz" id="ex-34">
+        <h3>問34</h3>
+        <p>次の文学のグループを、登場した順に並べたものとして正しいものを選びなさい。<br>Ａ 白樺派　Ｂ 無頼派　Ｃ 新感覚派　Ｄ 自然主義</p>
+        <ol class="choices">
+          <li>Ｄ→Ａ→Ｃ→Ｂ</li>
+          <li>Ａ→Ｄ→Ｃ→Ｂ</li>
+          <li>Ｄ→Ｃ→Ａ→Ｂ</li>
+          <li>Ｃ→Ａ→Ｄ→Ｂ</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li><a class="word" href="glossary.html#term-naturalism">自然主義</a>：明治の終わり</li>
+                <li><a class="word" href="glossary.html#term-shirakaba">白樺派</a>：1910年〜</li>
+                <li><a class="word" href="glossary.html#term-shinkankakuha">新感覚派</a>：1924年〜</li>
+                <li><a class="word" href="glossary.html#term-buraiha">無頼派</a>：戦後（1945年〜）</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p><a class="word" href="glossary.html#term-buraiha">無頼派</a>は戦後なので最後。<a class="word" href="glossary.html#term-naturalism">自然主義</a>は明治の終わりで最初。<a class="word" href="glossary.html#term-shirakaba">白樺派</a>（1910年）と<a class="word" href="glossary.html#term-shinkankakuha">新感覚派</a>（1924年）は雑誌ができた年で比べる。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　Ｄ→Ａ→Ｃ→Ｂ</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>文学のグループは、時代と雑誌の年で並べられるようにする。</p>
+          <p class="related">くわしく：<a class="word" href="glossary.html#term-naturalism">自然主義</a>、<a class="word" href="glossary.html#term-shirakaba">白樺派</a>、<a class="word" href="glossary.html#term-shinkankakuha">新感覚派</a>、<a class="word" href="glossary.html#term-buraiha">無頼派</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-35">
+        <h3>問35</h3>
+        <p>次の出来事を、古い順に並べたものとして正しいものを選びなさい。<br>Ａ 芥川賞・直木賞がつくられる　Ｂ 雑誌『白樺』ができる　Ｃ 川端康成がノーベル文学賞を受ける　Ｄ 雑誌『文芸時代』ができる</p>
+        <ol class="choices">
+          <li>Ｂ→Ｄ→Ａ→Ｃ</li>
+          <li>Ｄ→Ｂ→Ａ→Ｃ</li>
+          <li>Ｂ→Ａ→Ｄ→Ｃ</li>
+          <li>Ａ→Ｂ→Ｄ→Ｃ</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>『白樺』1910年</li>
+                <li>『文芸時代』1924年</li>
+                <li><a class="word" href="glossary.html#term-prize">芥川賞</a>・直木賞 1935年</li>
+                <li><a class="person" href="authors.html#kawabata-yasunari">川端康成</a>の<a class="word" href="glossary.html#term-nobel">ノーベル文学賞</a> 1968年</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>大正（『白樺』『文芸時代』）→昭和の戦前（<a class="word" href="glossary.html#term-prize">芥川賞</a>）→戦後（ノーベル賞）の順。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　Ｂ→Ｄ→Ａ→Ｃ</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>大きな出来事は、年と時代をセットで覚える。</p>
+          <p class="related">くわしく：<a href="authors.html#kawabata-yasunari">川端康成</a>、<a class="word" href="glossary.html#term-prize">芥川賞・直木賞</a>、<a class="word" href="glossary.html#term-nobel">ノーベル文学賞</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-36">
+        <h3>問36</h3>
+        <p>次の文の（Ａ）（Ｂ）にあてはまる言葉の組み合わせとして、正しいものを選びなさい。<br>「芥川龍之介が亡くなったあと、友人の菊池寛は1935年に（Ａ）をつくった。その第1回の候補になった（Ｂ）は、受賞できなかった。」</p>
+        <ol class="choices">
+          <li>Ａ：芥川賞　Ｂ：太宰治</li>
+          <li>Ａ：直木賞　Ｂ：太宰治</li>
+          <li>Ａ：芥川賞　Ｂ：川端康成</li>
+          <li>Ａ：ノーベル文学賞　Ｂ：三島由紀夫</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>芥川の名前を残すためにつくったのは<a class="word" href="glossary.html#term-prize">芥川賞</a></li>
+                <li>第1回<a class="word" href="glossary.html#term-prize">芥川賞</a>の候補になり受賞できなかったのは<a class="person" href="authors.html#dazai-osamu">太宰治</a>。<a class="person" href="authors.html#kawabata-yasunari">川端康成</a>は<a class="word" href="glossary.html#term-senko">選考委員</a></li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>Ａは「芥川の名前を残す」から<a class="word" href="glossary.html#term-prize">芥川賞</a>。Ｂは、<a class="word" href="glossary.html#term-senko">選考委員</a>だった川端ではなく、候補だった太宰。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　Ａ：芥川賞　Ｂ：太宰治</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>文学賞の出来事は、賞の名前・年・関係した人物をセットで覚える。</p>
+          <p class="related">くわしく：<a href="authors.html#kikuchi-kan">菊池寛</a>、<a href="authors.html#dazai-osamu">太宰治</a>、<a href="authors.html#kawabata-yasunari">川端康成</a>、<a class="word" href="glossary.html#term-prize">芥川賞・直木賞</a>、<a class="word" href="glossary.html#term-senko">選考委員・選評</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-37">
+        <h3>問37</h3>
+        <p>松尾芭蕉・夏目漱石・川端康成が主に活躍した時代の組み合わせとして、正しいものを選びなさい。</p>
+        <ol class="choices">
+          <li>江戸 ― 明治 ― 昭和</li>
+          <li>江戸 ― 大正 ― 昭和</li>
+          <li>明治 ― 明治 ― 昭和</li>
+          <li>江戸 ― 明治 ― 平成</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li><a class="person" href="authors.html#matsuo-basho">芭蕉</a>は江戸時代（1644〜1694年）</li>
+                <li><a class="person" href="authors.html#natsume-soseki">漱石</a>は明治時代（大正のはじめまで）</li>
+                <li>川端は昭和時代（大正の終わりから）</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>三人の生まれた年（1644年・1867年・1899年）から考えてもよい。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　江戸 ― 明治 ― 昭和</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>作家は、まず活躍した時代で大きく分けて覚える。</p>
+          <p class="related">くわしく：<a href="authors.html#matsuo-basho">松尾芭蕉</a>、<a href="authors.html#natsume-soseki">夏目漱石</a>、<a href="authors.html#kawabata-yasunari">川端康成</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-38">
+        <h3>問38</h3>
+        <p>次の作品を、発表された年の古い順に並べたものとして正しいものを選びなさい。<br>Ａ『破戒』　Ｂ『雪国』　Ｃ『若菜集』　Ｄ『城の崎にて』</p>
+        <ol class="choices">
+          <li>Ｃ→Ａ→Ｄ→Ｂ</li>
+          <li>Ａ→Ｃ→Ｄ→Ｂ</li>
+          <li>Ｃ→Ｄ→Ａ→Ｂ</li>
+          <li>Ｄ→Ｃ→Ａ→Ｂ</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>『若菜集』1897年（藤村）</li>
+                <li>『破戒』1906年（藤村）</li>
+                <li>『城の崎にて』1917年（志賀）</li>
+                <li>『雪国』1935年（川端）</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>藤村は詩集『若菜集』のあとに小説『破戒』を書いた（<a class="word" href="glossary.html#term-romanticism">浪漫主義</a>→<a class="word" href="glossary.html#term-naturalism">自然主義</a>）。志賀は大正、川端は昭和。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　Ｃ→Ａ→Ｄ→Ｂ</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>同じ作家の作品は、書いた順番も覚えておく。</p>
+          <p class="related">くわしく：<a href="authors.html#shimazaki-toson">島崎藤村</a>、<a href="authors.html#shiga-naoya">志賀直哉</a>、<a href="authors.html#kawabata-yasunari">川端康成</a>、<a href="works.html#wakanashu">『若菜集』</a>、<a href="works.html#hakai">『破戒』</a>、<a href="works.html#kinosaki-nite">『城の崎にて』</a>、<a href="works.html#yukiguni">『雪国』</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-39">
+        <h3>問39</h3>
+        <p>次のうち、明治時代に発表された作品を一つ選びなさい。</p>
+        <ol class="choices">
+          <li>『舞姫』</li>
+          <li>『羅生門』</li>
+          <li>『雪国』</li>
+          <li>『斜陽』</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>『舞姫』1890年（明治）</li>
+                <li>『羅生門』1915年（大正）</li>
+                <li>『雪国』1935年（昭和）</li>
+                <li>『斜陽』1947年（昭和）</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>作者で考えると、<a class="person" href="authors.html#mori-ogai">鷗外</a>は明治、芥川は大正、川端と太宰は昭和に活躍した。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　『舞姫』</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>作品の時代は、作者の活躍した時代から考えられる。</p>
+          <p class="related">くわしく：<a href="authors.html#mori-ogai">森鷗外</a>、<a href="authors.html#akutagawa-ryunosuke">芥川龍之介</a>、<a href="authors.html#kawabata-yasunari">川端康成</a>、<a href="authors.html#dazai-osamu">太宰治</a>、<a href="works.html#maihime">『舞姫』</a>、<a href="works.html#rashomon">『羅生門』</a>、<a href="works.html#yukiguni">『雪国』</a>、<a href="works.html#shayo">『斜陽』</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-40">
+        <h3>問40</h3>
+        <p>次の文の（Ａ）〜（Ｃ）にあてはまる人物の組み合わせとして、正しいものを選びなさい。<br>「江戸時代、（Ａ）が俳諧を芸術に高めた。明治時代になると、（Ｂ）が『俳句』というよび方を広めた。大正時代には、（Ｃ）が五・七・五にとらわれない自由律俳句を唱えた。」</p>
+        <ol class="choices">
+          <li>Ａ 松尾芭蕉　Ｂ 正岡子規　Ｃ 荻原井泉水</li>
+          <li>Ａ 正岡子規　Ｂ 松尾芭蕉　Ｃ 荻原井泉水</li>
+          <li>Ａ 松尾芭蕉　Ｂ 荻原井泉水　Ｃ 正岡子規</li>
+          <li>Ａ 良寛　Ｂ 正岡子規　Ｃ 種田山頭火</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>江戸：<a class="person" href="authors.html#matsuo-basho">松尾芭蕉</a>（<a class="word" href="glossary.html#term-haikai">俳諧</a>を芸術に）</li>
+                <li>明治：<a class="person" href="authors.html#masaoka-shiki">正岡子規</a>（「<a class="word" href="glossary.html#term-haiku">俳句</a>」というよび方）</li>
+                <li>大正：<a class="person" href="authors.html#ogiwara-seisensui">荻原井泉水</a>（<a class="word" href="glossary.html#term-jiyuritsu">自由律俳句</a>を唱えた）</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>時代の順に人物を当てはめる。山頭火は<a class="word" href="glossary.html#term-jiyuritsu">自由律俳句</a>をよんだ人で、唱えたのは先生の井泉水。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　Ａ 松尾芭蕉　Ｂ 正岡子規　Ｃ 荻原井泉水</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span><a class="word" href="glossary.html#term-haiku">俳句</a>の歴史は「<a class="person" href="authors.html#matsuo-basho">芭蕉</a>→<a class="person" href="authors.html#masaoka-shiki">子規</a>→井泉水」の三人で覚える。</p>
+          <p class="related">くわしく：<a href="authors.html#matsuo-basho">松尾芭蕉</a>、<a href="authors.html#masaoka-shiki">正岡子規</a>、<a href="authors.html#ogiwara-seisensui">荻原井泉水</a>、<a class="word" href="glossary.html#term-haikai">俳諧</a>、<a class="word" href="glossary.html#term-haiku">俳句</a>、<a class="word" href="glossary.html#term-jiyuritsu">自由律俳句</a></p>
+        </details>
+      </article>
     </section>
 
-    <section class="group">
-      <h2 id="p5">⑤ 文学運動・主義型</h2>
-      <p class="pattern-need"><span class="tag">出題のしかた</span>作品や作家から文学のグループ・考え方を判断する　<span class="tag">求められる知識</span>文学運動・文学の考え方</p>
-      <article class="card quiz" id="ex-13">
-        <p class="meta"><span class="tag">⑤ 文学運動・主義型</span><span class="tag">選択肢を比較</span><span class="stars" aria-label="むずかしさ2">★★☆</span></p>
-        <h3>問13</h3>
+    <section class="panel" id="p5">
+      <h2 class="visually-hidden">⑤ 文学運動・主義型</h2>
+      <dl class="pattern-need"><div><dt>出題のしかた</dt><dd>作品や作家から文学のグループ・考え方を判断する</dd></div><div><dt>求められる知識</dt><dd>文学運動・文学の考え方</dd></div></dl>
+      <article class="card quiz" id="ex-41">
+        <h3>問41</h3>
         <p>作家と文学のグループの組み合わせとして、正しいものを選びなさい。</p>
         <ol class="choices">
           <li>志賀直哉 ― 無頼派</li>
@@ -439,9 +1176,8 @@
           <p class="related">くわしく：<a href="authors.html#shiga-naoya">志賀直哉</a>、<a href="authors.html#dazai-osamu">太宰治</a>、<a href="authors.html#kawabata-yasunari">川端康成</a>、<a href="authors.html#tayama-katai">田山花袋</a>、<a class="word" href="glossary.html#term-shirakaba">白樺派</a>、<a class="word" href="glossary.html#term-buraiha">無頼派</a>、<a class="word" href="glossary.html#term-shinkankakuha">新感覚派</a>、<a class="word" href="glossary.html#term-naturalism">自然主義</a></p>
         </details>
       </article>
-      <article class="card quiz" id="ex-14">
-        <p class="meta"><span class="tag">⑤ 文学運動・主義型</span><span class="tag">問題文から推測</span><span class="stars" aria-label="むずかしさ3">★★★</span></p>
-        <h3>問14</h3>
+      <article class="card quiz" id="ex-42">
+        <h3>問42</h3>
         <p>次の説明にあてはまる文学のグループに属する作家を、一人選びなさい。<br>「1910年に創刊された雑誌に集まった作家たち。人間のよさを信じる、明るく前向きな考え方を大切にした。」</p>
         <ol class="choices">
           <li>武者小路実篤</li>
@@ -467,14 +1203,224 @@
           <p class="related">くわしく：<a href="authors.html#musha-no-koji-saneatsu">武者小路実篤</a>、<a href="authors.html#sakaguchi-ango">坂口安吾</a>、<a href="authors.html#yokomitsu-riichi">横光利一</a>、<a href="authors.html#shimazaki-toson">島崎藤村</a>、<a class="word" href="glossary.html#term-shirakaba">白樺派</a></p>
         </details>
       </article>
+      <article class="card quiz" id="ex-43">
+        <h3>問43</h3>
+        <p>明治時代の終わりに流行し、人間のいやな面や暗い面までかくさずに書こうとした文学の流れを何といいますか。</p>
+        <ol class="choices">
+          <li>自然主義</li>
+          <li>浪漫主義</li>
+          <li>白樺派</li>
+          <li>新感覚派</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li><a class="word" href="glossary.html#term-naturalism">自然主義</a>は、人間のありのままの姿をかくさず書こうとした</li>
+                <li><a class="word" href="glossary.html#term-romanticism">浪漫主義</a>は気持ちや夢を、<a class="word" href="glossary.html#term-shirakaba">白樺派</a>は人間のよさを大切にした</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>「いやな面までかくさず」がポイント。<a class="word" href="glossary.html#term-shirakaba">白樺派</a>はその反対に、人間のよさを信じた。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　自然主義</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>似たグループは「何を大切にしたか」で区別する。</p>
+          <p class="related">くわしく：<a class="word" href="glossary.html#term-naturalism">自然主義</a>、<a class="word" href="glossary.html#term-romanticism">浪漫主義</a>、<a class="word" href="glossary.html#term-shirakaba">白樺派</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-44">
+        <h3>問44</h3>
+        <p>無頼派の作家を二人選びなさい。</p>
+        <ol class="choices">
+          <li>太宰治</li>
+          <li>坂口安吾</li>
+          <li>志賀直哉</li>
+          <li>横光利一</li>
+          <li>田山花袋</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li><a class="word" href="glossary.html#term-buraiha">無頼派</a>：<a class="person" href="authors.html#dazai-osamu">太宰治</a>・<a class="person" href="authors.html#sakaguchi-ango">坂口安吾</a>（戦後）</li>
+                <li><a class="person" href="authors.html#shiga-naoya">志賀直哉</a>は<a class="word" href="glossary.html#term-shirakaba">白樺派</a>、<a class="person" href="authors.html#yokomitsu-riichi">横光利一</a>は<a class="word" href="glossary.html#term-shinkankakuha">新感覚派</a>、<a class="person" href="authors.html#tayama-katai">田山花袋</a>は<a class="word" href="glossary.html#term-naturalism">自然主義</a></li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>戦後に活躍した作家を選べばよい。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　太宰治・イ　坂口安吾</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>作家とグループは、時代とセットで覚える。</p>
+          <p class="related">くわしく：<a href="authors.html#dazai-osamu">太宰治</a>、<a href="authors.html#sakaguchi-ango">坂口安吾</a>、<a href="authors.html#shiga-naoya">志賀直哉</a>、<a href="authors.html#yokomitsu-riichi">横光利一</a>、<a href="authors.html#tayama-katai">田山花袋</a>、<a class="word" href="glossary.html#term-buraiha">無頼派</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-45">
+        <h3>問45</h3>
+        <p>浪漫主義の作品を一つ選びなさい。</p>
+        <ol class="choices">
+          <li>『みだれ髪』</li>
+          <li>『破戒』</li>
+          <li>『蒲団』</li>
+          <li>『堕落論』</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>『みだれ髪』は<a class="person" href="authors.html#yosano-akiko">与謝野晶子</a>の歌集で<a class="word" href="glossary.html#term-romanticism">浪漫主義</a></li>
+                <li>『破戒』『蒲団』は<a class="word" href="glossary.html#term-naturalism">自然主義</a>、『堕落論』は<a class="word" href="glossary.html#term-buraiha">無頼派</a>の<a class="person" href="authors.html#sakaguchi-ango">坂口安吾</a>の<a class="word" href="glossary.html#term-hyoron">評論</a></li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>恋の気持ちを情熱的にうたった『みだれ髪』が<a class="word" href="glossary.html#term-romanticism">浪漫主義</a>。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　『みだれ髪』</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>作品とグループも結び付けて覚える。</p>
+          <p class="related">くわしく：<a href="authors.html#yosano-akiko">与謝野晶子</a>、<a href="works.html#midaregami">『みだれ髪』</a>、<a href="works.html#hakai">『破戒』</a>、<a href="works.html#futon">『蒲団』</a>、<a href="works.html#darakuron">『堕落論』</a>、<a class="word" href="glossary.html#term-romanticism">浪漫主義</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-46">
+        <h3>問46</h3>
+        <p>新感覚派の作家たちがつくった雑誌を一つ選びなさい。</p>
+        <ol class="choices">
+          <li>『文芸時代』</li>
+          <li>『白樺』</li>
+          <li>『新思潮』</li>
+          <li>『文藝春秋』</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li><a class="word" href="glossary.html#term-shinkankakuha">新感覚派</a>：『文芸時代』（1924年、<a class="person" href="authors.html#yokomitsu-riichi">横光利一</a>・<a class="person" href="authors.html#kawabata-yasunari">川端康成</a>ら）</li>
+                <li><a class="word" href="glossary.html#term-shirakaba">白樺派</a>：『白樺』</li>
+                <li>『新思潮』は<a class="person" href="authors.html#akutagawa-ryunosuke">芥川龍之介</a>らの<a class="word" href="glossary.html#term-dojinshi">同人誌</a></li>
+                <li>『文藝春秋』は<a class="person" href="authors.html#kikuchi-kan">菊池寛</a>がつくった</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>グループの名前と雑誌の名前をセットで覚えていれば答えられる。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　『文芸時代』</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>雑誌の名前は、グループ・人物とセットで覚える。</p>
+          <p class="related">くわしく：<a href="authors.html#yokomitsu-riichi">横光利一</a>、<a href="authors.html#kawabata-yasunari">川端康成</a>、<a class="word" href="glossary.html#term-shinkankakuha">新感覚派</a>、<a class="word" href="glossary.html#term-shirakaba">白樺派</a>、<a class="word" href="glossary.html#term-dojinshi">同人誌</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-47">
+        <h3>問47</h3>
+        <p>私小説の始まりともいわれる作品を一つ選びなさい。</p>
+        <ol class="choices">
+          <li>『蒲団』</li>
+          <li>『破戒』</li>
+          <li>『舞姫』</li>
+          <li>『浮雲』</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li><a class="person" href="authors.html#tayama-katai">田山花袋</a>の『蒲団』は、作者自身の体験をもとに書かれ、<a class="word" href="glossary.html#term-shishosetsu">私小説</a>の始まりともいわれる</li>
+                <li>『破戒』は<a class="word" href="glossary.html#term-naturalism">自然主義</a>の代表作だが、<a class="word" href="glossary.html#term-shishosetsu">私小説</a>ではない</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>どちらも<a class="word" href="glossary.html#term-naturalism">自然主義</a>の作品だが、作者自身の体験を書いたのは『蒲団』。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　『蒲団』</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span><a class="word" href="glossary.html#term-naturalism">自然主義</a>の二作品（『破戒』『蒲団』）のちがいを覚える。</p>
+          <p class="related">くわしく：<a href="authors.html#tayama-katai">田山花袋</a>、<a href="works.html#futon">『蒲団』</a>、<a href="works.html#hakai">『破戒』</a>、<a class="word" href="glossary.html#term-shishosetsu">私小説</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-48">
+        <h3>問48</h3>
+        <p>「反自然主義」の作家とよばれる二人の組み合わせとして、正しいものを選びなさい。</p>
+        <ol class="choices">
+          <li>夏目漱石 ― 森鷗外</li>
+          <li>島崎藤村 ― 田山花袋</li>
+          <li>志賀直哉 ― 武者小路実篤</li>
+          <li>太宰治 ― 坂口安吾</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li><a class="word" href="glossary.html#term-anti-naturalism">反自然主義</a>：<a class="person" href="authors.html#natsume-soseki">漱石</a>・<a class="person" href="authors.html#mori-ogai">鷗外</a></li>
+                <li>藤村・花袋は<a class="word" href="glossary.html#term-naturalism">自然主義</a>、志賀・武者小路は<a class="word" href="glossary.html#term-shirakaba">白樺派</a>、太宰・坂口は<a class="word" href="glossary.html#term-buraiha">無頼派</a></li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>どの組み合わせも「同じグループの二人」になっている。グループ名と二人をセットで覚えていれば選べる。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　夏目漱石 ― 森鷗外</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>グループごとに代表的な作家を二人ずつ覚える。</p>
+          <p class="related">くわしく：<a href="authors.html#natsume-soseki">夏目漱石</a>、<a href="authors.html#mori-ogai">森鷗外</a>、<a class="word" href="glossary.html#term-anti-naturalism">反自然主義</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-49">
+        <h3>問49</h3>
+        <p>島崎藤村の作品と、その作品の文学の流れの組み合わせとして、正しいものを選びなさい。</p>
+        <ol class="choices">
+          <li>『若菜集』― 浪漫主義、『破戒』― 自然主義</li>
+          <li>『若菜集』― 自然主義、『破戒』― 浪漫主義</li>
+          <li>『若菜集』― 白樺派、『破戒』― 自然主義</li>
+          <li>『若菜集』― 浪漫主義、『破戒』― 白樺派</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>藤村は、はじめ詩集『若菜集』で<a class="word" href="glossary.html#term-romanticism">浪漫主義</a>の詩人として活躍し、のちに小説『破戒』で<a class="word" href="glossary.html#term-naturalism">自然主義</a>の作家になった</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>藤村は「<a class="word" href="glossary.html#term-romanticism">浪漫主義</a>から<a class="word" href="glossary.html#term-naturalism">自然主義</a>へ」移った作家。順番も時代の流れと同じ。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　『若菜集』― 浪漫主義、『破戒』― 自然主義</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>一人の作家が二つのグループにまたがることもある。</p>
+          <p class="related">くわしく：<a href="authors.html#shimazaki-toson">島崎藤村</a>、<a href="works.html#wakanashu">『若菜集』</a>、<a href="works.html#hakai">『破戒』</a>、<a class="word" href="glossary.html#term-romanticism">浪漫主義</a>、<a class="word" href="glossary.html#term-naturalism">自然主義</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-50">
+        <h3>問50</h3>
+        <p>リアリズム（写実主義）を唱えた評論を一つ選びなさい。</p>
+        <ol class="choices">
+          <li>『小説神髄』</li>
+          <li>『堕落論』</li>
+          <li>『病牀六尺』</li>
+          <li>『浮雲』</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li><a class="person" href="authors.html#tsubouchi-shoyo">坪内逍遥</a>の『小説神髄』が<a class="word" href="glossary.html#term-realism">リアリズム</a>を唱えた<a class="word" href="glossary.html#term-hyoron">評論</a></li>
+                <li>『浮雲』はその考えを作品にした小説</li>
+                <li>『堕落論』は<a class="person" href="authors.html#sakaguchi-ango">坂口安吾</a>の<a class="word" href="glossary.html#term-hyoron">評論</a>、『病牀六尺』は<a class="person" href="authors.html#masaoka-shiki">正岡子規</a>の<a class="word" href="glossary.html#term-zuihitsu">随筆</a></li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>「<a class="word" href="glossary.html#term-hyoron">評論</a>」と「<a class="word" href="glossary.html#term-realism">リアリズム</a>」の二つの条件で決まる。『浮雲』はリアリズムの小説で、評論ではない。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　『小説神髄』</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>考えを唱えた本（<a class="word" href="glossary.html#term-hyoron">評論</a>）と、それを作品にした小説を区別する。</p>
+          <p class="related">くわしく：<a href="authors.html#tsubouchi-shoyo">坪内逍遥</a>、<a href="works.html#shosetsu-shinzui">『小説神髄』</a>、<a href="works.html#ukigumo">『浮雲』</a>、<a class="word" href="glossary.html#term-realism">リアリズム（写実主義）</a>、<a class="word" href="glossary.html#term-hyoron">評論</a></p>
+        </details>
+      </article>
     </section>
 
-    <section class="group">
-      <h2 id="p6">⑥ 文学ジャンル判定型</h2>
-      <p class="pattern-need"><span class="tag">出題のしかた</span>作品や表現の特徴からジャンルを判断する　<span class="tag">求められる知識</span>作品の種類・詩のかたち</p>
-      <article class="card quiz" id="ex-15">
-        <p class="meta"><span class="tag">⑥ 文学ジャンル判定型</span><span class="tag">知識で解く</span><span class="stars" aria-label="むずかしさ2">★★☆</span></p>
-        <h3>問15</h3>
+    <section class="panel" id="p6">
+      <h2 class="visually-hidden">⑥ 文学ジャンル判定型</h2>
+      <dl class="pattern-need"><div><dt>出題のしかた</dt><dd>作品や表現の特徴からジャンルを判断する</dd></div><div><dt>求められる知識</dt><dd>作品の種類・詩のかたち</dd></div></dl>
+      <article class="card quiz" id="ex-51">
+        <h3>問51</h3>
         <p>次のうち、紀行文（旅をしながら見たことや感じたことを書いた文章）はどれですか。</p>
         <ol class="choices">
           <li>『おくのほそ道』</li>
@@ -501,9 +1447,8 @@
           <p class="related">くわしく：<a href="works.html#oku-no-hosomichi">『おくのほそ道（奥の細道）』</a>、<a href="works.html#byosho-rokushaku">『病牀六尺』</a>、<a href="works.html#shosetsu-shinzui">『小説神髄』</a>、<a href="works.html#chichi-kaeru">『父帰る』</a>、<a class="word" href="glossary.html#term-kikobun">紀行文</a>、<a class="word" href="glossary.html#term-zuihitsu">随筆</a>、<a class="word" href="glossary.html#term-hyoron">評論</a>、<a class="word" href="glossary.html#term-gikyoku">戯曲</a></p>
         </details>
       </article>
-      <article class="card quiz" id="ex-16">
-        <p class="meta"><span class="tag">⑥ 文学ジャンル判定型</span><span class="tag">問題文から推測</span><span class="stars" aria-label="むずかしさ2">★★☆</span></p>
-        <h3>問16</h3>
+      <article class="card quiz" id="ex-52">
+        <h3>問52</h3>
         <p>次のうち、自由律俳句はどれですか。</p>
         <ol class="choices">
           <li>古池や蛙飛びこむ水の音</li>
@@ -530,9 +1475,8 @@
           <p class="related">くわしく：<a href="authors.html#ozaki-hosai">尾崎放哉</a>、<a href="authors.html#matsuo-basho">松尾芭蕉</a>、<a href="authors.html#ryokan">良寛</a>、<a class="word" href="glossary.html#term-jiyuritsu">自由律俳句</a>、<a class="word" href="glossary.html#term-haiku">俳句</a>、<a class="word" href="glossary.html#term-tanka">短歌</a></p>
         </details>
       </article>
-      <article class="card quiz" id="ex-17">
-        <p class="meta"><span class="tag">⑥ 文学ジャンル判定型</span><span class="tag">知識で解く</span><span class="stars" aria-label="むずかしさ2">★★☆</span></p>
-        <h3>問17</h3>
+      <article class="card quiz" id="ex-53">
+        <h3>問53</h3>
         <p>純文学と大衆文学について説明した文として、正しいものを選びなさい。</p>
         <ol class="choices">
           <li>芥川賞は主に純文学、直木賞は主に大衆文学の作品に贈られる。</li>
@@ -558,14 +1502,196 @@
           <p class="related">くわしく：<a class="word" href="glossary.html#term-junbungaku">純文学</a>、<a class="word" href="glossary.html#term-taishu">大衆文学</a>、<a class="word" href="glossary.html#term-prize">芥川賞・直木賞</a>、<a class="word" href="glossary.html#term-jido">児童文学</a></p>
         </details>
       </article>
+      <article class="card quiz" id="ex-54">
+        <h3>問54</h3>
+        <p>「閑さや岩にしみ入る蝉の声」の季語と季節の組み合わせとして、正しいものを選びなさい。</p>
+        <ol class="choices">
+          <li>蝉 ― 夏</li>
+          <li>岩 ― 秋</li>
+          <li>閑さ ― 冬</li>
+          <li>蝉 ― 秋</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li><a class="word" href="glossary.html#term-kigo">季語</a>は「蝉」で、季節は夏</li>
+                <li><a class="person" href="authors.html#matsuo-basho">松尾芭蕉</a>が『おくのほそ道』の旅でよんだ句</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>季節を表す言葉をさがす。「岩」「閑さ」は季節を表さない。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　蝉 ― 夏</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>有名な句は、<a class="word" href="glossary.html#term-kigo">季語</a>と季節も一緒に覚える。</p>
+          <p class="related">くわしく：<a href="authors.html#matsuo-basho">松尾芭蕉</a>、<a class="word" href="glossary.html#term-kigo">季語</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-55">
+        <h3>問55</h3>
+        <p>次のうち、短歌はどれですか。</p>
+        <ol class="choices">
+          <li>霞立つ永き春日を子供らと手毬つきつつこの日暮らしつ</li>
+          <li>古池や蛙飛びこむ水の音</li>
+          <li>咳をしても一人</li>
+          <li>五月雨をあつめて早し最上川</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li><a class="word" href="glossary.html#term-tanka">短歌</a>は五・七・五・七・七の三十一音</li>
+                <li>アは<a class="person" href="authors.html#ryokan">良寛</a>の<a class="word" href="glossary.html#term-tanka">短歌</a>、イ・エは<a class="person" href="authors.html#matsuo-basho">芭蕉</a>の<a class="word" href="glossary.html#term-haiku">俳句</a>、ウは<a class="person" href="authors.html#ozaki-hosai">尾崎放哉</a>の<a class="word" href="glossary.html#term-jiyuritsu">自由律俳句</a></li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>音の数を数える。三十一音になっているのはアだけ。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　霞立つ永き春日を子供らと手毬つきつつこの日暮らしつ</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>詩のかたちは、まず音の数で見分ける。</p>
+          <p class="related">くわしく：<a href="authors.html#ryokan">良寛</a>、<a class="word" href="glossary.html#term-tanka">短歌</a>、<a class="word" href="glossary.html#term-haiku">俳句</a>、<a class="word" href="glossary.html#term-jiyuritsu">自由律俳句</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-56">
+        <h3>問56</h3>
+        <p>次のうち、戯曲（劇の台本として書かれた文学）はどれですか。</p>
+        <ol class="choices">
+          <li>『父帰る』</li>
+          <li>『おくのほそ道』</li>
+          <li>『病牀六尺』</li>
+          <li>『若菜集』</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>『父帰る』は<a class="person" href="authors.html#kikuchi-kan">菊池寛</a>の<a class="word" href="glossary.html#term-gikyoku">戯曲</a></li>
+                <li>『おくのほそ道』は<a class="word" href="glossary.html#term-kikobun">紀行文</a>、『病牀六尺』は<a class="word" href="glossary.html#term-zuihitsu">随筆</a>、『若菜集』は詩集</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>作品の種類を一つずつ思い出す。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　『父帰る』</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>作品の種類は、代表作一つずつで覚える。</p>
+          <p class="related">くわしく：<a href="works.html#chichi-kaeru">『父帰る』</a>、<a href="works.html#oku-no-hosomichi">『おくのほそ道（奥の細道）』</a>、<a href="works.html#byosho-rokushaku">『病牀六尺』</a>、<a href="works.html#wakanashu">『若菜集』</a>、<a class="word" href="glossary.html#term-gikyoku">戯曲</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-57">
+        <h3>問57</h3>
+        <p>次のうち、評論を二つ選びなさい。</p>
+        <ol class="choices">
+          <li>『小説神髄』</li>
+          <li>『堕落論』</li>
+          <li>『父帰る』</li>
+          <li>『みだれ髪』</li>
+          <li>『浮雲』</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>『小説神髄』（<a class="person" href="authors.html#tsubouchi-shoyo">坪内逍遥</a>）と『堕落論』（<a class="person" href="authors.html#sakaguchi-ango">坂口安吾</a>）は<a class="word" href="glossary.html#term-hyoron">評論</a></li>
+                <li>『父帰る』は<a class="word" href="glossary.html#term-gikyoku">戯曲</a>、『みだれ髪』は歌集、『浮雲』は小説</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p><a class="word" href="glossary.html#term-hyoron">評論</a>は「自分の考えを筋道立てて述べた文章」。物語や歌ではないものを選ぶ。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　『小説神髄』・イ　『堕落論』</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span><a class="word" href="glossary.html#term-hyoron">評論</a>は、何を主張したかとセットで覚える。</p>
+          <p class="related">くわしく：<a href="works.html#shosetsu-shinzui">『小説神髄』</a>、<a href="works.html#darakuron">『堕落論』</a>、<a class="word" href="glossary.html#term-hyoron">評論</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-58">
+        <h3>問58</h3>
+        <p>川柳の説明として、正しいものを選びなさい。</p>
+        <ol class="choices">
+          <li>五・七・五でつくるが季語がなくてもよく、人のくらしや世の中をおもしろくよむ。</li>
+          <li>五・七・五・七・七の三十一音でつくる。</li>
+          <li>五・七・五の音数や季語にとらわれず、自由なリズムでよむ。</li>
+          <li>何人かで、五・七・五と七・七の句を交代でつなげる。</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li><a class="word" href="glossary.html#term-senryu">川柳</a>は五・七・五で、<a class="word" href="glossary.html#term-kigo">季語</a>がなくてもよい</li>
+                <li>イは<a class="word" href="glossary.html#term-tanka">短歌</a>、ウは<a class="word" href="glossary.html#term-jiyuritsu">自由律俳句</a>、エは<a class="word" href="glossary.html#term-renga">連歌</a>の説明</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p><a class="word" href="glossary.html#term-haiku">俳句</a>と同じ五・七・五だが、<a class="word" href="glossary.html#term-kigo">季語</a>の決まりがない点がちがう。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　五・七・五でつくるが季語がなくてもよく、人のくらしや世の中をおもしろくよむ。</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>詩のかたちは「音の数」と「<a class="word" href="glossary.html#term-kigo">季語</a>」の二つで区別する。</p>
+          <p class="related">くわしく：<a class="word" href="glossary.html#term-senryu">川柳</a>、<a class="word" href="glossary.html#term-tanka">短歌</a>、<a class="word" href="glossary.html#term-jiyuritsu">自由律俳句</a>、<a class="word" href="glossary.html#term-renga">連歌</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-59">
+        <h3>問59</h3>
+        <p>次のうち、歌集（短歌を集めた本）はどれですか。</p>
+        <ol class="choices">
+          <li>『みだれ髪』</li>
+          <li>『若菜集』</li>
+          <li>『おくのほそ道』</li>
+          <li>『病牀六尺』</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>『みだれ髪』は<a class="person" href="authors.html#yosano-akiko">与謝野晶子</a>の歌集</li>
+                <li>『若菜集』は<a class="person" href="authors.html#shimazaki-toson">島崎藤村</a>の詩集</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>歌集と詩集はまちがえやすい。<a class="word" href="glossary.html#term-tanka">短歌</a>を集めたものが歌集。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　『みだれ髪』</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>「歌集＝<a class="word" href="glossary.html#term-tanka">短歌</a>」「詩集＝詩」と覚える。</p>
+          <p class="related">くわしく：<a href="authors.html#yosano-akiko">与謝野晶子</a>、<a href="authors.html#shimazaki-toson">島崎藤村</a>、<a href="works.html#midaregami">『みだれ髪』</a>、<a href="works.html#wakanashu">『若菜集』</a>、<a class="word" href="glossary.html#term-tanka">短歌</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-60">
+        <h3>問60</h3>
+        <p>子ども向けの雑誌『赤い鳥』にのった児童文学の作品を一つ選びなさい。</p>
+        <ol class="choices">
+          <li>『蜘蛛の糸』</li>
+          <li>『羅生門』</li>
+          <li>『鼻』</li>
+          <li>『こころ』</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>『蜘蛛の糸』は<a class="person" href="authors.html#akutagawa-ryunosuke">芥川龍之介</a>が『赤い鳥』に発表した<a class="word" href="glossary.html#term-jido">児童文学</a></li>
+                <li>『羅生門』『鼻』も芥川の作品だが、<a class="word" href="glossary.html#term-jido">児童文学</a>ではない</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>芥川の作品が三つ並んでいる。作者ではなく「どこに発表したか」「だれに向けて書いたか」で選ぶ。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　『蜘蛛の糸』</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>同じ作家の作品でも、種類のちがいを覚えておく。</p>
+          <p class="related">くわしく：<a href="authors.html#akutagawa-ryunosuke">芥川龍之介</a>、<a href="works.html#kumo-no-ito">『蜘蛛の糸』</a>、<a href="works.html#rashomon">『羅生門』</a>、<a href="works.html#hana">『鼻』</a>、<a class="word" href="glossary.html#term-jido">児童文学</a></p>
+        </details>
+      </article>
     </section>
 
-    <section class="group">
-      <h2 id="p7">⑦ 国籍・地域判定型</h2>
-      <p class="pattern-need"><span class="tag">出題のしかた</span>作家・文学者の国を比べる　<span class="tag">求められる知識</span>国籍と人物の対応</p>
-      <article class="card quiz" id="ex-18">
-        <p class="meta"><span class="tag">⑦ 国籍・地域判定型</span><span class="tag">知識で解く</span><span class="stars" aria-label="むずかしさ2">★★☆</span></p>
-        <h3>問18</h3>
+    <section class="panel" id="p7">
+      <h2 class="visually-hidden">⑦ 国籍・地域判定型</h2>
+      <dl class="pattern-need"><div><dt>出題のしかた</dt><dd>作家・文学者の国を比べる</dd></div><div><dt>求められる知識</dt><dd>国籍と人物の対応</dd></div></dl>
+      <article class="card quiz" id="ex-61">
+        <h3>問61</h3>
         <p>次の四人のうち、ほかの三人と国がちがう人物を選びなさい。</p>
         <ol class="choices">
           <li>トルストイ</li>
@@ -590,9 +1716,8 @@
           <p class="related">くわしく：<a href="foreign.html#f-tolstoy">トルストイ</a>、<a href="foreign.html#f-chekhov">チェーホフ</a>、<a href="foreign.html#f-dickens">チャールズ・ディケンズ</a>、<a href="foreign.html#f-dostoevsky">ドストエフスキー</a></p>
         </details>
       </article>
-      <article class="card quiz" id="ex-19">
-        <p class="meta"><span class="tag">⑦ 国籍・地域判定型</span><span class="tag">知識で解く</span><span class="stars" aria-label="むずかしさ2">★★☆</span></p>
-        <h3>問19</h3>
+      <article class="card quiz" id="ex-62">
+        <h3>問62</h3>
         <p>どちらもアメリカの作家である組み合わせを選びなさい。</p>
         <ol class="choices">
           <li>マーク・トウェイン ― ヘミングウェイ</li>
@@ -617,9 +1742,8 @@
           <p class="related">くわしく：<a href="foreign.html#f-twain">マーク・トウェイン</a>、<a href="foreign.html#f-hemingway">アーネスト・ヘミングウェイ</a>、<a href="foreign.html#f-steinbeck">ジョン・スタインベック</a>、<a href="foreign.html#f-dickens">チャールズ・ディケンズ</a>、<a href="foreign.html#f-hugo">ヴィクトル・ユーゴー</a>、<a href="foreign.html#f-chekhov">チェーホフ</a></p>
         </details>
       </article>
-      <article class="card quiz" id="ex-20">
-        <p class="meta"><span class="tag">⑦ 国籍・地域判定型</span><span class="tag">知識で解く</span><span class="stars" aria-label="むずかしさ3">★★★</span></p>
-        <h3>問20</h3>
+      <article class="card quiz" id="ex-63">
+        <h3>問63</h3>
         <p>次の文学者・思想家のうち、ロシアの人物を一人選びなさい。</p>
         <ol class="choices">
           <li>シクロフスキー</li>
@@ -644,14 +1768,194 @@
           <p class="related">くわしく：<a href="foreign.html#f-shklovsky">ヴィクトル・シクロフスキー</a>、<a href="foreign.html#f-barthes">ロラン・バルト</a>、<a href="foreign.html#f-aristotle">アリストテレス</a>、<a href="foreign.html#f-goethe">ゲーテ</a>、<a class="word" href="glossary.html#term-ika">異化</a></p>
         </details>
       </article>
+      <article class="card quiz" id="ex-64">
+        <h3>問64</h3>
+        <p>どちらもフランスの作家である組み合わせを選びなさい。</p>
+        <ol class="choices">
+          <li>ユーゴー ― ヴェルヌ</li>
+          <li>ユーゴー ― ディケンズ</li>
+          <li>ヴェルヌ ― ゲーテ</li>
+          <li>ディケンズ ― オーウェル</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>フランス：<a class="person" href="foreign.html#f-hugo">ユーゴー</a>、<a class="person" href="foreign.html#f-verne">ヴェルヌ</a></li>
+                <li><a class="person" href="foreign.html#f-dickens">ディケンズ</a>・<a class="person" href="foreign.html#f-orwell">オーウェル</a>はイギリス、<a class="person" href="foreign.html#f-goethe">ゲーテ</a>はドイツ</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>エは二人ともイギリスで、国は同じだがフランスではない。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　ユーゴー ― ヴェルヌ</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>国ごとに作家を2〜3人ずつ覚える。</p>
+          <p class="related">くわしく：<a href="foreign.html#f-hugo">ヴィクトル・ユーゴー</a>、<a href="foreign.html#f-verne">ジュール・ヴェルヌ</a>、<a href="foreign.html#f-dickens">チャールズ・ディケンズ</a>、<a href="foreign.html#f-orwell">ジョージ・オーウェル</a>、<a href="foreign.html#f-goethe">ゲーテ</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-65">
+        <h3>問65</h3>
+        <p>次のうち、イギリスの作家を一人選びなさい。</p>
+        <ol class="choices">
+          <li>シェイクスピア</li>
+          <li>ゲーテ</li>
+          <li>ダンテ</li>
+          <li>セルバンテス</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li><a class="person" href="foreign.html#f-shakespeare">シェイクスピア</a>はイギリス</li>
+                <li><a class="person" href="foreign.html#f-goethe">ゲーテ</a>はドイツ、<a class="person" href="foreign.html#f-dante">ダンテ</a>はイタリア、<a class="person" href="foreign.html#f-cervantes">セルバンテス</a>はスペイン</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>ヨーロッパの作家が並んでいる。それぞれの国を思い出す。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　シェイクスピア</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>ヨーロッパの作家は、国ごとに一人ずつ代表を覚える。</p>
+          <p class="related">くわしく：<a href="foreign.html#f-shakespeare">ウィリアム・シェイクスピア</a>、<a href="foreign.html#f-goethe">ゲーテ</a>、<a href="foreign.html#f-dante">ダンテ</a>、<a href="foreign.html#f-cervantes">セルバンテス</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-66">
+        <h3>問66</h3>
+        <p>『ドン・キホーテ』を書いた作家の国を選びなさい。</p>
+        <ol class="choices">
+          <li>スペイン</li>
+          <li>イタリア</li>
+          <li>フランス</li>
+          <li>デンマーク</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>『ドン・キホーテ』は<a class="person" href="foreign.html#f-cervantes">セルバンテス</a>（スペイン）の作品</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>作品→作者→国の順に考える。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　スペイン</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>作品から国まで、二段階でたどれるようにする。</p>
+          <p class="related">くわしく：<a href="foreign.html#f-cervantes">セルバンテス</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-67">
+        <h3>問67</h3>
+        <p>作家とその国の組み合わせとして、正しいものを選びなさい。</p>
+        <ol class="choices">
+          <li>アンデルセン ― デンマーク</li>
+          <li>ダンテ ― スペイン</li>
+          <li>ゲーテ ― フランス</li>
+          <li>チェーホフ ― イギリス</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li><a class="person" href="foreign.html#f-andersen">アンデルセン</a>はデンマーク</li>
+                <li><a class="person" href="foreign.html#f-dante">ダンテ</a>はイタリア、<a class="person" href="foreign.html#f-goethe">ゲーテ</a>はドイツ、<a class="person" href="foreign.html#f-chekhov">チェーホフ</a>はロシア</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>一つずつ国を確かめる。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　アンデルセン ― デンマーク</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>国の組み合わせ問題は、正しい国を一人ずつ思い出して確かめる。</p>
+          <p class="related">くわしく：<a href="foreign.html#f-andersen">アンデルセン</a>、<a href="foreign.html#f-dante">ダンテ</a>、<a href="foreign.html#f-goethe">ゲーテ</a>、<a href="foreign.html#f-chekhov">チェーホフ</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-68">
+        <h3>問68</h3>
+        <p>次のうち、古代ギリシャの人物を一人選びなさい。</p>
+        <ol class="choices">
+          <li>プラトン</li>
+          <li>バフチン</li>
+          <li>ロラン・バルト</li>
+          <li>ディケンズ</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li><a class="person" href="foreign.html#f-plato">プラトン</a>は古代ギリシャの哲学者（<a class="person" href="foreign.html#f-aristotle">アリストテレス</a>の先生）</li>
+                <li><a class="person" href="foreign.html#f-bakhtin">バフチン</a>はロシア、<a class="person" href="foreign.html#f-barthes">ロラン・バルト</a>はフランス、<a class="person" href="foreign.html#f-dickens">ディケンズ</a>はイギリス</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>古代ギリシャの人物は、<a class="person" href="foreign.html#f-aristotle">アリストテレス</a>と<a class="person" href="foreign.html#f-plato">プラトン</a>の二人。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　プラトン</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>文学者・思想家も、まず国を覚える。</p>
+          <p class="related">くわしく：<a href="foreign.html#f-plato">プラトン</a>、<a href="foreign.html#f-bakhtin">ミハイル・バフチン</a>、<a href="foreign.html#f-barthes">ロラン・バルト</a>、<a href="foreign.html#f-dickens">チャールズ・ディケンズ</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-69">
+        <h3>問69</h3>
+        <p>次の四人のうち、ほかの三人と国がちがう人物を選びなさい。</p>
+        <ol class="choices">
+          <li>ヘミングウェイ</li>
+          <li>スタインベック</li>
+          <li>マーク・トウェイン</li>
+          <li>オーウェル</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li><a class="person" href="foreign.html#f-hemingway">ヘミングウェイ</a>・<a class="person" href="foreign.html#f-steinbeck">スタインベック</a>・<a class="person" href="foreign.html#f-twain">トウェイン</a>はアメリカ</li>
+                <li><a class="person" href="foreign.html#f-orwell">オーウェル</a>はイギリス</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>どれも英語で書いた作家だが、国はちがう。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">エ　オーウェル</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>同じ言葉で書いた作家でも、国が同じとはかぎらない。</p>
+          <p class="related">くわしく：<a href="foreign.html#f-hemingway">アーネスト・ヘミングウェイ</a>、<a href="foreign.html#f-steinbeck">ジョン・スタインベック</a>、<a href="foreign.html#f-twain">マーク・トウェイン</a>、<a href="foreign.html#f-orwell">ジョージ・オーウェル</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-70">
+        <h3>問70</h3>
+        <p>『神曲』を書いた人物と、その国の組み合わせとして正しいものを選びなさい。</p>
+        <ol class="choices">
+          <li>ダンテ ― イタリア</li>
+          <li>ダンテ ― スペイン</li>
+          <li>セルバンテス ― イタリア</li>
+          <li>ゲーテ ― イタリア</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>『神曲』は<a class="person" href="foreign.html#f-dante">ダンテ</a>（イタリア）</li>
+                <li><a class="person" href="foreign.html#f-cervantes">セルバンテス</a>はスペイン、<a class="person" href="foreign.html#f-goethe">ゲーテ</a>はドイツ</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>まず作品から人物（<a class="person" href="foreign.html#f-dante">ダンテ</a>）を決め、次に国を確かめる。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　ダンテ ― イタリア</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>作品・人物・国の三つをセットで覚える。</p>
+          <p class="related">くわしく：<a href="foreign.html#f-dante">ダンテ</a>、<a href="foreign.html#f-cervantes">セルバンテス</a>、<a href="foreign.html#f-goethe">ゲーテ</a></p>
+        </details>
+      </article>
     </section>
 
-    <section class="group">
-      <h2 id="p8">⑧ 消去法・組み合わせ型</h2>
-      <p class="pattern-need"><span class="tag">出題のしかた</span>複数の選択肢から正しい組み合わせを選ぶ　<span class="tag">求められる知識</span>横断的な知識</p>
-      <article class="card quiz" id="ex-21">
-        <p class="meta"><span class="tag">⑧ 消去法・組み合わせ型</span><span class="tag">問題文から推測</span><span class="stars" aria-label="むずかしさ3">★★★</span></p>
-        <h3>問21</h3>
+    <section class="panel" id="p8">
+      <h2 class="visually-hidden">⑧ 消去法・組み合わせ型</h2>
+      <dl class="pattern-need"><div><dt>出題のしかた</dt><dd>複数の選択肢から正しい組み合わせを選ぶ</dd></div><div><dt>求められる知識</dt><dd>横断的な知識</dd></div></dl>
+      <article class="card quiz" id="ex-71">
+        <h3>問71</h3>
         <p>ある作家について、次の手掛かりがあります。<br>① この作家の名前がついた文学賞がある。<br>② その賞をつくったのは、作家の友人だった。<br>③ 古い物語集の話を題材にした短編を多く書いた。<br>この作家の作品を一つ選びなさい。</p>
         <ol class="choices">
           <li>『鼻』</li>
@@ -677,9 +1981,8 @@
           <p class="related">くわしく：<a href="authors.html#akutagawa-ryunosuke">芥川龍之介</a>、<a href="authors.html#kikuchi-kan">菊池寛</a>、<a href="works.html#hana">『鼻』</a>、<a href="works.html#kokoro">『こころ』</a>、<a href="works.html#shayo">『斜陽』</a>、<a href="works.html#yukiguni">『雪国』</a>、<a class="word" href="glossary.html#term-prize">芥川賞・直木賞</a></p>
         </details>
       </article>
-      <article class="card quiz" id="ex-22">
-        <p class="meta"><span class="tag">⑧ 消去法・組み合わせ型</span><span class="tag">選択肢を比較</span><span class="stars" aria-label="むずかしさ3">★★★</span></p>
-        <h3>問22</h3>
+      <article class="card quiz" id="ex-72">
+        <h3>問72</h3>
         <p>次のＡ〜Ｃの説明にあてはまる人物の組み合わせとして、正しいものを選びなさい。<br>Ａ　評論『小説神髄』で、小説は人の心や世の中をありのままに写すべきだと唱えた。<br>Ｂ　ふだん話す言葉に近い書き方で、小説『浮雲』を書いた。<br>Ｃ　見たままをえがく「写生」を唱え、俳句と短歌を新しくした。</p>
         <ol class="choices">
           <li>Ａ坪内逍遥　Ｂ二葉亭四迷　Ｃ正岡子規</li>
@@ -705,7 +2008,222 @@
           <p class="related">くわしく：<a href="authors.html#tsubouchi-shoyo">坪内逍遥</a>、<a href="authors.html#futabatei-shimei">二葉亭四迷</a>、<a href="authors.html#masaoka-shiki">正岡子規</a>、<a href="works.html#shosetsu-shinzui">『小説神髄』</a>、<a href="works.html#ukigumo">『浮雲』</a>、<a class="word" href="glossary.html#term-realism">リアリズム（写実主義）</a>、<a class="word" href="glossary.html#term-genbun">言文一致</a>、<a class="word" href="glossary.html#term-shasei">写生</a></p>
         </details>
       </article>
+      <article class="card quiz" id="ex-73">
+        <h3>問73</h3>
+        <p>次のＡ〜Ｃの雑誌をつくった人物の組み合わせとして、正しいものを選びなさい。<br>Ａ『白樺』　Ｂ『文芸時代』　Ｃ『文藝春秋』</p>
+        <ol class="choices">
+          <li>Ａ 志賀直哉　Ｂ 横光利一　Ｃ 菊池寛</li>
+          <li>Ａ 横光利一　Ｂ 志賀直哉　Ｃ 菊池寛</li>
+          <li>Ａ 志賀直哉　Ｂ 菊池寛　Ｃ 横光利一</li>
+          <li>Ａ 菊池寛　Ｂ 横光利一　Ｃ 志賀直哉</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>『白樺』：<a class="person" href="authors.html#shiga-naoya">志賀直哉</a>・<a class="person" href="authors.html#musha-no-koji-saneatsu">武者小路実篤</a>ら</li>
+                <li>『文芸時代』：<a class="person" href="authors.html#yokomitsu-riichi">横光利一</a>・<a class="person" href="authors.html#kawabata-yasunari">川端康成</a>ら</li>
+                <li>『文藝春秋』：<a class="person" href="authors.html#kikuchi-kan">菊池寛</a></li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>一つわかれば選択肢がしぼれる。Ｃが<a class="person" href="authors.html#kikuchi-kan">菊池寛</a>ならア・イ、Ａが<a class="person" href="authors.html#shiga-naoya">志賀直哉</a>ならアに決まる。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　Ａ 志賀直哉　Ｂ 横光利一　Ｃ 菊池寛</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>組み合わせ問題は、わかるものから選択肢を消していく。</p>
+          <p class="related">くわしく：<a href="authors.html#shiga-naoya">志賀直哉</a>、<a href="authors.html#yokomitsu-riichi">横光利一</a>、<a href="authors.html#kikuchi-kan">菊池寛</a>、<a class="word" href="glossary.html#term-shirakaba">白樺派</a>、<a class="word" href="glossary.html#term-shinkankakuha">新感覚派</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-74">
+        <h3>問74</h3>
+        <p>作家・作品・その作品が発表された時代の組み合わせとして、正しいものを選びなさい。</p>
+        <ol class="choices">
+          <li>夏目漱石 ― 『こころ』 ― 大正時代</li>
+          <li>太宰治 ― 『斜陽』 ― 明治時代</li>
+          <li>森鷗外 ― 『舞姫』 ― 昭和時代</li>
+          <li>川端康成 ― 『雪国』 ― 大正時代</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>『こころ』は1914年（大正時代）</li>
+                <li>『斜陽』は1947年（昭和）、『舞姫』は1890年（明治）、『雪国』は1935年（昭和）</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>作家と作品はどれも正しい。時代だけを確かめればよい。<a class="person" href="authors.html#natsume-soseki">漱石</a>は明治の<a class="word" href="glossary.html#term-bungo">文豪</a>だが、『こころ』は大正のはじめの作品。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　夏目漱石 ― 『こころ』 ― 大正時代</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>組み合わせ問題は、どこが入れかえられているかを見つける。</p>
+          <p class="related">くわしく：<a href="authors.html#natsume-soseki">夏目漱石</a>、<a href="authors.html#dazai-osamu">太宰治</a>、<a href="authors.html#mori-ogai">森鷗外</a>、<a href="authors.html#kawabata-yasunari">川端康成</a>、<a href="works.html#kokoro">『こころ』</a>、<a href="works.html#shayo">『斜陽』</a>、<a href="works.html#maihime">『舞姫』</a>、<a href="works.html#yukiguni">『雪国』</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-75">
+        <h3>問75</h3>
+        <p>次のＡ〜Ｃにあてはまる人物の組み合わせとして、正しいものを選びなさい。<br>Ａ 太宰治が若いころから敬愛していた作家<br>Ｂ 芥川賞をつくった作家<br>Ｃ 芥川龍之介の先生</p>
+        <ol class="choices">
+          <li>Ａ 芥川龍之介　Ｂ 菊池寛　Ｃ 夏目漱石</li>
+          <li>Ａ 夏目漱石　Ｂ 菊池寛　Ｃ 芥川龍之介</li>
+          <li>Ａ 芥川龍之介　Ｂ 川端康成　Ｃ 夏目漱石</li>
+          <li>Ａ 川端康成　Ｂ 菊池寛　Ｃ 森鷗外</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li><a class="person" href="authors.html#dazai-osamu">太宰治</a>は<a class="person" href="authors.html#akutagawa-ryunosuke">芥川龍之介</a>を<a class="word" href="glossary.html#term-keiai">敬愛</a>していた</li>
+                <li><a class="word" href="glossary.html#term-prize">芥川賞</a>をつくったのは<a class="person" href="authors.html#kikuchi-kan">菊池寛</a>（<a class="person" href="authors.html#kawabata-yasunari">川端康成</a>は<a class="word" href="glossary.html#term-senko">選考委員</a>）</li>
+                <li>芥川の先生は<a class="person" href="authors.html#natsume-soseki">夏目漱石</a></li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>Ｂで<a class="person" href="authors.html#kawabata-yasunari">川端康成</a>を選ばないように注意する。川端は賞を選ぶ側だった。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　Ａ 芥川龍之介　Ｂ 菊池寛　Ｃ 夏目漱石</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>人物どうしのつながりは、関係の種類まで正確に覚える。</p>
+          <p class="related">くわしく：<a href="authors.html#akutagawa-ryunosuke">芥川龍之介</a>、<a href="authors.html#kikuchi-kan">菊池寛</a>、<a href="authors.html#natsume-soseki">夏目漱石</a>、<a href="authors.html#kawabata-yasunari">川端康成</a>、<a class="word" href="glossary.html#term-keiai">敬愛</a>、<a class="word" href="glossary.html#term-prize">芥川賞・直木賞</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-76">
+        <h3>問76</h3>
+        <p>次のＡ〜Ｃの句の作者の組み合わせとして、正しいものを選びなさい。<br>Ａ 古池や蛙飛びこむ水の音<br>Ｂ 咳をしても一人<br>Ｃ 分け入つても分け入つても青い山</p>
+        <ol class="choices">
+          <li>Ａ 松尾芭蕉　Ｂ 尾崎放哉　Ｃ 種田山頭火</li>
+          <li>Ａ 松尾芭蕉　Ｂ 種田山頭火　Ｃ 尾崎放哉</li>
+          <li>Ａ 正岡子規　Ｂ 尾崎放哉　Ｃ 種田山頭火</li>
+          <li>Ａ 尾崎放哉　Ｂ 松尾芭蕉　Ｃ 種田山頭火</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>Ａは<a class="person" href="authors.html#matsuo-basho">芭蕉</a>の<a class="word" href="glossary.html#term-haiku">俳句</a></li>
+                <li>Ｂは<a class="person" href="authors.html#ozaki-hosai">尾崎放哉</a>、Ｃは<a class="person" href="authors.html#taneda-santoka">種田山頭火</a>の<a class="word" href="glossary.html#term-jiyuritsu">自由律俳句</a></li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>Ａは五・七・五の<a class="word" href="glossary.html#term-haiku">俳句</a>なので<a class="person" href="authors.html#matsuo-basho">芭蕉</a>。ＢとＣはどちらも<a class="word" href="glossary.html#term-jiyuritsu">自由律俳句</a>なので、作者をセットで覚えておく。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　Ａ 松尾芭蕉　Ｂ 尾崎放哉　Ｃ 種田山頭火</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>有名な句は、作者と一緒に声に出して覚える。</p>
+          <p class="related">くわしく：<a href="authors.html#matsuo-basho">松尾芭蕉</a>、<a href="authors.html#ozaki-hosai">尾崎放哉</a>、<a href="authors.html#taneda-santoka">種田山頭火</a>、<a class="word" href="glossary.html#term-jiyuritsu">自由律俳句</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-77">
+        <h3>問77</h3>
+        <p>次のＡ〜Ｃの作家と文学のグループの組み合わせとして、正しいものを選びなさい。<br>Ａ 志賀直哉　Ｂ 横光利一　Ｃ 坂口安吾</p>
+        <ol class="choices">
+          <li>Ａ 白樺派　Ｂ 新感覚派　Ｃ 無頼派</li>
+          <li>Ａ 新感覚派　Ｂ 白樺派　Ｃ 無頼派</li>
+          <li>Ａ 白樺派　Ｂ 無頼派　Ｃ 新感覚派</li>
+          <li>Ａ 無頼派　Ｂ 新感覚派　Ｃ 白樺派</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li><a class="person" href="authors.html#shiga-naoya">志賀直哉</a>は<a class="word" href="glossary.html#term-shirakaba">白樺派</a></li>
+                <li><a class="person" href="authors.html#yokomitsu-riichi">横光利一</a>は<a class="word" href="glossary.html#term-shinkankakuha">新感覚派</a></li>
+                <li><a class="person" href="authors.html#sakaguchi-ango">坂口安吾</a>は<a class="word" href="glossary.html#term-buraiha">無頼派</a></li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>時代の順（<a class="word" href="glossary.html#term-shirakaba">白樺派</a>→<a class="word" href="glossary.html#term-shinkankakuha">新感覚派</a>→<a class="word" href="glossary.html#term-buraiha">無頼派</a>）と、作家の活躍した順（志賀→横光→坂口）が同じになっている。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　Ａ 白樺派　Ｂ 新感覚派　Ｃ 無頼派</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>グループと作家は、時代の順に並べて覚える。</p>
+          <p class="related">くわしく：<a href="authors.html#shiga-naoya">志賀直哉</a>、<a href="authors.html#yokomitsu-riichi">横光利一</a>、<a href="authors.html#sakaguchi-ango">坂口安吾</a>、<a class="word" href="glossary.html#term-shirakaba">白樺派</a>、<a class="word" href="glossary.html#term-shinkankakuha">新感覚派</a>、<a class="word" href="glossary.html#term-buraiha">無頼派</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-78">
+        <h3>問78</h3>
+        <p>次のＡ〜Ｃの言葉と説明の組み合わせとして、正しいものを選びなさい。<br>Ａ 私小説　Ｂ 紀行文　Ｃ 戯曲<br>① 劇の台本として書かれた文学<br>② 作者が自分の生活や体験をほとんどそのまま書いた小説<br>③ 旅をしながら見たことや感じたことを書いた文章</p>
+        <ol class="choices">
+          <li>Ａ②　Ｂ③　Ｃ①</li>
+          <li>Ａ①　Ｂ③　Ｃ②</li>
+          <li>Ａ③　Ｂ②　Ｃ①</li>
+          <li>Ａ②　Ｂ①　Ｃ③</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li><a class="word" href="glossary.html#term-shishosetsu">私小説</a>：作者自身の体験を書いた小説（例：『蒲団』）</li>
+                <li><a class="word" href="glossary.html#term-kikobun">紀行文</a>：旅の文章（例：『おくのほそ道』）</li>
+                <li><a class="word" href="glossary.html#term-gikyoku">戯曲</a>：劇の台本（例：『父帰る』）</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>代表作を思いうかべると結び付けやすい。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　Ａ②　Ｂ③　Ｃ①</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>言葉の意味は、代表作と一緒に覚える。</p>
+          <p class="related">くわしく：<a class="word" href="glossary.html#term-shishosetsu">私小説</a>、<a class="word" href="glossary.html#term-kikobun">紀行文</a>、<a class="word" href="glossary.html#term-gikyoku">戯曲</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-79">
+        <h3>問79</h3>
+        <p>次のＡ〜Ｃの作品を書いた作家の国の組み合わせとして、正しいものを選びなさい。<br>Ａ『罪と罰』　Ｂ『レ・ミゼラブル』　Ｃ『ハムレット』</p>
+        <ol class="choices">
+          <li>Ａ ロシア　Ｂ フランス　Ｃ イギリス</li>
+          <li>Ａ フランス　Ｂ ロシア　Ｃ イギリス</li>
+          <li>Ａ ロシア　Ｂ イギリス　Ｃ フランス</li>
+          <li>Ａ イギリス　Ｂ フランス　Ｃ ロシア</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>『罪と罰』は<a class="person" href="foreign.html#f-dostoevsky">ドストエフスキー</a>（ロシア）</li>
+                <li>『レ・ミゼラブル』は<a class="person" href="foreign.html#f-hugo">ユーゴー</a>（フランス）</li>
+                <li>『ハムレット』は<a class="person" href="foreign.html#f-shakespeare">シェイクスピア</a>（イギリス）</li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>作品→作者→国の順に考える。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　Ａ ロシア　Ｂ フランス　Ｃ イギリス</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>海外の作品は「作品・作者・国」の三つをセットで覚える。</p>
+          <p class="related">くわしく：<a href="foreign.html#f-dostoevsky">ドストエフスキー</a>、<a href="foreign.html#f-hugo">ヴィクトル・ユーゴー</a>、<a href="foreign.html#f-shakespeare">ウィリアム・シェイクスピア</a></p>
+        </details>
+      </article>
+      <article class="card quiz" id="ex-80">
+        <h3>問80</h3>
+        <p>ある作家について、次の手掛かりがあります。<br>① 雑誌『白樺』をつくった仲間の一人。<br>② むだのない正確な文章で、「小説の神様」とよばれた。<br>この作家の作品を一つ選びなさい。</p>
+        <ol class="choices">
+          <li>『城の崎にて』</li>
+          <li>『友情』</li>
+          <li>『伊豆の踊子』</li>
+          <li>『蒲団』</li>
+        </ol>
+        <details>
+          <summary>答えと考え方を見る</summary>
+          <ol class="steps">
+            <li><p class="step-title">必要な知識</p>
+              <ul>
+                <li>手掛かりにあてはまるのは<a class="person" href="authors.html#shiga-naoya">志賀直哉</a></li>
+                <li>『城の崎にて』は<a class="person" href="authors.html#shiga-naoya">志賀直哉</a>の作品</li>
+                <li>『友情』は同じ<a class="word" href="glossary.html#term-shirakaba">白樺派</a>の<a class="person" href="authors.html#musha-no-koji-saneatsu">武者小路実篤</a></li>
+              </ul></li>
+            <li><p class="step-title">考え方</p>
+              <p>まず人物を決め（①だけでは<a class="person" href="authors.html#musha-no-koji-saneatsu">武者小路実篤</a>も候補。②で<a class="person" href="authors.html#shiga-naoya">志賀直哉</a>）、次に作品を選ぶ二段階の問題。</p></li>
+            <li><p class="step-title">答え</p>
+              <p class="answer">ア　『城の崎にて』</p></li>
+          </ol>
+          <p class="point"><span class="label">覚えておくこと</span>人物を特定したあと、その人物の作品まで答えられるようにする。</p>
+          <p class="related">くわしく：<a href="authors.html#shiga-naoya">志賀直哉</a>、<a href="authors.html#musha-no-koji-saneatsu">武者小路実篤</a>、<a href="works.html#kinosaki-nite">『城の崎にて』</a>、<a href="works.html#yujo">『友情』</a>、<a class="word" href="glossary.html#term-shirakaba">白樺派</a></p>
+        </details>
+      </article>
     </section>
+    </div>
   </main>
 
   <footer class="site-footer">

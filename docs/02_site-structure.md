@@ -171,3 +171,11 @@ grep -rn -E "年度|過去問|出題|入試" *.html
 ```sh
 grep -rn -f internal/blocklist.txt *.html docs/
 ```
+
+## 8. タブ
+
+作家一覧・作品一覧・詩歌・単語帳・一問一答・演習問題は、ページ上部のタブで内容を切りかえる（JavaScriptなし）。
+
+- `<p class="tabs-label">○○を選ぶ</p>` → `<nav class="tabs">` に `<a class="tab tab-ID" href="#ID">` → `<div class="panels">` の中に `<section class="panel" id="ID">`
+- 選択中のタブの色は `style.css` の `/* TABS-AUTO START */` 〜 `/* TABS-AUTO END */` で指定する。タブを足したら、ここにも `body:has(#ID:target, #ID :target) .tab-ID` を足す
+- ほかのページから `#作家ID` などへリンクすると、その要素が入っているタブが開く
