@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>人物相関図｜文学の系譜</title>
-  <meta name="description" content="作家どうしの親子・先生と弟子・対立などのつながりを図で示した人物相関図。">
+  <meta name="description" content="作家どうしの親子・先生と弟子・敬愛・対立などのつながりを図で示した人物相関図。">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,8 +17,9 @@
           <li><a href="index.html">トップ</a></li>
           <li><a href="authors.html">作家</a></li>
           <li><a href="works.html">作品</a></li>
-          <li><a href="timeline.html">年表</a></li>
           <li><a href="relations.html" aria-current="page">相関図</a></li>
+          <li><a href="timeline.html">年表</a></li>
+          <li><a href="poetry.html">詩歌</a></li>
           <li><a href="glossary.html">単語帳</a></li>
           <li><a href="quiz.html">演習問題</a></li>
         </ul>
@@ -29,7 +30,7 @@
   <main id="main" class="wrap">
     <div class="page-head">
       <h1>人物相関図</h1>
-      <p class="lead">作家どうしの親子・先生と弟子・対立などのつながりを図にしました。名前を押すと作家のページへ移動します。矢印は「だれからだれへ」の向きを表します。</p>
+      <p class="lead">作家どうしの親子・先生と弟子・敬愛・対立などのつながりを図にしました。名前を押すと作家のページへ移動します。矢印は「だれからだれへ」の向きを表します。</p>
     </div>
     <p class="hint"><a class="word" href="glossary.html">点線の下線</a>がついた言葉は、押すと<a href="glossary.html">単語帳</a>でやさしい説明が読めます。</p>
         <svg width="0" height="0" class="defs" aria-hidden="true" focusable="false">
@@ -45,7 +46,7 @@
     <ul class="legend-list" aria-label="線の色の意味">
         <li><span class="swatch e-parent_child"></span>親子</li>
         <li><span class="swatch e-mentor_student"></span>先生と弟子</li>
-        <li><span class="swatch e-admiration"></span>敬愛・愛読</li>
+        <li><span class="swatch e-admiration"></span>敬愛</li>
         <li><span class="swatch e-support"></span>才能を見出す</li>
         <li><span class="swatch e-conflict"></span>対立</li>
         <li><span class="swatch e-same_movement"></span>同じ立場</li>
@@ -64,20 +65,30 @@
           <a class="word" href="glossary.html#term-keiai"><text class="elabel elink" x="260" y="275">敬愛</text></a>
           <line class="edge e-conflict" x1="325" y1="340" x2="535" y2="340"/>
           <text class="elabel" x="430" y="330">芥川賞をめぐる確執</text>
-          <line class="edge e-support" x1="612" y1="365" x2="648" y2="445" marker-end="url(#arrow-support)"/>
-          <text class="elabel" x="630" y="410">才能を見出す</text>
-          <line class="edge e-parent_child" x1="236" y1="364" x2="154" y2="446" marker-end="url(#arrow-parent_child)"/>
-          <text class="elabel" x="195" y="410">父と娘</text>
-          <line class="edge e-admiration" x1="374" y1="446" x2="286" y2="364" marker-end="url(#arrow-admiration)"/>
-          <text class="elabel" x="330" y="410">愛読</text>
+          <line class="edge e-support" x1="600" y1="366" x2="600" y2="444" marker-end="url(#arrow-support)"/>
+          <text class="elabel" x="600" y="410">才能を見出す</text>
+          <line class="edge e-parent_child" x1="260" y1="366" x2="260" y2="444" marker-end="url(#arrow-parent_child)"/>
+          <text class="elabel" x="260" y="410">父と娘</text>
           <a href="authors.html#natsume-soseki"><rect class="node" x="201" y="40" width="118" height="40" rx="8"/><text class="nlabel" x="260" y="66">夏目漱石</text></a>
           <a href="authors.html#mori-ogai"><rect class="node" x="541" y="40" width="118" height="40" rx="8"/><text class="nlabel" x="600" y="66">森鷗外</text></a>
           <a href="authors.html#akutagawa-ryunosuke"><rect class="node" x="201" y="180" width="118" height="40" rx="8"/><text class="nlabel" x="260" y="206">芥川龍之介</text></a>
           <a href="authors.html#dazai-osamu"><rect class="node" x="201" y="320" width="118" height="40" rx="8"/><text class="nlabel" x="260" y="346">太宰治</text></a>
           <a href="authors.html#kawabata-yasunari"><rect class="node" x="541" y="320" width="118" height="40" rx="8"/><text class="nlabel" x="600" y="346">川端康成</text></a>
-          <a href="authors.html#tsushima-yuko"><rect class="node" x="71" y="450" width="118" height="40" rx="8"/><text class="nlabel" x="130" y="476">津島佑子</text></a>
-          <a href="authors.html#matayoshi-naoki"><rect class="node" x="341" y="450" width="118" height="40" rx="8"/><text class="nlabel" x="400" y="476">又吉直樹</text></a>
-          <a href="authors.html#mishima-yukio"><rect class="node" x="601" y="450" width="118" height="40" rx="8"/><text class="nlabel" x="660" y="476">三島由紀夫</text></a>
+          <a href="authors.html#tsushima-yuko"><rect class="node" x="201" y="450" width="118" height="40" rx="8"/><text class="nlabel" x="260" y="476">津島佑子</text></a>
+          <a href="authors.html#mishima-yukio"><rect class="node" x="541" y="450" width="118" height="40" rx="8"/><text class="nlabel" x="600" y="476">三島由紀夫</text></a>
+        </svg>
+      </div>
+    </section>
+
+    <section>
+      <h2>俳人・歌人のつながり</h2>
+      <div class="chart-wrap">
+        <svg class="chart" viewBox="0 0 780 110" role="img" aria-labelledby="chart-poet-title">
+          <title id="chart-poet-title">良寛と松尾芭蕉の人物相関図</title>
+          <line class="edge e-admiration" x1="535" y1="55" x2="325" y2="55" marker-end="url(#arrow-admiration)"/>
+          <a class="word" href="glossary.html#term-keiai"><text class="elabel elink" x="430" y="45">敬愛</text></a>
+          <a href="authors.html#ryokan"><rect class="node" x="541" y="35" width="118" height="40" rx="8"/><text class="nlabel" x="600" y="61">良寛</text></a>
+          <a href="authors.html#matsuo-basho"><rect class="node" x="201" y="35" width="118" height="40" rx="8"/><text class="nlabel" x="260" y="61">松尾芭蕉</text></a>
         </svg>
       </div>
     </section>
@@ -92,10 +103,10 @@
       <ul class="list rel-list">
           <li><strong><a href="authors.html#natsume-soseki">夏目漱石</a> → <a href="authors.html#akutagawa-ryunosuke">芥川龍之介</a></strong><span class="tag">師弟</span>芥川は、漱石の家で開かれていた弟子たちの集まり（木曜会）に通っていた。芥川の『鼻』を漱石が手紙で大絶賛し、芥川が作家として認められるきっかけになった。</li>
       </ul>
-      <h3>敬愛・愛読</h3>
+      <h3>敬愛</h3>
       <ul class="list rel-list">
           <li><strong><a href="authors.html#dazai-osamu">太宰治</a> → <a href="authors.html#akutagawa-ryunosuke">芥川龍之介</a></strong><span class="tag">敬愛</span>太宰は中学・高校時代から芥川にあこがれていた。ノートに芥川の名前を何度も書いたという話が残り、芥川が亡くなったときには大きなショックを受けたといわれる。</li>
-          <li><strong><a href="authors.html#matayoshi-naoki">又吉直樹</a> → <a href="authors.html#dazai-osamu">太宰治</a></strong><span class="tag">愛読</span>又吉直樹は太宰治の作品が大好きで、本やインタビューでたびたびそのことを語っている。</li>
+          <li><strong><a href="authors.html#ryokan">良寛</a> → <a href="authors.html#matsuo-basho">松尾芭蕉</a></strong><span class="tag">敬愛</span>良寛は、自分より前の時代の<a class="word" href="glossary.html#term-haijin">俳人</a>である芭蕉を深く尊敬していたとされる。芭蕉の姿をたたえる詩（<a class="word" href="glossary.html#term-kanshi">漢詩</a>）を残したともいわれる。</li>
       </ul>
       <h3>才能を見出す</h3>
       <ul class="list rel-list">
@@ -103,7 +114,7 @@
       </ul>
       <h3>対立</h3>
       <ul class="list rel-list">
-          <li><strong><a href="authors.html#dazai-osamu">太宰治</a> ・ <a href="authors.html#kawabata-yasunari">川端康成</a></strong><span class="tag">芥川賞をめぐる確執</span>第1回<a class="word" href="glossary.html#term-prize">芥川賞</a>で、太宰の作品は候補になったが受賞できなかった。<a class="word" href="glossary.html#term-senko">選考委員</a>だった川端が選評の中で太宰の暮らしぶりにふれたため、太宰は怒り、「川端康成へ」という文章を発表して抗議した。</li>
+          <li><strong><a href="authors.html#dazai-osamu">太宰治</a> ・ <a href="authors.html#kawabata-yasunari">川端康成</a></strong><span class="tag">芥川賞をめぐる確執</span>第1回<a class="word" href="glossary.html#term-prize">芥川賞</a>で、太宰の作品は候補になったが受賞できなかった。<a class="word" href="glossary.html#term-senko">選考委員</a>だった川端が選評の中で太宰の暮らしぶりにふれたため、太宰は怒り、「川端康成へ」という、川端にあてた手紙の形の文章を発表して抗議した。</li>
       </ul>
       <h3>同じ立場</h3>
       <ul class="list rel-list">

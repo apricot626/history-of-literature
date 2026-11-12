@@ -210,3 +210,36 @@ a.word:hover { color: var(--accent); }
 .term .diff .label { background: var(--muted); }
 .term .short { font-size: 1.05rem; font-weight: 700; }
 .chart a.word, .chart .elink { text-decoration: none; }
+
+/* 覚えておきたいポイント */
+.points { background: var(--tag-bg); border-radius: 8px; padding: 0.6rem 1rem; margin: 0.6rem 0 0.8rem; }
+.points ul { margin: 0.2rem 0; padding-left: 1.2rem; }
+.points-title { margin: 0 0 0.2rem; font-weight: 700; font-family: var(--serif); color: var(--accent); }
+.badge { display: inline-block; font-family: var(--sans); font-size: 0.72rem; font-weight: 700; color: var(--accent); border: 1.5px solid var(--accent); border-radius: 999px; padding: 0 0.55rem; margin-left: 0.6rem; line-height: 1.6; vertical-align: 0.15em; }
+
+/* 解き方の4ステップ */
+.howto { border-left: 4px solid var(--accent); }
+.steps-inline { margin: 0.3rem 0; padding-left: 1.4rem; }
+.steps-inline li { margin: 0.25rem 0; }
+.steps { list-style: none; counter-reset: step; padding: 0; margin: 0.6rem 0; }
+.steps > li { counter-increment: step; position: relative; padding: 0.1rem 0 0.6rem 2.4rem; border-left: 2px solid var(--line); margin-left: 0.9rem; }
+.steps > li:last-child { border-left-color: transparent; }
+.steps > li::before { content: counter(step); position: absolute; left: -0.95rem; top: 0; width: 1.8rem; height: 1.8rem; border-radius: 50%; background: var(--accent); color: var(--accent-ink); font-weight: 700; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; }
+.step-title { font-weight: 700; margin: 0.1rem 0 0.2rem; }
+.steps ul { margin: 0; padding-left: 1.1rem; }
+.steps p { margin: 0.2rem 0; }
+
+/* 詩歌 */
+.table-wrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
+.compare { border-collapse: collapse; width: 100%; min-width: 620px; font-size: 0.93rem; }
+.compare th, .compare td { text-align: left; padding: 0.55rem 0.8rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+.compare thead th { background: var(--tag-bg); font-size: 0.85rem; }
+.compare tbody th { white-space: nowrap; }
+.compare tbody tr:last-child th, .compare tbody tr:last-child td { border-bottom: none; }
+.poem-text { font-family: var(--serif); font-size: 1.3rem; font-weight: 700; margin: 0; letter-spacing: 0.05em; }
+.poem-yomi { color: var(--muted); font-size: 0.88rem; margin: 0 0 0.3rem; }
+.timeline .year { flex-basis: auto; min-width: 3.2em; }
+
+/* トップの「身につく力」 */
+ul.skills { list-style: none; padding: 0; }
+ul.skills li { padding: 0.35rem 0; border-bottom: 1px dotted var(--line); }

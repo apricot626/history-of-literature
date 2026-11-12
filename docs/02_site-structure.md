@@ -16,8 +16,9 @@
 | `works.html` | 時代別の目次 → 時代ごとの `<section>` → 作品ごとの `<article class="card work">`（発表の古い順） |
 | `timeline.html` | 時代区分ごとの `<section class="era">` → `<ol class="timeline">`（出来事・作品・誕生） |
 | `relations.html` | 凡例 → 相関図（SVG 2枚） → 関係の種類ごとの説明リスト |
+| `poetry.html` | 詩のかたちの比較表 → 詩のかたちの流れ → 有名な句と歌（`<article class="card poem">`） → 俳人・歌人のつながり |
 | `glossary.html`（単語帳） | 分類別の目次 → 言葉ごとの `<article class="card term">`（ひとことで言うと／くわしい説明／にている言葉とのちがい） |
-| `quiz.html` | 問題ごとの `<article class="card quiz">` |
+| `quiz.html` | 解き方の4ステップ → 9分類ごとの `<section>` → 問題ごとの `<article class="card quiz">` |
 
 ## 3. アンカーIDの規則（ページ間リンク用）
 
@@ -40,6 +41,10 @@
 ```html
 <article class="card person" id="ローマ字ID">
   <h3>作家名<span class="kana">よみがな</span></h3>
+  <div class="points">
+    <p class="points-title">覚えておきたいポイント</p>
+    <ul><li>問題を解くために必要な知識を、短く箇条書きで</li></ul>
+  </div>
   <dl class="facts">
     <div><dt>生没年</dt><dd>1867〜1916年</dd></div>
     <div><dt>出身地</dt><dd>…（現在の…）</dd></div>
@@ -95,23 +100,30 @@
 
 ### 問題を追加する（`quiz.html`）
 
+問題はすべてオリジナルで作る（実際の入試問題の文章・選択肢の組み合わせを使わない）。該当する分類の `<section>` に追加する。
+
 ```html
-<article class="card quiz" id="q-0008">
-  <p class="meta"><span class="tag">学習カテゴリ</span><span class="tag">問題形式</span><span class="stars" aria-label="難しさ2">★★☆</span></p>
-  <h3>問8</h3>
+<article class="card quiz" id="q-0017">
+  <p class="meta"><span class="tag">分類</span><span class="tag">形式</span><span class="stars" aria-label="むずかしさ2">★★☆</span></p>
+  <h3>問17</h3>
   <p>問題文</p>
   <ol class="choices"><li>…</li><li>…</li><li>…</li><li>…</li></ol>
   <details>
-    <summary>答えと解説を見る</summary>
-    <p class="answer">答え：ア</p>
-    <p>解説</p>
+    <summary>答えと解き方を見る</summary>
+    <ol class="steps">
+      <li><p class="step-title">問題文の手掛かり</p><ul><li>…</li></ul></li>
+      <li><p class="step-title">必要な知識</p><ul><li>…</li></ul></li>
+      <li><p class="step-title">考え方</p><p>…</p></li>
+      <li><p class="step-title">答え</p><p class="answer">ア　…</p></li>
+    </ol>
     <p class="related">くわしく：<a href="authors.html#…">…</a></p>
   </details>
 </article>
 ```
 
-学習カテゴリ：作家と作品 / 時代・年代 / プロフィール / 人物関係・エピソード / 文学用語 / 俳句・短歌
-問題形式：作家・作品 / 作品の識別 / 正誤 / 年代 / 人物関係 / エピソード / 用語 / 応用
+分類（`<section>` の id）：作家と作品（`c-work`）／文学史・年代（`c-era`）／作家のプロフィール（`c-profile`）／作家どうしの関係（`c-relation`）／文学のエピソード（`c-episode`）／文学の考え方（`c-theory`）／文学の種類（`c-genre`）／俳句・短歌（`c-poem`）／俳人どうしの関係（`c-poet`）
+
+問題を追加したら、関係する作家ページの「この作家が出てくる問題」と、単語帳の「問題」リンクも更新する。
 
 ## 5. 単語帳と、むずかしい言葉へのリンク
 
@@ -120,6 +132,7 @@
 - リンクの書き方：`<a class="word" href="glossary.html#term-anti-naturalism">反自然主義</a>`（点線の下線で表示される）
 - 同じ段落の中では、同じ言葉は最初の1回だけリンクする
 - 単語帳にない言葉がむずかしいときは、単語帳に追加するか、本文をやさしい言い方に書き直す（例：「門下」→「弟子」）
+- 学習上とくに大切な言葉には、見出しに `<span class="badge">とくに大切</span>` を付ける
 - 単語帳の記事は次の形で書く
 
 ```html
