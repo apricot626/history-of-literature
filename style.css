@@ -301,6 +301,7 @@ details.qa[open] > summary::after { content: "とじる"; color: var(--muted); b
 .visually-hidden + section > h2:first-child { margin-top: 0; }
 
 /* ---------- 単語帳：分類のタブ（JavaScriptなし） ---------- */
+.tabs-label { margin: 0 0 0.4rem; font-family: var(--serif); font-weight: var(--fw-bold); }
 .tabs { display: flex; flex-wrap: wrap; gap: 0.4rem; border-bottom: 2px solid var(--accent); margin: 0 0 1rem; }
 .tab { padding: 0.45rem 0.9rem; border: 1px solid var(--line); border-bottom: none; border-radius: 8px 8px 0 0; background: var(--tag-bg); color: var(--ink); text-decoration: none; font-size: var(--fs-2); font-weight: var(--fw-bold); }
 .panel { scroll-margin-top: 1rem; }
