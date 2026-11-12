@@ -1,0 +1,12 @@
+# 内部調査データ（学校名・年度・出題実績など）は絶対にコミットしない
+internal/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Node
+node_modules/
