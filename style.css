@@ -107,7 +107,7 @@ strong { font-weight: var(--fw-bold); }
 main.wrap { padding-top: 2.5rem; padding-bottom: 3rem; }
 .page-head { margin: 0.5rem 0 1.5rem; }
 .lead { color: var(--muted); max-width: 46em; }
-.site-footer { border-top: 1px solid var(--line); background: var(--surface); padding: 1.5rem 0; font-size: var(--fs-2); }
+.site-footer { border-top: 1px solid var(--line); background: var(--surface); padding: 1.5rem 0; margin-top: 2rem; font-size: var(--fs-2); }
 
 /* ---------- トップ ---------- */
 .hero { padding: 2.5rem 0 1rem; }
@@ -235,7 +235,7 @@ a.person { color: var(--link); }
 .country li:last-child { border-bottom: none; }
 
 /* ---------- 単語帳 ---------- */
-.term h3 { font-size: var(--fs-5); color: var(--accent); margin-bottom: 0.6rem; }
+.term h3 { font-size: var(--fs-5); color: var(--ink); margin-bottom: 0.6rem; }
 .term .label { display: inline-block; font-size: var(--fs-1); font-weight: var(--fw-bold); color: var(--accent-ink); background: var(--accent); border-radius: 4px; padding: 0 0.45rem; margin-right: 0.5rem; line-height: 1.7; vertical-align: 0.1em; }
 .term .diff .label { background: var(--muted); }
 
@@ -299,3 +299,20 @@ details.qa[open] > summary::after { content: "とじる"; color: var(--muted); b
 .group > h3 { margin: 2.2rem 0 0.8rem; }
 .group > h2 + h3 { margin-top: 0.6rem; }
 .visually-hidden + section > h2:first-child { margin-top: 0; }
+
+/* ---------- 単語帳：分類のタブ（JavaScriptなし） ---------- */
+.tabs { display: flex; flex-wrap: wrap; gap: 0.4rem; border-bottom: 2px solid var(--accent); margin: 0 0 1rem; }
+.tab { padding: 0.45rem 0.9rem; border: 1px solid var(--line); border-bottom: none; border-radius: 8px 8px 0 0; background: var(--tag-bg); color: var(--ink); text-decoration: none; font-size: var(--fs-2); font-weight: var(--fw-bold); }
+.panel { scroll-margin-top: 1rem; }
+.word-index { list-style: none; margin: 0 0 1.2rem; padding: 0.8rem 1rem; display: flex; flex-wrap: wrap; gap: 0.3rem 1rem; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; font-size: var(--fs-2); }
+@supports selector(:has(*)) {
+  .panel { display: none; }
+  .panel:target, .panel:has(:target) { display: block; }
+  .panels:not(:has(:target)) .panel:first-child { display: block; }
+  .tab { color: var(--muted); }
+  body:not(:has(.panel:target, .panel :target)) .tab-group,
+  body:has(#cat-group:target, #cat-group :target) .tab-group,
+  body:has(#cat-kind:target, #cat-kind :target) .tab-kind,
+  body:has(#cat-poem:target, #cat-poem :target) .tab-poem,
+  body:has(#cat-word:target, #cat-word :target) .tab-word { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+}

@@ -18,7 +18,7 @@
 | `relations.html` | 凡例 → 相関図（SVG 2枚） → 関係の種類ごとの説明リスト |
 | `poetry.html` | 詩のかたちの比較表 → 詩のかたちの流れ → 有名な句と歌（`<article class="card poem">`） → 俳人・歌人のつながり |
 | `foreign.html` | 覚える順番（3レベル） → 基本：国ごとのカード → 標準：代表作の表（行に `id="f-…"`） → 発展：文学者・思想家の表 → 日本の作家とのつながり → 確かめ問題 |
-| `glossary.html`（単語帳） | 分類別の目次 → 言葉ごとの `<article class="card term">`（ひとことで言うと／くわしい説明／にている言葉とのちがい） |
+| `glossary.html`（単語帳） | 4つの分類のタブ（`<nav class="tabs">`、`<a class="tab tab-group" href="#cat-group">` など） → 分類ごとの `<section class="panel" id="cat-…">`（言葉の一覧 → 言葉ごとの `<article class="card term">`）。タブはJavaScriptを使わず、`:target` と `:has()` で切りかえる |
 | `ichimon.html` | 分類ごとの `<details class="qa">`（summary に問題、中に答えと知識） |
 | `quiz.html` | 解き方の4ステップ → 9分類ごとの `<section>` → 問題ごとの `<article class="card quiz">` |
 
